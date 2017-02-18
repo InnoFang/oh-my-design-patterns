@@ -1,7 +1,5 @@
 # Design Patterns (设计模式)
 
- [TOC]
-
 ## 创建型
 
 ##### 1. <a href="">Factory Method（工厂方法）</a>
