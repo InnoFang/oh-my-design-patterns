@@ -5,13 +5,19 @@ package io.innofang.FactoryMethod;
  */
 public class StrawberryCake implements Cake{
 
+    /**
+     * 草莓蛋糕需要准备草莓奶油
+     */
     @Override
-    public void cakeColor() {
-        System.out.println("The Strawberry Cake's color is red.");
+    public void prepareMaterials() {
+        System.out.println("prepare Strawberry Cream");
     }
 
+    /**
+     * 草莓蛋糕需要烘焙15分钟
+     */
     @Override
-    public void cakeStyle() {
-        System.out.println("The Strawberry Cake's style is heart-snaped.");
+    public void baking() {
+        System.out.println("Baking fifteen minutes");
     }
 }

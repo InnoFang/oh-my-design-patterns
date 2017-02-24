@@ -154,53 +154,75 @@ productB.do();
 
 这里我们以制作蛋糕为例
 
-因为蛋糕有各种各样的口味和造型，所以在制作的过程中就需要区别对待了
+现在蛋糕店需要生产两种类型的蛋糕，分别是红色的草莓蛋糕和黄色的芒果蛋糕
 
-那么现在蛋糕店需要生产两种类型的蛋糕，分别是红色的草莓蛋糕和黄色的芒果蛋糕
+因为蛋糕有着不同的制作材料和烘焙时间，所以在制作的过程中就需要区别对待了
+
 
 那么了解了需求过后我们利用刚学的工厂方法模式来完成需求吧~
 
 首先我们就可以定义一个蛋糕接口
 ```java
 public interface Cake {
-    void cakeColor(); // 蛋糕的颜色
-    void cakeStyle(); // 蛋糕的造型
+
+    /**
+     * 准备蛋糕的材料
+     */
+    void prepareMaterials();
+
+    /**
+     * 烘焙蛋糕
+     */
+    void baking();
+
 }
 ```
 
-好，现在该规划我们需要什么颜色和什么造型的蛋糕了，对于草莓蛋糕，根据需求，我们的是红色的爱心型的蛋糕
+好，现在该规划我们需要什么材料和烘焙的时间了的，对于草莓蛋糕，根据需求，我们的是草莓奶油并且需要烘焙15分钟
 
 ```java
 public class Strawberry implements Cake{
 
+    /**
+     * 草莓蛋糕需要准备草莓奶油
+     */
     @Override
-    public void cakeColor() {
-        System.out.println("The cake's color is red.");
+    public void prepareMaterials() {
+        System.out.println("prepare Strawberry Cream");
     }
 
+    /**
+     * 草莓蛋糕需要烘焙15分钟
+     */
     @Override
-    public void cakeStyle() {
-        System.out.println("The cake's style is heart-snaped.");
+    public void baking() {
+        System.out.println("Baking fifteen minutes");
     }
 }
 ```
 
-那么对于芒果蛋糕呢，我们需要的是黄色的，呈正方形的芒果蛋糕
+那么对于芒果蛋糕呢，我们需要的是芒果奶油的，需要烘焙10分钟
 ```java
 public class MangoCake implements Cake {
-    @Override
-    public void cakeColor() {
-        System.out.println("The cake's color is yellow.");
-    }
+   /**
+    * 芒果蛋糕需要准备芒果奶油
+    */
+   @Override
+   public void prepareMaterials() {
+       System.out.println("prepare Mango Cream");
+   }
 
-    @Override
-    public void cakeStyle() {
-        System.out.println("The cake's style is square.");
-    }
+   /**
+    * 芒果蛋糕需要烘焙10分钟
+    */
+   @Override
+   public void baking() {
+       System.out.println("Baking ten minutes");
+   }
 }
 ```
 
-好了，具体的蛋糕该是什么样，我们都规划好了，下面是时候生产蛋糕了
+好了，具体的蛋糕制作流程都规划好了，下面是时候生产蛋糕了
 
 要生产蛋糕，就需要工厂或者说作坊，那么为了规范我们的工厂该做什么，我们先定义一个抽象的工厂类，这里我们还是采用反射的方式，当然，如果你不喜欢用反射，那么你也可以定义普通的抽象方法，这些都是可以根据实际情况来决定的，没有硬性规定
 ```java
@@ -227,31 +249,30 @@ public class CakeFactory extends Factory {
 
 OK，蛋糕已经规划好了，工厂也造好了，万事俱备只欠东风，我们来测试一下(做蛋糕)~
 ```java
- public static void main(String[] args) {
+public static void main(String[] args) {
         /*创建蛋糕工厂*/
         Factory factory = new CakeFactory();
         /*制作草莓蛋糕*/
         StrawberryCake strawberryCake = factory.createProduct(StrawberryCake.class);
-        /*草莓蛋糕的颜色*/
-        strawberryCake.cakeColor();
-        /*草莓蛋糕的造型*/
-        strawberryCake.cakeStyle();
+        strawberryCake.prepareMaterials();
+        strawberryCake.baking();
+
+        System.out.println();
 
         /*制作芒果蛋糕*/
         MangoCake mangoCake = factory.createProduct(MangoCake.class);
-        /*草莓芒果的颜色*/
-        mangoCake.cakeColor();
-        /*草莓芒果的造型*/
-        mangoCake.cakeStyle();
-    }
+        mangoCake.prepareMaterials();
+        mangoCake.baking();
+}
 ```
 
 Result：
 ```console
-The Strawberry Cake's color is red.
-The Strawberry Cake's style is heart-snaped.
-The Mango Cake's color is yellow.
-The Mango Cake's style is square.
+prepare Strawberry Cream
+Baking fifteen minutes
+
+prepare Mango Cream
+Baking ten minutes
 ```
 
 大功告成~

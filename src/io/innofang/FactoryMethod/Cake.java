@@ -6,12 +6,13 @@ package io.innofang.FactoryMethod;
 public interface Cake {
 
     /**
-     * 蛋糕的颜色
+     * 准备蛋糕的材料
      */
-    void cakeColor();
+    void prepareMaterials();
+
     /**
-     * 蛋糕的造型
+     * 烘焙蛋糕
      */
-    void cakeStyle();
+    void baking();
 
 }
