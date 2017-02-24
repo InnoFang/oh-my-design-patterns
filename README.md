@@ -1,5 +1,5 @@
 
-This project just for recording process of my Design Pattern Leaning
+This project just for recording process of my Design Patterns Leaning
 
 But if you have some advice or supplement , please and welcome to pull request for me, whatever Chinese or English
 
