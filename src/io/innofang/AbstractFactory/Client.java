@@ -5,7 +5,7 @@ import io.innofang.FactoryMethod.Cake;
 /**
  * Created by InnF on 2017/2/25.
  */
-public class Test {
+public class Client {
 
     public static void main(String[] args) {
         CakeFactory strawberryHeartCake = new StrawberryHeartCake();
