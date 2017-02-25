@@ -11,7 +11,7 @@ THX :-)
 
 #####1. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/FactoryMethod">Factory Method（工厂方法）</a>
 
-#####2. <a href="">Abstract Factory（抽象工厂）</a>
+#####2. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/AbstractFactory">Abstract Factory（抽象工厂）</a>
 
 #####3. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/Builder">Builder（建造者）</a>
 
