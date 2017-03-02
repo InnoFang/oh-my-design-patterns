@@ -14,17 +14,6 @@ public class WordDocument implements Cloneable {
         System.out.println("-------------init-------------");
     }
 
-    protected WordDocument clone() {
-        try {
-            WordDocument doc = (WordDocument) super.clone();
-            doc.text = this.text;
-            doc.images = this.images;
-            return doc;
-        } catch (CloneNotSupportedException e) {
-            e.printStackTrace();
-        }
-        return null;
-    }
 
     public String getmText() {
         return text;
@@ -55,4 +44,18 @@ public class WordDocument implements Cloneable {
         }
         System.out.println("------------- End -------------");
     }
+
+    protected WordDocument clone() {
+        try {
+            WordDocument copy = (WordDocument) super.clone();
+            copy.text = this.text;
+//            copy.images = this.images;
+            copy.images = (ArrayList<String>) this.images.clone();
+            return copy;
+        } catch (CloneNotSupportedException e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
+
 }

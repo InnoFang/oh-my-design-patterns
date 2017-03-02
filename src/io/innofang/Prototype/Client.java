@@ -18,6 +18,10 @@ public class Client {
         copyDoc.showDocument();
 
         copyDoc.setText("This is a copy document");
+
+        // add this line to test the origin document what will happen when the copy document add a image
+        copyDoc.addImage("a new Image");
+
         copyDoc.showDocument();
 
         originDoc.showDocument();
