@@ -55,6 +55,6 @@ THX :-)
 
 #####21. <a href="">State（状态）</a>
 
-#####22. <a href="">Strategy（策略）</a>
+#####22. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/Strategy">Strategy（策略）</a>
 
 #####23. <a href="">Visitor（访问者）</a>
