@@ -1,16 +1,17 @@
+
 # Design Patterns (设计模式)
 
 ## 创建型
 
-##### 1. <a href="">Factory Method（工厂方法）</a>
+#####1. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/FactoryMethod">Factory Method（工厂方法）</a>
 
-#####2. <a href="">Abstract Factory（抽象工厂）</a>
+#####2. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/AbstractFactory">Abstract Factory（抽象工厂）</a>
 
-#####3. <a href="">Builder（建造者）</a>
+#####3. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/Builder">Builder（建造者）</a>
 
-#####4. <a href="">Prototype（原型）</a>
+#####4. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/Prototype">Prototype（原型）</a>
 
-#####5. <a href="">Singleton（单例）</a>
+#####5. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/Singleton">Singleton（单例）</a>
 
 ## 结构型
 
@@ -46,8 +47,8 @@
 
 #####20. <a href="">Observer（观察者）</a>
 
-#####21. <a href="">State（状态）</a>
+#####21. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/State">State（状态）</a>
 
-#####22. <a href="">Strategy（策略）</a>
+#####22. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/Strategy">Strategy（策略）</a>
 
 #####23. <a href="">Visitor（访问者）</a>
