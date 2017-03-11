@@ -151,8 +151,11 @@ Result:<br>
 
 
 如果需要链式调用的话就需要对代码做一下修改
+
 比如这里要创建一辆Ferrari
+
 我们先创建一个Ferrari类，并且创建一个Builder内部类
+
 具体代码如下：
 ```java
 public class Ferrari {
@@ -228,6 +231,67 @@ System.out.println(ferrari.toString());
 
 Result:<br>
 `Car{color='Red', licensePlate='B88888', brand='Ferrari'}`
+
+其实，关于链式调用还有另一种写法，
+
+这里创建一个Audi类，同样为其创建Builder内部类
+
+```java
+public class Audi {
+
+    private String color;
+    private String licensePlate;
+    private String brand;
+
+    public static class Builder {
+
+        private String color;
+        private String licensePlate;
+        private String brand;
+
+        public Builder setColor(String color) {
+            this.color = color;
+            return this;
+        }
+
+        public Builder setLicensePlate(String licensePlate) {
+            this.licensePlate = licensePlate;
+            return this;
+        }
+
+        public Builder setBrand(String brand) {
+            this.brand = brand;
+            return this;
+        }
+
+        public Audi build(){
+            return new Audi(this);
+        }
+    }
+
+    private Audi(Builder builder) {
+        color = builder.color;
+        licensePlate = builder.licensePlate;
+        brand = builder.brand;
+    }
+
+    @Override
+    public String toString() {
+        return "Car{" +
+                "color='" + color + '\'' +
+                ", licensePlate='" + licensePlate + '\'' +
+                ", brand='" + brand + '\'' +
+                '}';
+    }
+}
+```
+
+在这里没有在Builder内部调用外部的setter方法，而是直接在内部类中初始化数据，然后在build之后再传递给私有构造函数，但是这里要注意，因为已经显示的写了一个构造函数，那么系统就不会为我们创建无参的共有构造函数，但是好处就是强制使用了构建者模式构建实例对象
+
+同时，这种写法也是在《Effective Java》 中提倡的写法
+
+使用方法跟之前的一样，输出结果也没有什么区别，读者可以自行尝试
+
 
 - - -
 

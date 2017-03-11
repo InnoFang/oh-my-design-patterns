@@ -18,5 +18,13 @@ public class Test {
                 .setLicensePlate("B88888")
                 .build();
         System.out.println(ferrari.toString());
+
+        // Call Chaining 2
+        Audi audi = new Audi.Builder()
+                .setBrand("Audi")
+                .setColor("Blue")
+                .setLicensePlate("C88888")
+                .build();
+        System.out.println(audi.toString());
     }
 }
