@@ -41,7 +41,7 @@ THX :-)
 
 #####14. <a href="">Template Method（模板方法）</a>
 
-#####15. <a href="">Chain of Responsibility（责任链）</a>
+#####15. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/ChainOfResponsibility">Chain of Responsibility（责任链）</a>
 
 #####16. <a href="">Command（命令）</a>
 
@@ -51,7 +51,7 @@ THX :-)
 
 #####19. <a href="">Memento（备忘录）</a>
 
-#####20. <a href="">Observer（观察者）</a>
+#####20. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/Observer">Observer（观察者）</a>
 
 #####21. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/State">State（状态）</a>
 
