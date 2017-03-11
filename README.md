@@ -21,35 +21,35 @@ THX :-)
 
 ## 结构型
 
-#####6. <a href="">Adapter Class/Object（适配器）</a>
+#####6.  Adapter Class/Object（适配器）
 
-#####7. <a href="">Bridge（桥接）</a>
+#####7.  Bridge（桥接）
 
-#####8. <a href="">Composite（组合）</a>
+#####8.  Composite（组合）
 
-#####9. <a href="">Decorator（装饰）</a>
+#####9.  Decorator（装饰）
 
-#####10. <a href="">Facade（外观）</a>
+#####10. Facade（外观）
 
-#####11. <a href="">Flyweight（享元）</a>
+#####11. Flyweight（享元）
 
-#####12. <a href="">Proxy（代理）</a>
+#####12. Proxy（代理）
 
 ## 行为型
 
-#####13. <a href="">Interpreter（解释器）</a>
+#####13. Interpreter（解释器）
 
-#####14. <a href="">Template Method（模板方法）</a>
+#####14. Template Method（模板方法）
 
 #####15. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/ChainOfResponsibility">Chain of Responsibility（责任链）</a>
 
-#####16. <a href="">Command（命令）</a>
+#####16. Command（命令）
 
-#####17. <a href="">Iterator（迭代器）</a>
+#####17. Iterator（迭代器）
 
-#####18. <a href="">Mediator（中介者）</a>
+#####18. Mediator（中介者）
 
-#####19. <a href="">Memento（备忘录）</a>
+#####19. Memento（备忘录）
 
 #####20. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/Observer">Observer（观察者）</a>
 
@@ -57,4 +57,4 @@ THX :-)
 
 #####22. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/Strategy">Strategy（策略）</a>
 
-#####23. <a href="">Visitor（访问者）</a>
+#####23. Visitor（访问者）
