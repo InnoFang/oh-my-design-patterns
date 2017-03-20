@@ -899,7 +899,7 @@
       <workItem from="1489815584600" duration="3725000" />
       <workItem from="1489826770312" duration="165000" />
       <workItem from="1489999580548" duration="3075000" />
-      <workItem from="1490002797546" duration="37000" />
+      <workItem from="1490002797546" duration="69000" />
     </task>
     <task id="LOCAL-00001" summary="Singleton Learning.">
       <created>1487411538727</created>
@@ -1146,11 +1146,18 @@
       <option name="project" value="LOCAL" />
       <updated>1489727880574</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Iterator Learning.">
+      <created>1490002852942</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1490002852942</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99569000" />
+    <option name="totallyTimeSpent" value="99601000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1248,7 +1255,8 @@
     <MESSAGE value="Update README" />
     <MESSAGE value="Memento Learning." />
     <MESSAGE value="Update README." />
-    <option name="LAST_COMMIT_MESSAGE" value="Update README." />
+    <MESSAGE value="Iterator Learning." />
+    <option name="LAST_COMMIT_MESSAGE" value="Iterator Learning." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
