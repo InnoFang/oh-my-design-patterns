@@ -15,7 +15,7 @@ while(iterator.hasNext()) {
 }
 ```
 
-如此看来，开发者对于迭代器模式应该还是比较熟悉的，而迭代器的作用也的确如此 ———— 遍历一个容器对象。
+如此看来，开发者对于迭代器模式应该还是比较熟悉的，而迭代器的作用也确如其名 ———— 遍历一个容器对象。
 
 下面来看一下迭代器模式UML的类图
 
@@ -203,5 +203,107 @@ _默认方法的功能有兴趣的可以自己去查，这里暂且不提_
 
 实现 `BookIterable` 接口实现文学类书籍容器
 ```java
+public class Literature implements BookIterable {
 
+    private Book[] literature;
+
+    public Literature() {
+        literature = new Book[4];
+        literature[0] = new Book("三国演义", "9787532237357", "上海人民美术出版社");
+        literature[1] = new Book("西游记", "9787805200552", "岳麓书社");
+        literature[2] = new Book("水浒传", "9787020015016", "人民文学出版社");
+        literature[3] = new Book("红楼梦", "9787020002207", "人民文学出版社");
+    }
+
+    public Book[] getLiterature() {
+        return literature;
+    }
+
+    @Override
+    public Iterator iterator() {
+        return new LiteratureIterator(literature);
+    }
+}
 ```
+
+**注意** 这里写了死数据，是因为根据需求，这一块是由A来处理，为了模拟A创建了两个容器的情况，这里才出此下策，实际开发当中还需要根据实际情况来考虑
+
+实现编程类书籍容器
+```java
+public class Programming implements BookIterable {
+
+    private List<Book> programmings;
+
+    public Programming() {
+        programmings = new ArrayList<>();
+        programmings.add(new Book("C++编程思想", "9787111091622", "机械工业出版社"));
+        programmings.add(new Book("Java编程思想", "9787111213826", "机械工业出版社"));
+        programmings.add(new Book("Effective Java", "9787111113850", "机械工业出版社"));
+        programmings.add(new Book("计算机网络自顶向下方法", "9787111165057", "机械工业出版社"));
+        programmings.add(new Book("Head First 设计模式（中文版）", "9787508353937", "中国电力出版社"));
+    }
+
+    public List<Book> getProgrammings() {
+        return programmings;
+    }
+
+    @Override
+    public Iterator iterator() {
+        return new ProgrammingIterator(programmings);
+    }
+}
+```
+
+这里仍然是写了死数据，原因上面也介绍了，这两个容器的创建都是A的任务，那么接下来就是B出场了，B的工作就是对容器进行检索，那么当他拿到A创建的两组容器后，就可以利用相同的迭代方式迭代容器，下面来看看B的操作
+
+```java
+public class QueryTest {
+
+    public static void main(String[] args) {
+        /* 创建文学类书籍容器 */
+        Literature literature = new Literature();
+        /* 迭代文学类书籍容器 */
+        itr(literature.iterator());
+
+        System.out.println("\n+----------Divider----------+\n");
+
+        /* 创建编程类书籍容器 */
+        Programming programming = new Programming();
+        /* 迭代编程类书籍容器 */
+        itr(programming.iterator());
+    }
+
+    /* 书籍容器共有的迭代方法 */
+    private static void itr(Iterator iterator) {
+        while (iterator.hasNext()) {
+            System.out.println(iterator.next());
+        }
+    }
+}
+```
+
+测试结果
+```console
+Book{name='三国演义', ISBN='9787532237357', press='上海人民美术出版社'}
+Book{name='西游记', ISBN='9787805200552', press='岳麓书社'}
+Book{name='水浒传', ISBN='9787020015016', press='人民文学出版社'}
+
++----------Divider----------+
+
+Book{name='C++编程思想', ISBN='9787111091622', press='机械工业出版社'}
+Book{name='Java编程思想', ISBN='9787111213826', press='机械工业出版社'}
+Book{name='Effective Java', ISBN='9787111113850', press='机械工业出版社'}
+Book{name='计算机网络自顶向下方法', ISBN='9787111165057', press='机械工业出版社'}
+```
+
+到此，即实现了一个简单的迭代器模式，其实更加细致的实现细节，可以参考集合类的实现方式，这里不再赘述
+
+## 总结
+
+关于迭代器模式，总结一下优缺点
+
+ + 优点：优点在上一小节中提高过，就是迭代器模式降低了容器类和迭代算法的耦合度
+ + 缺点：每一个容器都有可能有一个对应的迭代器实现，这也导致了类的增加
+
+
+END.
