@@ -20,7 +20,7 @@
 
 ## Builder（建造者模式）的UML类图
 
-![]()"http://img.my.csdn.net/uploads/201204/02/1333347984_5022.jpg")
+![]("http://img.my.csdn.net/uploads/201204/02/1333347984_5022.jpg")
 
 其中：
 

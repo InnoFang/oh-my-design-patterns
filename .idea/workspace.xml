@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="230c2636-afb9-4de2-8189-ed15d9f8521c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Design Patterns/io/innofang/TemplateMethod/AssemblyLine.class" afterPath="$PROJECT_DIR$/out/production/Design Patterns/io/innofang/TemplateMethod/AssemblyLine.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Design Patterns/io/innofang/TemplateMethod/README.md" afterPath="$PROJECT_DIR$/out/production/Design Patterns/io/innofang/TemplateMethod/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/innofang/Builder/README.md" afterPath="$PROJECT_DIR$/src/io/innofang/Builder/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -51,8 +49,8 @@
         <entry file="file://$PROJECT_DIR$/src/io/innofang/Builder/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="320">
-                <caret line="10" column="31" lean-forward="false" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+              <first_editor relative-caret-position="128">
+                <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor>
@@ -886,7 +884,7 @@
       <workItem from="1490359342283" duration="353000" />
       <workItem from="1490407369348" duration="2374000" />
       <workItem from="1490409777045" duration="1307000" />
-      <workItem from="1490412080967" duration="50000" />
+      <workItem from="1490412080967" duration="111000" />
     </task>
     <task id="LOCAL-00001" summary="Singleton Learning.">
       <created>1487411538727</created>
@@ -1189,11 +1187,18 @@
       <option name="project" value="LOCAL" />
       <updated>1490410529822</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Builder Learning.">
+      <created>1490412139892</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1490412139892</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116451000" />
+    <option name="totallyTimeSpent" value="116512000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1256,13 +1261,13 @@
     <MESSAGE value="update README." />
     <MESSAGE value="State Learning." />
     <MESSAGE value="Observer Learning." />
-    <MESSAGE value="Builder Learning." />
     <MESSAGE value="Update README" />
     <MESSAGE value="Memento Learning." />
     <MESSAGE value="Iterator Learning." />
     <MESSAGE value="Update README." />
     <MESSAGE value="TemplateMethod Learning." />
-    <option name="LAST_COMMIT_MESSAGE" value="TemplateMethod Learning." />
+    <MESSAGE value="Builder Learning." />
+    <option name="LAST_COMMIT_MESSAGE" value="Builder Learning." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1684,8 +1689,8 @@
     <entry file="file://$PROJECT_DIR$/src/io/innofang/Builder/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="320">
-            <caret line="10" column="31" lean-forward="false" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+          <first_editor relative-caret-position="128">
+            <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor>
