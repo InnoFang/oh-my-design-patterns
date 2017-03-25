@@ -20,7 +20,7 @@
 
 ## Builder（建造者模式）的UML类图
 
-<img src="http://img.my.csdn.net/uploads/201204/02/1333347984_5022.jpg" />
+![]()"http://img.my.csdn.net/uploads/201204/02/1333347984_5022.jpg")
 
 其中：
 
@@ -28,7 +28,9 @@
  + Concrete Builder类 : 是Builder的具体实现类
  + Director类 : 用于将产品同一组装
 
-## 下面来看一下例子，如何实现一个简单的Builder
+下面来看一下例子，如何实现一个简单的建造这模式
+
+## 建造者模式的简单实现
 
 以构建一辆车为例，一辆车大体上是有车牌，颜色，车的标牌等构成
 
@@ -142,8 +144,10 @@ director.construct("red", "A88888", "Ferrari");
 System.out.println(builder.build().toString());
 ```
 
-Result:<br>
-`Car{color='red', licensePlate='A88888', brand='Ferrari'}`
+输出结果
+```console
+Car{color='red', licensePlate='A88888', brand='Ferrari'}
+```
 
 一俩车牌号为A88888的红色法拉利就做完了！
 
@@ -229,8 +233,10 @@ Ferrari ferrari = new Ferrari.Builder()
 System.out.println(ferrari.toString());
 ```
 
-Result:<br>
-`Car{color='Red', licensePlate='B88888', brand='Ferrari'}`
+输出结果
+```console
+Car{color='Red', licensePlate='B88888', brand='Ferrari'}
+```
 
 其实，关于链式调用还有另一种写法，
 
@@ -294,7 +300,7 @@ public class Audi {
 
 具体使用哪一种写法，视实际情况而定
 
-- - -
+------------
 
 ## 总结
 
@@ -303,9 +309,8 @@ public class Audi {
 **优点** 具有良好的封装性，容易扩展<br>
 **缺点** 会产生多余的Builder对象，消耗内存
 
+------------
 
+[源码地址](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/Builder)
 
-
-
-
-
+[更多内容](innofang.github.io)
