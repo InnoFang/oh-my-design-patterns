@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="230c2636-afb9-4de2-8189-ed15d9f8521c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/innofang/Builder/README.md" afterPath="$PROJECT_DIR$/src/io/innofang/Builder/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/innofang/Singleton/README.md" afterPath="$PROJECT_DIR$/src/io/innofang/Singleton/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,12 +45,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/io/innofang/Builder/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="128">
-                <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+                <caret line="22" column="67" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="67" />
+                <folding />
+              </first_editor>
+              <second_editor>
+                <js_state />
+              </second_editor>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/io/innofang/Singleton/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="330">
+                <caret line="160" column="21" lean-forward="true" selection-start-line="160" selection-start-column="21" selection-end-line="160" selection-end-column="21" />
                 <folding />
               </first_editor>
               <second_editor>
@@ -136,7 +151,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/io/innofang/State/GameStartState.java" />
         <option value="$PROJECT_DIR$/src/io/innofang/State/GameOverState.java" />
         <option value="$PROJECT_DIR$/src/io/innofang/State/Player.java" />
         <option value="$PROJECT_DIR$/src/io/innofang/State/README.md" />
@@ -187,6 +201,7 @@
         <option value="$PROJECT_DIR$/src/io/innofang/TemplateMethod/ComputerAssemblyLine.java" />
         <option value="$PROJECT_DIR$/src/io/innofang/TemplateMethod/README.md" />
         <option value="$PROJECT_DIR$/src/io/innofang/Builder/README.md" />
+        <option value="$PROJECT_DIR$/src/io/innofang/Singleton/README.md" />
       </list>
     </option>
   </component>
@@ -286,6 +301,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="TemplateMethod" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Design Patterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Design Patterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="innofang" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Singleton" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -884,7 +921,7 @@
       <workItem from="1490359342283" duration="353000" />
       <workItem from="1490407369348" duration="2374000" />
       <workItem from="1490409777045" duration="1307000" />
-      <workItem from="1490412080967" duration="111000" />
+      <workItem from="1490412080967" duration="731000" />
     </task>
     <task id="LOCAL-00001" summary="Singleton Learning.">
       <created>1487411538727</created>
@@ -1194,11 +1231,18 @@
       <option name="project" value="LOCAL" />
       <updated>1490412139892</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="Builder Learning.">
+      <created>1490412194342</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1490412194342</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116512000" />
+    <option name="totallyTimeSpent" value="117132000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1288,13 +1332,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/io/innofang/ChainOfResponsibility/Secretary.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="30" lean-forward="false" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/io/innofang/ChainOfResponsibility/Client.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
@@ -1690,7 +1727,20 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="128">
-            <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+            <caret line="22" column="67" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="67" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/innofang/Singleton/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="330">
+            <caret line="160" column="21" lean-forward="true" selection-start-line="160" selection-start-column="21" selection-end-line="160" selection-end-column="21" />
             <folding />
           </first_editor>
           <second_editor>
