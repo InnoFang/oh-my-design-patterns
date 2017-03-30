@@ -59,6 +59,6 @@ THX :-)
 
 ##### 23. Visitor（访问者）
 
-## LICENSE
+# LICENSE
 
- [Apache License 2.0](https://github.com/InnoFang/DesignPatterns/blob/master/LICENSE)
+   [Apache License 2.0](https://github.com/InnoFang/DesignPatterns/blob/master/LICENSE)
