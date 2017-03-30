@@ -1,11 +1,10 @@
+# Design Patterns (设计模式)
 
 This project just for recording process of my Design Patterns Leaning
 
 But if you have some advice or supplement , please and welcome to pull request for me, whatever Chinese or English
 
 THX :-)
-
-# Design Patterns (设计模式)
 
 ### 创建型
 
@@ -58,6 +57,8 @@ THX :-)
 ##### 22. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/Strategy">Strategy（策略）</a>
 
 ##### 23. Visitor（访问者）
+
+-------------
 
 ## LICENSE
 
