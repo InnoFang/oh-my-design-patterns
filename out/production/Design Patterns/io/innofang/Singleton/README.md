@@ -2,22 +2,17 @@
 
 > 确保一个类有且只有一个实例，避免产生多个对象消耗过多的资源，或者某种类型的对象只应该有且只有一个
 
-## Singleton (单例模式)的UML类图
-
-<img src="http://img.my.csdn.net/uploads/201204/02/1333348032_1491.jpg" />
-
-
 ## 实现单例模式的几个注意点：
 
  1. 构造函数不对外开放，一般设为private
  2. 通过一个静态方法或者枚举返回一个单例类对象
  3. 确保单例类的对象有且只有一个，尤其是在多线程环境下
  4. 确保单例类对象在反序列化时不会重新构建对象
- 
- ## 实现方式汇总
- 
- ### 饿汉式
- 
+
+## 实现方式汇总
+
+### 饿汉式
+
  ```java
 public class Singleton {
 
@@ -36,18 +31,18 @@ public class Singleton {
 
 ```java
 public class Singleton {
-    
+
     private static Singleton instance;
-    
+
     private Singleton(){}
-    
+
     public static Singleton getInstance(){
         if (instance == null) {
             instance = new Singleton();
         }
         return instance;
     }
-    
+
 }
 ```
 **优点：** 只有在使用时才会实例化，在一定程度上节约资源
@@ -58,11 +53,11 @@ public class Singleton {
 
 ```java
 public class Singleton {
-    
+
     private static Singleton instance;
-    
+
     private Singleton(){}
-    
+
     public static synchronized Singleton getInstance(){
         if (instance == null) {
             instance = new Singleton();
@@ -80,9 +75,9 @@ public class Singleton {
 public class Singleton {
 
     private static Singleton instance = null;
-    
+
     private Singleton() {}
-    
+
     public static Singleton getInstance() {
         if (instance == null) {
             synchronized (Singleton.class) {
@@ -91,7 +86,7 @@ public class Singleton {
                 }
             }
         }
-        return instance;  
+        return instance;
     }
 }
 ```
@@ -109,7 +104,7 @@ public class Singleton {
     public static Singleton getInstance() {
         return SingletonHolder.sInstance;
     }
-    
+
     private static class SingletonHolder {
         private static final Singleton sInstance = new Singleton();
     }
@@ -141,7 +136,7 @@ public class SingletonManager {
             objectMap.put(key, instance);
         }
     }
-    
+
     public static Object getService(String key) {
         return objectMap.get(key);
     }
@@ -155,8 +150,12 @@ public class SingletonManager {
  + 可以管理多种类型的单例
  + 并且在使用可以通过统一的接口进行获取操作，降低用户成本
  + 对用户隐藏了具体实现，降低了耦合度
- 
-- - -
- 
+
+
 无论采用哪种方式，都应该根据项目本身来决定
- 
+
+参考：《Android源码设计模式解析与实战》
+
+[源码地址](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/Singleton)
+
+[更多内容](https://innofang.github.io)

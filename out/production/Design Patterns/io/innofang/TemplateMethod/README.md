@@ -119,6 +119,27 @@ assemblyLine.product();
 
 看一下输出结果
 ```console
++------Start Product------+
+Produce Shell
+Product Radio Components and Antennas
+Assembly Components
+Test Products
+Product Radio Components and Antennas
+Product Packing
++------Finish Product------+
 
++------Start Product------+
+Product Aluminum housing and Liquid Crystal Display
+Product Components and keyboard
+Assembly Components
+Test Products
+Product Components and keyboard
+Pack and Mark the Apple trademark
++------Finish Product------+
 ```
+
+## 总结
+
+在上面的编码过程中，模板方法最明显的优势就是将不变的地方进行封装，扩展可变的部分，这样操作更有利于维护。
+
 模板方法是一种十分常用的设计模式，如果你是一名 Android Developer ，那么你应该知道 AsyncTask 这个用于异步加载的工具，那么 AsyncTask 就是一个在 Android 中一个模板方法的使用案例，当然不只有 AsyncTask，Android 的生命周期函数也使用了模板方法这个设计模式，有兴趣的同学可以去查看一下源码。
