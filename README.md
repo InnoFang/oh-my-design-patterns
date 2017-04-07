@@ -1,3 +1,4 @@
+# Design Patterns (设计模式)
 
 This project just for recording process of my Design Patterns Leaning
 
@@ -5,9 +6,7 @@ But if you have some advice or supplement , please and welcome to pull request f
 
 THX :-)
 
-# Design Patterns (设计模式)
-
-## 创建型
+### 创建型
 
 ##### 1. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/FactoryMethod">Factory Method（工厂方法）</a>
 
@@ -19,7 +18,7 @@ THX :-)
 
 ##### 5. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/Singleton">Singleton（单例）</a>
 
-## 结构型
+### 结构型
 
 ##### 6.  Adapter Class/Object（适配器）
 
@@ -35,7 +34,7 @@ THX :-)
 
 ##### 12. Proxy（代理）
 
-## 行为型
+### 行为型
 
 ##### 13. Interpreter（解释器）
 
@@ -58,3 +57,9 @@ THX :-)
 ##### 22. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/Strategy">Strategy（策略）</a>
 
 ##### 23. Visitor（访问者）
+
+-------------
+
+## LICENSE
+
+   [Apache License 2.0](https://github.com/InnoFang/DesignPatterns/blob/master/LICENSE)
