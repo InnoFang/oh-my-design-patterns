@@ -18,6 +18,89 @@
 
 刚才例举了叫朋友带去快递的例子，那么现在就以这个案例为原型，来实现以下代理模式
 
-为了更好的体现代理模式的优势，这里将整个取快递的流程分为：接收快递短信通知，取快递，签字验收三个步骤
+为了更好的体现代理模式的优势，这里将整个取快递的流程分为：
+
+ 1. 接收快递短信通知
+ 2. 取快递
+ 3. 签字验收三个步骤
 
 那么首先实现抽象主题类
+
+IPicker
+```java
+public interface IPicker {
+    /*接收快递短信通知*/
+    void receiveMessage();
+    /*取快递*/
+    void takeCourier();
+    /*签字验收三个步骤*/
+    void signatureAcceptance();
+}
+```
+
+具体的取快递的人
+```java
+public class RealPicker implements IPicker {
+    @Override
+    public void receiveMessage() {
+        System.out.println("Receive text message");
+    }
+
+    @Override
+    public void takeCourier() {
+        System.out.println("Take the courier");
+    }
+
+    @Override
+    public void signatureAcceptance() {
+        System.out.println("Signature Acceptance");
+    }
+}
+```
+
+代理去快递的人
+```java
+public class ProxyPicker implements IPicker {
+
+    private IPicker picker;
+
+    public ProxyPicker(IPicker picker) {
+        this.picker = picker;
+    }
+
+    @Override
+    public void receiveMessage() {
+        picker.receiveMessage();
+    }
+
+    @Override
+    public void takeCourier() {
+        picker.takeCourier();
+    }
+
+    @Override
+    public void signatureAcceptance() {
+        picker.signatureAcceptance();
+    }
+}
+```
+
+OK, 下面就可以叫自己的代理者去取快递了
+```java
+IPicker picker = new RealPicker();
+ProxyPicker proxyPicker = new ProxyPicker(picker);
+
+proxyPicker.receiveMessage();
+proxyPicker.takeCourier();
+proxyPicker.signatureAcceptance();
+```
+
+执行结果如下:
+```console
+Receive text message
+Take the courier
+Signature Acceptance
+```
+
+
+END.
