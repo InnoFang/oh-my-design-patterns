@@ -96,12 +96,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/io/innofang/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="246">
-                <caret line="41" column="131" lean-forward="true" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="131" />
+              <first_editor relative-caret-position="278">
+                <caret line="35" column="110" lean-forward="false" selection-start-line="35" selection-start-column="110" selection-end-line="35" selection-end-column="110" />
                 <folding />
               </first_editor>
               <second_editor>
@@ -111,12 +111,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="351">
-                <caret line="40" column="10" lean-forward="false" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
+              <first_editor relative-caret-position="159">
+                <caret line="34" column="10" lean-forward="false" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="110" />
                 <folding />
               </first_editor>
               <second_editor>
@@ -239,8 +239,8 @@
         <option value="$PROJECT_DIR$/src/io/innofang/Proxy/Client.java" />
         <option value="$PROJECT_DIR$/src/io/innofang/Proxy/IPicker.java" />
         <option value="$PROJECT_DIR$/src/io/innofang/Proxy/README.md" />
-        <option value="$PROJECT_DIR$/src/io/innofang/README.md" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/io/innofang/README.md" />
       </list>
     </option>
   </component>
@@ -917,14 +917,7 @@
       <workItem from="1490412080967" duration="1805000" />
       <workItem from="1491569438708" duration="1733000" />
       <workItem from="1491635555450" duration="2876000" />
-      <workItem from="1491703861638" duration="95000" />
-    </task>
-    <task id="LOCAL-00005" summary="Factory Method  Learning.">
-      <created>1487849441634</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1487849441634</updated>
+      <workItem from="1491703861638" duration="154000" />
     </task>
     <task id="LOCAL-00006" summary="Factory Method  Learning.">
       <created>1487912121107</created>
@@ -1262,11 +1255,18 @@
       <option name="project" value="LOCAL" />
       <updated>1491637927968</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="update README.">
+      <created>1491703967737</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1491703967737</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122910000" />
+    <option name="totallyTimeSpent" value="122969000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1325,7 +1325,6 @@
     <MESSAGE value="Factory Method Learning." />
     <MESSAGE value="Prototype Learning." />
     <MESSAGE value="Strategy Learning." />
-    <MESSAGE value="update README." />
     <MESSAGE value="State Learning." />
     <MESSAGE value="Observer Learning." />
     <MESSAGE value="Update README" />
@@ -1339,7 +1338,8 @@
     <MESSAGE value="update Proxy Pattern" />
     <MESSAGE value="implement Proxy Pattern" />
     <MESSAGE value="implement Dynamic Proxy" />
-    <option name="LAST_COMMIT_MESSAGE" value="implement Dynamic Proxy" />
+    <MESSAGE value="update README." />
+    <option name="LAST_COMMIT_MESSAGE" value="update README." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1842,11 +1842,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/innofang/README.md">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="246">
-            <caret line="41" column="131" lean-forward="true" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="131" />
+          <first_editor relative-caret-position="159">
+            <caret line="34" column="10" lean-forward="false" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="110" />
             <folding />
           </first_editor>
           <second_editor>
@@ -1855,11 +1855,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/src/io/innofang/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="351">
-            <caret line="40" column="10" lean-forward="false" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
+          <first_editor relative-caret-position="278">
+            <caret line="35" column="110" lean-forward="false" selection-start-line="35" selection-start-column="110" selection-end-line="35" selection-end-column="110" />
             <folding />
           </first_editor>
           <second_editor>
