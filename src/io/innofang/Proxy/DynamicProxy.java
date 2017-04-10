@@ -5,6 +5,8 @@ import java.lang.reflect.Method;
 
 /**
  * Created by Inno Fang on 2017/4/8.
+ *
+ * Dynamic Proxy
  */
 public class DynamicProxy implements InvocationHandler {
 

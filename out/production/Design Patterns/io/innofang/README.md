@@ -33,13 +33,13 @@ THX :-)
 
 ##### 11. Flyweight（享元）
 
-##### 12. Proxy（代理）
+##### 12. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/Proxy">Proxy（代理）</a>
 
 ## 行为型
 
 ##### 13. Interpreter（解释器）
 
-##### 14. Template Method（模板方法）
+##### 14. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/TemplateMethod">Template Method（模板方法）</a>
 
 ##### 15. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/ChainOfResponsibility">Chain of Responsibility（责任链）</a>
 
