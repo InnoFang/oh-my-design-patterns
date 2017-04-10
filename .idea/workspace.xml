@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="230c2636-afb9-4de2-8189-ed15d9f8521c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Design Patterns/io/innofang/Proxy/README.md" afterPath="$PROJECT_DIR$/out/production/Design Patterns/io/innofang/Proxy/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Design Patterns/io/innofang/README.md" afterPath="$PROJECT_DIR$/out/production/Design Patterns/io/innofang/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/innofang/Proxy/DynamicProxy.java" afterPath="$PROJECT_DIR$/src/io/innofang/Proxy/DynamicProxy.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/innofang/Proxy/README.md" afterPath="$PROJECT_DIR$/src/io/innofang/Proxy/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,7 +31,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="DynamicProxy.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DynamicProxy.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/io/innofang/Proxy/DynamicProxy.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="246">
@@ -43,6 +41,21 @@
                 <element signature="e#296#297#0" expanded="true" />
                 <element signature="e#332#333#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/io/innofang/Proxy/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="314">
+                <caret line="180" column="3" lean-forward="false" selection-start-line="180" selection-start-column="3" selection-end-line="180" selection-end-column="3" />
+                <folding />
+              </first_editor>
+              <second_editor>
+                <js_state />
+              </second_editor>
             </state>
           </provider>
         </entry>
@@ -139,8 +152,8 @@
         <option value="$PROJECT_DIR$/src/io/innofang/Proxy/IPicker.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/io/innofang/README.md" />
-        <option value="$PROJECT_DIR$/src/io/innofang/Proxy/README.md" />
         <option value="$PROJECT_DIR$/src/io/innofang/Proxy/DynamicProxy.java" />
+        <option value="$PROJECT_DIR$/src/io/innofang/Proxy/README.md" />
       </list>
     </option>
   </component>
@@ -840,14 +853,7 @@
       <workItem from="1491569438708" duration="1733000" />
       <workItem from="1491635555450" duration="2876000" />
       <workItem from="1491703861638" duration="325000" />
-      <workItem from="1491806377181" duration="4261000" />
-    </task>
-    <task id="LOCAL-00009" summary="Factory Method Learning.">
-      <created>1487928799935</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1487928799935</updated>
+      <workItem from="1491806377181" duration="4324000" />
     </task>
     <task id="LOCAL-00010" summary="Abstract Factory Learning.">
       <created>1487928999328</created>
@@ -1185,11 +1191,18 @@
       <option name="project" value="LOCAL" />
       <updated>1491810087066</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="update Proxy Pattern.">
+      <created>1491810645633</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1491810645634</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127401000" />
+    <option name="totallyTimeSpent" value="127464000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1769,19 +1782,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/innofang/Proxy/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="218">
-            <caret line="173" column="0" lean-forward="true" selection-start-line="173" selection-start-column="0" selection-end-line="173" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/io/innofang/Proxy/DynamicProxy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="246">
@@ -1791,6 +1791,19 @@
             <element signature="e#296#297#0" expanded="true" />
             <element signature="e#332#333#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/innofang/Proxy/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="314">
+            <caret line="180" column="3" lean-forward="false" selection-start-line="180" selection-start-column="3" selection-end-line="180" selection-end-column="3" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
         </state>
       </provider>
     </entry>

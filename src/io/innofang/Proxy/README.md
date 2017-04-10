@@ -178,7 +178,7 @@ Receive text message
 Take the courier
 Signature Acceptance
 ```
-结果更之前的一样
+结果跟之前的一样
 
 
 END.
