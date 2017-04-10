@@ -102,5 +102,83 @@ Take the courier
 Signature Acceptance
 ```
 
+上面介绍了 `静态代理` 的实现，那么下面来介绍一下 `动态代理`
+
+首先先明白一点为什么要使用 `动态代理` ？
+
+如果只是代理一个类似乎并没有什么问题，但是如果有很多类怎么办？为每一个类都创建一个代理类吗？
+如果是那样的话，那么类的数量可能会成爆炸式增长，而且，如果有一个真是类新增了多个方法，那么对应的代理类也要修改，那么这就很有可能出错
+
+那么如何解决这个问题呢？
+
+答案就是使用 `动态代理` 。动态代理需要借助Java的动态代理机制，其原理就是Java的反射机制
+
+为了实现动态代理，这里需要两个类
+ + `java.lang.reflect.InvocationHandler` 这是一个接口，代理类需要实现这个接口
+ ```java
+ public interface InvocationHandler {
+
+     public Object invoke(Object proxy, Method method, Object[] args)
+         throws Throwable;
+ }
+ ```
+   这个接口内部的 `invoke` 方法，这个方法就是用来调用具体的被代理方法的
+
+ + `java.lang.reflect.Proxy` 这个类内部有一个静态方法
+ ```java
+ public static Object newProxyInstance(ClassLoader loader,
+                                           Class<?>[] interfaces,
+                                           InvocationHandler h)
+         throws IllegalArgumentException{
+          ...
+          // 省略具体实现
+ }
+ ```
+    使用这个静态方法来为一组接口动态的生成代理类对象，它含有三个参数：
+    - `ClassLoader loader` : 用于加载动态代理
+    - `Class<?>[] interfaces` : 接口数组
+    - `InvocationHandler h` : 动态代理实现类
+
+讲了那么多，那么来具体实现这个动态代理
+
+首先是实现`InvocationHandler` 接口
+```java
+public class DynamicProxy implements InvocationHandler {
+
+    private Object object;
+
+    public DynamicProxy(Object object) {
+        this.object = object;
+    }
+
+    @Override
+    public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
+        return method.invoke(object, args);
+    }
+}
+```
+可以看到，在`invoke`方法的内部，还调用了 method 对象的 invoke 方法
+
+下面就来试用一下动态代理
+```java
+IPicker iPicker = new RealPicker();
+DynamicProxy proxy = new DynamicProxy(iPicker);
+ClassLoader loader = iPicker.getClass().getClassLoader();
+IPicker dynamicPicker = (IPicker) Proxy.newProxyInstance(
+     loader, new Class[]{IPicker.class}, proxy);
+
+dynamicPicker.receiveMessage();
+dynamicPicker.takeCourier();
+dynamicPicker.signatureAcceptance();
+```
+
+执行结果如下
+```console
+Receive text message
+Take the courier
+Signature Acceptance
+```
+结果更之前的一样
+
 
 END.
