@@ -1,0 +1,1 @@
+# Adapter Class/Object（适配器）
