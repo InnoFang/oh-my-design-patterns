@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="230c2636-afb9-4de2-8189-ed15d9f8521c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/io/innofang/Adapter/uml/ObjectAdapter/Adaptee.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/io/innofang/Adapter/uml/ObjectAdapter/Adapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/io/innofang/Adapter/uml/ObjectAdapter/Client.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/io/innofang/Adapter/uml/ObjectAdapter/Target.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Design Patterns/io/innofang/Adapter/uml/Adaptee.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Design Patterns/io/innofang/Adapter/uml/Adapter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Design Patterns/io/innofang/Adapter/uml/Client.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Design Patterns/io/innofang/Adapter/uml/Target.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uml/class_adapter.png" afterPath="$PROJECT_DIR$/uml/class_adapter.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Design Patterns/io/innofang/Adapter/README.md" afterPath="$PROJECT_DIR$/out/production/Design Patterns/io/innofang/Adapter/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/innofang/Adapter/README.md" afterPath="$PROJECT_DIR$/src/io/innofang/Adapter/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/innofang/Adapter/uml/ClassAdapter/Adaptee.java" afterPath="$PROJECT_DIR$/src/io/innofang/Adapter/uml/ClassAdapter/Adaptee.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/innofang/Adapter/uml/ClassAdapter/Client.java" afterPath="$PROJECT_DIR$/src/io/innofang/Adapter/uml/ClassAdapter/Client.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,16 +30,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Target.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/io/innofang/Adapter/uml/ObjectAdapter/Target.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="7" column="21" lean-forward="false" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Adaptee.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/io/innofang/Adapter/uml/ObjectAdapter/Adaptee.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -62,6 +39,21 @@
                 <element signature="e#153#154#0" expanded="true" />
                 <element signature="e#218#219#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/io/innofang/Adapter/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="356">
+                <caret line="19" column="16" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+                <folding />
+              </first_editor>
+              <second_editor>
+                <js_state />
+              </second_editor>
             </state>
           </provider>
         </entry>
@@ -91,7 +83,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JAVA/io.innofang.Adapter.uml.ObjectAdapter" pinned="false" current-in-tab="true">
+      <file leaf-file-name="JAVA/io.innofang.Adapter.uml.ObjectAdapter" pinned="false" current-in-tab="false">
         <entry file="uml://JAVA/io.innofang.Adapter.uml.ObjectAdapter">
           <provider selected="true" editor-type-id="UmlEditorProvider">
             <state>
@@ -128,7 +120,7 @@
                   <point x="0.0" y="57.5" />
                 </edge>
               </edges>
-              <settings layout="Hierarchic Group" zoom="1.0" x="136.0" y="100.0" />
+              <settings layout="Hierarchic Group" zoom="1.0" x="-368.5" y="41.5" />
               <SelectedNodes>
                 <node>io.innofang.Adapter.uml.ObjectAdapter.Adaptee</node>
                 <node>io.innofang.Adapter.uml.ObjectAdapter.Adapter</node>
@@ -321,7 +313,6 @@
         <option value="$PROJECT_DIR$/src/io/innofang/Adapter/uml/Adaptee.java" />
         <option value="$PROJECT_DIR$/src/io/innofang/Adapter/uml/Client.java" />
         <option value="$PROJECT_DIR$/src/io/innofang/Adapter/uml/ClassAdapter/Target.java" />
-        <option value="$PROJECT_DIR$/src/io/innofang/Adapter/README.md" />
         <option value="$PROJECT_DIR$/src/io/innofang/Adapter/uml/ObjectAdapter/Target.java" />
         <option value="$PROJECT_DIR$/src/io/innofang/Adapter/uml/ClassAdapter/Adapter.java" />
         <option value="$PROJECT_DIR$/src/io/innofang/Adapter/uml/ClassAdapter/Adaptee.java" />
@@ -329,6 +320,7 @@
         <option value="$PROJECT_DIR$/src/io/innofang/Adapter/uml/ObjectAdapter/Adapter.java" />
         <option value="$PROJECT_DIR$/src/io/innofang/Adapter/uml/ObjectAdapter/Client.java" />
         <option value="$PROJECT_DIR$/src/io/innofang/Adapter/uml/ClassAdapter/Client.java" />
+        <option value="$PROJECT_DIR$/src/io/innofang/Adapter/README.md" />
       </list>
     </option>
   </component>
@@ -1094,7 +1086,7 @@
       <workItem from="1492006376612" duration="373000" />
       <workItem from="1492320573591" duration="484000" />
       <workItem from="1492739751855" duration="176000" />
-      <workItem from="1493194881744" duration="3367000" />
+      <workItem from="1493194881744" duration="3551000" />
     </task>
     <task id="LOCAL-00014" summary="Abstract Factory Learning.">
       <created>1488006650732</created>
@@ -1443,7 +1435,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="134270000" />
+    <option name="totallyTimeSpent" value="134454000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1958,19 +1950,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/innofang/Adapter/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="516">
-            <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-            <folding />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/io/innofang/Adapter/uml/ObjectAdapter/Target.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
@@ -2135,7 +2114,7 @@
               <point x="0.0" y="57.5" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="136.0" y="100.0" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-368.5" y="41.5" />
           <SelectedNodes>
             <node>io.innofang.Adapter.uml.ObjectAdapter.Adaptee</node>
             <node>io.innofang.Adapter.uml.ObjectAdapter.Adapter</node>
@@ -2150,6 +2129,19 @@
           </Categories>
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/innofang/Adapter/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="356">
+            <caret line="19" column="16" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
         </state>
       </provider>
     </entry>

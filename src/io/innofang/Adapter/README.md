@@ -19,3 +19,7 @@
  + Target : 适配器接口
  + Adaptee : 需要适配的角色
  + Adapter : 适配器，将需要适配的角色的对应操作进行适配
+
+![](https://github.com/InnoFang/DesignPatterns/blob/master/uml/object_adapter.png)
+
+ 这里的三个角色同上，但是这里使用了组合的方式
