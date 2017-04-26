@@ -14,4 +14,8 @@
 
 > 类适配器
 
-![](https://github.com/InnoFang/DesignPatterns/blob/master/uml/proxy.png)
+![](https://github.com/InnoFang/DesignPatterns/blob/master/uml/class_adapter.png)
+
+ + Target : 适配器接口
+ + Adaptee : 需要适配的角色
+ + Adapter : 适配器，将需要适配的角色的对应操作进行适配

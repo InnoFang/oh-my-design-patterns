@@ -6,11 +6,12 @@ package io.innofang.Adapter.uml.ClassAdapter;
 public class Client {
 
     public static void main(String[] args) {
-        Adaptee target = new Adaptee();
-        target.operation();
-        System.out.println("After adapter");
-        target = new Adapter();
-        target.operation();
+        Adapter adapter = new Adapter();
+        adapter.adaptedOperation();
+
+        System.out.println("\n+-------After adapter-------+\n");
+
+        adapter.operation();
     }
 
 }

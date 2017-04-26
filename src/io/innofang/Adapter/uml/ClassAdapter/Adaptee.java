@@ -5,7 +5,7 @@ package io.innofang.Adapter.uml.ClassAdapter;
  */
 public class Adaptee {
 
-    public void operation(){
+    public void adaptedOperation(){
         System.out.println("This is adaptee's operation");
     }
 
