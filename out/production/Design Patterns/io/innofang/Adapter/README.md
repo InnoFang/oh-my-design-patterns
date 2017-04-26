@@ -36,6 +36,86 @@
 
 ## 适配器模式的简单实现
 
-为了对两种方式进行比较，下面会分别实现这两中方式，以给移动设备充电为例
+为了对两种方式进行比较，下面会分别实现这两中方式，以给移动设备充电为例，将 220 V 电压转换成 5 V 电压
 
 ### 类适配器模式的简单实现
+
+首先就是提供目标接口，表示我们期望进行怎样的适配，这里期望将电压适配成 5 V
+```java
+public interface VoltFive {
+
+    int provideVoltFive();
+
+}
+```
+
+接下来就是实现被适配类，这里被适配对象为 220 V 电压
+```java
+public class Volt220 {
+
+    public int provideVolt220() {
+        return 220;
+    }
+
+}
+```
+
+然后就可根据类适配器的实现方式实现具体的适配器了，继承 220 V 被适配对象，并实现将电压转换成 5 V 的接口
+```java
+public class VoltAdapter extends Volt220 implements VoltFive{
+
+    @Override
+    public int provideVoltFive() {
+        return 5;
+    }
+}
+```
+
+测试
+```java
+VoltAdapter adapter = new VoltAdapter();
+int volt = adapter.provideVoltFive();
+System.out.println("After adapted, the volt is :" + volt);
+```
+
+测试结果
+```console
+After adapted, the volt is :5
+```
+
+同时根据上面的分析可以知道，因为继承了被适配对象，所以这里的适配还可以输出 220 V 电压，具体操作可以自己尝试
+
+
+### 对象适配器模式的简单实现
+
+因为目标接口和被适配对象与上面相同，所以这里不再贴出，具体的可以参考上面。下面来看一下对象适配器模式的具体实现
+```java
+public class VoltAdapter implements VoltFive {
+
+    private Volt220 volt220;
+
+    public VoltAdapter(Volt220 volt220) {
+        this.volt220 = volt220;
+    }
+
+    @Override
+    public int provideVoltFive() {
+        int volt = volt220.provideVolt220();
+        /* convert the 220V to 5V */
+        volt = 5;
+        return volt;
+    }方ze'p
+}
+```
+
+因为使用了组合的方式，所以这里需要给构造函数传入一个被适配对象实例，而具体如何实现转换方式，就需要在 `provideVoltFive()` 中进行操作，因为这次的示例比较简单，所以这里的操作仅供参考
+
+测试
+```java
+Volt220 volt220 = new Volt220();
+VoltAdapter adapter = new VoltAdapter(volt220);
+int volt = adapter.provideVoltFive();
+System.out.println("After adapted, the volt is :" + volt);
+```
+
+测试结果

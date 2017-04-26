@@ -73,15 +73,9 @@ public class VoltAdapter extends Volt220 implements VoltFive{
 
 测试
 ```java
-public class Client {
-
-    public static void main(String[] args) {
-        VoltAdapter adapter = new VoltAdapter();
-        int volt = adapter.provideVoltFive();
-        System.out.println("After adapted, the volt is :" + volt);
-    }
-
-}
+VoltAdapter adapter = new VoltAdapter();
+int volt = adapter.provideVoltFive();
+System.out.println("After adapted, the volt is :" + volt);
 ```
 
 测试结果
@@ -90,3 +84,41 @@ After adapted, the volt is :5
 ```
 
 同时根据上面的分析可以知道，因为继承了被适配对象，所以这里的适配还可以输出 220 V 电压，具体操作可以自己尝试
+
+
+### 对象适配器模式的简单实现
+
+因为目标接口和被适配对象与上面相同，所以这里不再贴出，具体的可以参考上面。下面来看一下对象适配器模式的具体实现
+```java
+public class VoltAdapter implements VoltFive {
+
+    private Volt220 volt220;
+
+    public VoltAdapter(Volt220 volt220) {
+        this.volt220 = volt220;
+    }
+
+    @Override
+    public int provideVoltFive() {
+        int volt = volt220.provideVolt220();
+        /* convert the 220V to 5V */
+        volt = 5;
+        return volt;
+    }方ze'p
+}
+```
+
+因为使用了组合的方式，所以这里需要给构造函数传入一个被适配对象实例，而具体如何实现转换方式，就需要在 `provideVoltFive()` 中进行操作，因为这次的示例比较简单，所以这里的操作仅供参考
+
+测试
+```java
+Volt220 volt220 = new Volt220();
+VoltAdapter adapter = new VoltAdapter(volt220);
+int volt = adapter.provideVoltFive();
+System.out.println("After adapted, the volt is :" + volt);
+```
+
+测试结果同上
+
+END.
+
