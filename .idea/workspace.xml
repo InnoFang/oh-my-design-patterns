@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="230c2636-afb9-4de2-8189-ed15d9f8521c" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uml/object_adapter.png" afterPath="$PROJECT_DIR$/uml/object_adapter.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/innofang/Adapter/README.md" afterPath="$PROJECT_DIR$/src/io/innofang/Adapter/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -47,8 +48,8 @@
         <entry file="file://$PROJECT_DIR$/src/io/innofang/Adapter/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="356">
-                <caret line="19" column="16" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+              <first_editor relative-caret-position="470">
+                <caret line="36" column="13" lean-forward="false" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
                 <folding />
               </first_editor>
               <second_editor>
@@ -79,62 +80,6 @@
             <state relative-caret-position="320">
               <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JAVA/io.innofang.Adapter.uml.ObjectAdapter" pinned="false" current-in-tab="false">
-        <entry file="uml://JAVA/io.innofang.Adapter.uml.ObjectAdapter">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>JAVA</ID>
-              <OriginalElement>io.innofang.Adapter.uml.ObjectAdapter</OriginalElement>
-              <nodes>
-                <node x="221.0" y="0.0">io.innofang.Adapter.uml.ObjectAdapter.Adaptee</node>
-                <node x="38.0" y="111.0">io.innofang.Adapter.uml.ObjectAdapter.Adapter</node>
-                <node x="182.0" y="276.0">io.innofang.Adapter.uml.ObjectAdapter.Client</node>
-                <node x="0.0" y="0.0">io.innofang.Adapter.uml.ObjectAdapter.Target</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="io.innofang.Adapter.uml.ObjectAdapter.Adapter" target="io.innofang.Adapter.uml.ObjectAdapter.Adaptee">
-                  <point x="62.5" y="-57.5" />
-                  <point x="225.5" y="86.0" />
-                  <point x="287.0" y="86.0" />
-                  <point x="-66.0" y="30.5" />
-                </edge>
-                <edge source="io.innofang.Adapter.uml.ObjectAdapter.Client" target="io.innofang.Adapter.uml.ObjectAdapter.Adaptee">
-                  <point x="54.5" y="-30.5" />
-                  <point x="345.5" y="251.0" />
-                  <point x="419.0" y="251.0" />
-                  <point x="65.99999999999999" y="30.5" />
-                </edge>
-                <edge source="io.innofang.Adapter.uml.ObjectAdapter.Adapter" target="io.innofang.Adapter.uml.ObjectAdapter.Target">
-                  <point x="-62.5" y="-57.5" />
-                  <point x="0.0" y="30.5" />
-                </edge>
-                <edge source="io.innofang.Adapter.uml.ObjectAdapter.Client" target="io.innofang.Adapter.uml.ObjectAdapter.Adapter">
-                  <point x="-54.5" y="-30.5" />
-                  <point x="236.5" y="251.0" />
-                  <point x="163.0" y="251.0" />
-                  <point x="0.0" y="57.5" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="1.0" x="-368.5" y="41.5" />
-              <SelectedNodes>
-                <node>io.innofang.Adapter.uml.ObjectAdapter.Adaptee</node>
-                <node>io.innofang.Adapter.uml.ObjectAdapter.Adapter</node>
-                <node>io.innofang.Adapter.uml.ObjectAdapter.Client</node>
-                <node>io.innofang.Adapter.uml.ObjectAdapter.Target</node>
-              </SelectedNodes>
-              <Categories>
-                <Category>Methods</Category>
-                <Category>Fields</Category>
-                <Category>Constructors</Category>
-                <Category>Inner Classes</Category>
-              </Categories>
-              <SCOPE>All</SCOPE>
-              <VISIBILITY>private</VISIBILITY>
             </state>
           </provider>
         </entry>
@@ -1086,7 +1031,7 @@
       <workItem from="1492006376612" duration="373000" />
       <workItem from="1492320573591" duration="484000" />
       <workItem from="1492739751855" duration="176000" />
-      <workItem from="1493194881744" duration="3551000" />
+      <workItem from="1493194881744" duration="4096000" />
     </task>
     <task id="LOCAL-00014" summary="Abstract Factory Learning.">
       <created>1488006650732</created>
@@ -1435,7 +1380,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="134454000" />
+    <option name="totallyTimeSpent" value="134999000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2070,57 +2015,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/innofang/Adapter/uml/ObjectAdapter/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="uml://JAVA/io.innofang.Adapter.uml.ObjectAdapter">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
           <ID>JAVA</ID>
           <OriginalElement>io.innofang.Adapter.uml.ObjectAdapter</OriginalElement>
           <nodes>
-            <node x="221.0" y="0.0">io.innofang.Adapter.uml.ObjectAdapter.Adaptee</node>
-            <node x="38.0" y="111.0">io.innofang.Adapter.uml.ObjectAdapter.Adapter</node>
-            <node x="182.0" y="276.0">io.innofang.Adapter.uml.ObjectAdapter.Client</node>
-            <node x="0.0" y="0.0">io.innofang.Adapter.uml.ObjectAdapter.Target</node>
+            <node x="" y="">io.innofang.Adapter.uml.ObjectAdapter.Adaptee</node>
+            <node x="" y="">io.innofang.Adapter.uml.ObjectAdapter.Adapter</node>
+            <node x="" y="">io.innofang.Adapter.uml.ObjectAdapter.Client</node>
+            <node x="" y="">io.innofang.Adapter.uml.ObjectAdapter.Target</node>
           </nodes>
           <notes />
-          <edges>
-            <edge source="io.innofang.Adapter.uml.ObjectAdapter.Adapter" target="io.innofang.Adapter.uml.ObjectAdapter.Adaptee">
-              <point x="62.5" y="-57.5" />
-              <point x="225.5" y="86.0" />
-              <point x="287.0" y="86.0" />
-              <point x="-66.0" y="30.5" />
-            </edge>
-            <edge source="io.innofang.Adapter.uml.ObjectAdapter.Client" target="io.innofang.Adapter.uml.ObjectAdapter.Adaptee">
-              <point x="54.5" y="-30.5" />
-              <point x="345.5" y="251.0" />
-              <point x="419.0" y="251.0" />
-              <point x="65.99999999999999" y="30.5" />
-            </edge>
-            <edge source="io.innofang.Adapter.uml.ObjectAdapter.Adapter" target="io.innofang.Adapter.uml.ObjectAdapter.Target">
-              <point x="-62.5" y="-57.5" />
-              <point x="0.0" y="30.5" />
-            </edge>
-            <edge source="io.innofang.Adapter.uml.ObjectAdapter.Client" target="io.innofang.Adapter.uml.ObjectAdapter.Adapter">
-              <point x="-54.5" y="-30.5" />
-              <point x="236.5" y="251.0" />
-              <point x="163.0" y="251.0" />
-              <point x="0.0" y="57.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-368.5" y="41.5" />
-          <SelectedNodes>
-            <node>io.innofang.Adapter.uml.ObjectAdapter.Adaptee</node>
-            <node>io.innofang.Adapter.uml.ObjectAdapter.Adapter</node>
-            <node>io.innofang.Adapter.uml.ObjectAdapter.Client</node>
-            <node>io.innofang.Adapter.uml.ObjectAdapter.Target</node>
-          </SelectedNodes>
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="136.0" y="100.0" />
+          <SelectedNodes />
           <Categories>
             <Category>Methods</Category>
             <Category>Fields</Category>
@@ -2132,11 +2041,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/innofang/Adapter/uml/ObjectAdapter/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/io/innofang/Adapter/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="356">
-            <caret line="19" column="16" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+          <first_editor relative-caret-position="470">
+            <caret line="36" column="13" lean-forward="false" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
             <folding />
           </first_editor>
           <second_editor>
