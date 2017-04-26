@@ -174,7 +174,11 @@ dynamicPicker.signatureAcceptance();
 
 执行结果如下
 ```console
-
+Receive text message
+Take the courier
+Signature Acceptance
 ```
+结果跟之前的一样
+
 
 END.
