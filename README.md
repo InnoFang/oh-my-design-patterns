@@ -20,7 +20,7 @@ THX :-)
 
 ### 结构型
 
-##### 6.  Adapter Class/Object（适配器）
+##### 6.  <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/Adapter">Adapter Class/Object（适配器）</a>
 
 ##### 7.  Bridge（桥接）
 
