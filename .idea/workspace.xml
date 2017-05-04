@@ -1,29 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="230c2636-afb9-4de2-8189-ed15d9f8521c" name="Default" comment="update Abstract Factory">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/io/innofang/AbstractFactory/base/AbstractFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/io/innofang/AbstractFactory/base/AbstractProductA.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/io/innofang/AbstractFactory/base/AbstractProductB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/io/innofang/AbstractFactory/base/Client.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/io/innofang/AbstractFactory/base/ConcreteFactory1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/io/innofang/AbstractFactory/base/ConcreteFactory2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/io/innofang/AbstractFactory/base/ConcreteProductA1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/io/innofang/AbstractFactory/base/ConcreteProductA2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/io/innofang/AbstractFactory/base/ConcreteProductB1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/io/innofang/AbstractFactory/base/ConcreteProductB2.java" />
+    <list default="true" id="230c2636-afb9-4de2-8189-ed15d9f8521c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/AbstractFactory/CakeCream.java" afterPath="$PROJECT_DIR$/src/io/innofang/AbstractFactory/example/CakeCream.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/AbstractFactory/CakeFactory.java" afterPath="$PROJECT_DIR$/src/io/innofang/AbstractFactory/example/CakeFactory.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/AbstractFactory/CakeStyle.java" afterPath="$PROJECT_DIR$/src/io/innofang/AbstractFactory/example/CakeStyle.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/AbstractFactory/Client.java" afterPath="$PROJECT_DIR$/src/io/innofang/AbstractFactory/example/Client.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/AbstractFactory/HeartStyle.java" afterPath="$PROJECT_DIR$/src/io/innofang/AbstractFactory/example/HeartStyle.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/AbstractFactory/MangoCream.java" afterPath="$PROJECT_DIR$/src/io/innofang/AbstractFactory/example/MangoCream.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/AbstractFactory/MangoHeartCake.java" afterPath="$PROJECT_DIR$/src/io/innofang/AbstractFactory/example/MangoHeartCake.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/AbstractFactory/MangoSquareCake.java" afterPath="$PROJECT_DIR$/src/io/innofang/AbstractFactory/example/MangoSquareCake.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/AbstractFactory/SquareStyle.java" afterPath="$PROJECT_DIR$/src/io/innofang/AbstractFactory/example/SquareStyle.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/AbstractFactory/StrawberryCream.java" afterPath="$PROJECT_DIR$/src/io/innofang/AbstractFactory/example/StrawberryCream.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/AbstractFactory/StrawberryHeartCake.java" afterPath="$PROJECT_DIR$/src/io/innofang/AbstractFactory/example/StrawberryHeartCake.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -155,7 +134,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConcreteProductB2.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ConcreteProductB2.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/io/innofang/AbstractFactory/base/ConcreteProductB2.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="160">
@@ -165,12 +144,108 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AbstractFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/io/innofang/AbstractFactory/base/AbstractFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-              <folding />
+      <file leaf-file-name="JAVA/io.innofang.AbstractFactory.base" pinned="false" current-in-tab="true">
+        <entry file="uml://JAVA/io.innofang.AbstractFactory.base">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>io.innofang.AbstractFactory.base</OriginalElement>
+              <nodes>
+                <node x="1059.0" y="134.0">io.innofang.AbstractFactory.base.ConcreteProductB1</node>
+                <node x="0.0" y="134.0">io.innofang.AbstractFactory.base.ConcreteProductA1</node>
+                <node x="649.5500000000001" y="0.0">io.innofang.AbstractFactory.base.AbstractProductB</node>
+                <node x="226.00000000000006" y="134.0">io.innofang.AbstractFactory.base.ConcreteProductB2</node>
+                <node x="523.0" y="395.0">io.innofang.AbstractFactory.base.Client</node>
+                <node x="140.42500000000007" y="258.0">io.innofang.AbstractFactory.base.ConcreteFactory1</node>
+                <node x="760.175" y="258.0">io.innofang.AbstractFactory.base.ConcreteFactory2</node>
+                <node x="450.00000000000006" y="121.0">io.innofang.AbstractFactory.base.AbstractFactory</node>
+                <node x="833.0" y="134.0">io.innofang.AbstractFactory.base.ConcreteProductA2</node>
+                <node x="423.55000000000007" y="0.0">io.innofang.AbstractFactory.base.AbstractProductA</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="io.innofang.AbstractFactory.base.ConcreteFactory2" target="io.innofang.AbstractFactory.base.AbstractFactory">
+                  <point x="-120.99999999999989" y="-43.5" />
+                  <point x="820.6750000000001" y="233.0" />
+                  <point x="722.25" y="233.0" />
+                  <point x="90.75" y="43.5" />
+                </edge>
+                <edge source="io.innofang.AbstractFactory.base.ConcreteProductA2" target="io.innofang.AbstractFactory.base.AbstractProductA">
+                  <point x="0.0" y="-30.5" />
+                  <point x="936.0" y="91.0" />
+                  <point x="567.5500000000001" y="91.0" />
+                  <point x="48.0" y="30.5" />
+                </edge>
+                <edge source="io.innofang.AbstractFactory.base.ConcreteFactory1" target="io.innofang.AbstractFactory.base.AbstractFactory">
+                  <point x="121.0" y="-43.5" />
+                  <point x="442.92500000000007" y="233.0" />
+                  <point x="540.75" y="233.0" />
+                  <point x="-90.75" y="43.5" />
+                </edge>
+                <edge source="io.innofang.AbstractFactory.base.Client" target="io.innofang.AbstractFactory.base.ConcreteFactory1">
+                  <point x="-54.5" y="-30.5" />
+                  <point x="577.5" y="370.0" />
+                  <point x="321.92500000000007" y="370.0" />
+                  <point x="0.0" y="43.5" />
+                </edge>
+                <edge source="io.innofang.AbstractFactory.base.ConcreteFactory2" target="io.innofang.AbstractFactory.base.ConcreteProductB1">
+                  <point x="121.00000000000011" y="-43.5" />
+                  <point x="1062.6750000000002" y="233.0" />
+                  <point x="1161.0" y="233.0" />
+                  <point x="0.0" y="30.5" />
+                </edge>
+                <edge source="io.innofang.AbstractFactory.base.Client" target="io.innofang.AbstractFactory.base.ConcreteFactory2">
+                  <point x="54.5" y="-30.5" />
+                  <point x="686.5" y="370.0" />
+                  <point x="941.675" y="370.0" />
+                  <point x="0.0" y="43.5" />
+                </edge>
+                <edge source="io.innofang.AbstractFactory.base.ConcreteFactory1" target="io.innofang.AbstractFactory.base.ConcreteProductA1">
+                  <point x="-121.0" y="-43.5" />
+                  <point x="200.92500000000007" y="233.0" />
+                  <point x="103.0" y="233.0" />
+                  <point x="0.0" y="30.5" />
+                </edge>
+                <edge source="io.innofang.AbstractFactory.base.ConcreteFactory2" target="io.innofang.AbstractFactory.base.ConcreteProductA2">
+                  <point x="1.1368683772161603E-13" y="-43.5" />
+                  <point x="941.6750000000001" y="233.0" />
+                  <point x="936.0" y="233.0" />
+                  <point x="0.0" y="30.5" />
+                </edge>
+                <edge source="io.innofang.AbstractFactory.base.ConcreteFactory1" target="io.innofang.AbstractFactory.base.ConcreteProductB2">
+                  <point x="0.0" y="-43.5" />
+                  <point x="321.92500000000007" y="233.0" />
+                  <point x="328.00000000000006" y="233.0" />
+                  <point x="0.0" y="30.5" />
+                </edge>
+                <edge source="io.innofang.AbstractFactory.base.ConcreteProductB2" target="io.innofang.AbstractFactory.base.AbstractProductB">
+                  <point x="0.0" y="-30.5" />
+                  <point x="328.00000000000006" y="101.0" />
+                  <point x="697.0500000000001" y="101.0" />
+                  <point x="-47.5" y="30.5" />
+                </edge>
+                <edge source="io.innofang.AbstractFactory.base.ConcreteProductA1" target="io.innofang.AbstractFactory.base.AbstractProductA">
+                  <point x="0.0" y="-30.5" />
+                  <point x="103.0" y="91.0" />
+                  <point x="471.55000000000007" y="91.0" />
+                  <point x="-48.0" y="30.5" />
+                </edge>
+                <edge source="io.innofang.AbstractFactory.base.ConcreteProductB1" target="io.innofang.AbstractFactory.base.AbstractProductB">
+                  <point x="0.0" y="-30.5" />
+                  <point x="1161.0" y="81.0" />
+                  <point x="792.0500000000001" y="81.0" />
+                  <point x="47.5" y="30.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="631.5" y="228.0" />
+              <SelectedNodes />
+              <Categories>
+                <Category>Fields</Category>
+                <Category>Constructors</Category>
+                <Category>Methods</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
             </state>
           </provider>
         </entry>
@@ -403,58 +478,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="AbstractFactory" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Design Patterns" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Design Patterns" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="innofang" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AbstractFactory" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="example" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Design Patterns" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Design Patterns" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="innofang" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AbstractFactory" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="base" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1087,14 +1110,7 @@
       <workItem from="1493258020332" duration="1557000" />
       <workItem from="1493473852221" duration="648000" />
       <workItem from="1493864730354" duration="4424000" />
-      <workItem from="1493885078705" duration="3608000" />
-    </task>
-    <task id="LOCAL-00022" summary="State Learning.">
-      <created>1488868685877</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1488868685877</updated>
+      <workItem from="1493885078705" duration="3711000" />
     </task>
     <task id="LOCAL-00023" summary="State Learning.">
       <created>1488871948848</created>
@@ -1432,11 +1448,18 @@
       <option name="project" value="LOCAL" />
       <updated>1493887987373</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="update Abstract Factory">
+      <created>1493888700606</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1493888700606</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="147396000" />
+    <option name="totallyTimeSpent" value="147499000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1449,11 +1472,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1098" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32852387" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32852387" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32852387" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1534,13 +1558,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/io/innofang/Adapter/uml/ClassAdapter/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="uml://JAVA/io.innofang.Adapter.uml.ObjectAdapter">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -2005,6 +2022,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/innofang/AbstractFactory/example/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/io/innofang/AbstractFactory/base/ConcreteProductB2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -2013,11 +2038,107 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/innofang/AbstractFactory/example/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
+    <entry file="uml://JAVA/io.innofang.AbstractFactory.base">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>io.innofang.AbstractFactory.base</OriginalElement>
+          <nodes>
+            <node x="1059.0" y="134.0">io.innofang.AbstractFactory.base.ConcreteProductB1</node>
+            <node x="0.0" y="134.0">io.innofang.AbstractFactory.base.ConcreteProductA1</node>
+            <node x="649.5500000000001" y="0.0">io.innofang.AbstractFactory.base.AbstractProductB</node>
+            <node x="226.00000000000006" y="134.0">io.innofang.AbstractFactory.base.ConcreteProductB2</node>
+            <node x="523.0" y="395.0">io.innofang.AbstractFactory.base.Client</node>
+            <node x="140.42500000000007" y="258.0">io.innofang.AbstractFactory.base.ConcreteFactory1</node>
+            <node x="760.175" y="258.0">io.innofang.AbstractFactory.base.ConcreteFactory2</node>
+            <node x="450.00000000000006" y="121.0">io.innofang.AbstractFactory.base.AbstractFactory</node>
+            <node x="833.0" y="134.0">io.innofang.AbstractFactory.base.ConcreteProductA2</node>
+            <node x="423.55000000000007" y="0.0">io.innofang.AbstractFactory.base.AbstractProductA</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="io.innofang.AbstractFactory.base.ConcreteFactory2" target="io.innofang.AbstractFactory.base.AbstractFactory">
+              <point x="-120.99999999999989" y="-43.5" />
+              <point x="820.6750000000001" y="233.0" />
+              <point x="722.25" y="233.0" />
+              <point x="90.75" y="43.5" />
+            </edge>
+            <edge source="io.innofang.AbstractFactory.base.ConcreteProductA2" target="io.innofang.AbstractFactory.base.AbstractProductA">
+              <point x="0.0" y="-30.5" />
+              <point x="936.0" y="91.0" />
+              <point x="567.5500000000001" y="91.0" />
+              <point x="48.0" y="30.5" />
+            </edge>
+            <edge source="io.innofang.AbstractFactory.base.ConcreteFactory1" target="io.innofang.AbstractFactory.base.AbstractFactory">
+              <point x="121.0" y="-43.5" />
+              <point x="442.92500000000007" y="233.0" />
+              <point x="540.75" y="233.0" />
+              <point x="-90.75" y="43.5" />
+            </edge>
+            <edge source="io.innofang.AbstractFactory.base.Client" target="io.innofang.AbstractFactory.base.ConcreteFactory1">
+              <point x="-54.5" y="-30.5" />
+              <point x="577.5" y="370.0" />
+              <point x="321.92500000000007" y="370.0" />
+              <point x="0.0" y="43.5" />
+            </edge>
+            <edge source="io.innofang.AbstractFactory.base.ConcreteFactory2" target="io.innofang.AbstractFactory.base.ConcreteProductB1">
+              <point x="121.00000000000011" y="-43.5" />
+              <point x="1062.6750000000002" y="233.0" />
+              <point x="1161.0" y="233.0" />
+              <point x="0.0" y="30.5" />
+            </edge>
+            <edge source="io.innofang.AbstractFactory.base.Client" target="io.innofang.AbstractFactory.base.ConcreteFactory2">
+              <point x="54.5" y="-30.5" />
+              <point x="686.5" y="370.0" />
+              <point x="941.675" y="370.0" />
+              <point x="0.0" y="43.5" />
+            </edge>
+            <edge source="io.innofang.AbstractFactory.base.ConcreteFactory1" target="io.innofang.AbstractFactory.base.ConcreteProductA1">
+              <point x="-121.0" y="-43.5" />
+              <point x="200.92500000000007" y="233.0" />
+              <point x="103.0" y="233.0" />
+              <point x="0.0" y="30.5" />
+            </edge>
+            <edge source="io.innofang.AbstractFactory.base.ConcreteFactory2" target="io.innofang.AbstractFactory.base.ConcreteProductA2">
+              <point x="1.1368683772161603E-13" y="-43.5" />
+              <point x="941.6750000000001" y="233.0" />
+              <point x="936.0" y="233.0" />
+              <point x="0.0" y="30.5" />
+            </edge>
+            <edge source="io.innofang.AbstractFactory.base.ConcreteFactory1" target="io.innofang.AbstractFactory.base.ConcreteProductB2">
+              <point x="0.0" y="-43.5" />
+              <point x="321.92500000000007" y="233.0" />
+              <point x="328.00000000000006" y="233.0" />
+              <point x="0.0" y="30.5" />
+            </edge>
+            <edge source="io.innofang.AbstractFactory.base.ConcreteProductB2" target="io.innofang.AbstractFactory.base.AbstractProductB">
+              <point x="0.0" y="-30.5" />
+              <point x="328.00000000000006" y="101.0" />
+              <point x="697.0500000000001" y="101.0" />
+              <point x="-47.5" y="30.5" />
+            </edge>
+            <edge source="io.innofang.AbstractFactory.base.ConcreteProductA1" target="io.innofang.AbstractFactory.base.AbstractProductA">
+              <point x="0.0" y="-30.5" />
+              <point x="103.0" y="91.0" />
+              <point x="471.55000000000007" y="91.0" />
+              <point x="-48.0" y="30.5" />
+            </edge>
+            <edge source="io.innofang.AbstractFactory.base.ConcreteProductB1" target="io.innofang.AbstractFactory.base.AbstractProductB">
+              <point x="0.0" y="-30.5" />
+              <point x="1161.0" y="81.0" />
+              <point x="792.0500000000001" y="81.0" />
+              <point x="47.5" y="30.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="631.5" y="228.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
