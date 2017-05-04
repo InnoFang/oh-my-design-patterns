@@ -27,7 +27,7 @@ THX :-)
 
 ##### 8.  Composite（组合）
 
-##### 9.  Decorator（装饰）
+##### 9.  <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/Decorator">Decorator（装饰）</a>
 
 ##### 10. Facade（外观）
 
