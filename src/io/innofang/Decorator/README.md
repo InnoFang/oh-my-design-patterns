@@ -10,4 +10,4 @@
 
 # Decorator（装饰）模式的 UML 类图
 
-![]()
+![](https://github.com/InnoFang/DesignPatterns/blob/master/uml/decorator.png)
