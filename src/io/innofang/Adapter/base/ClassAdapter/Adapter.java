@@ -1,7 +1,9 @@
-package io.innofang.Adapter.uml.ClassAdapter;
+package io.innofang.Adapter.base.ClassAdapter;
 
 /**
  * Created by Inno Fang on 2017/4/26.
+ *
+ * Adapter
  */
 public class Adapter extends Adaptee implements Target {
 

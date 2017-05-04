@@ -1,7 +1,9 @@
-package io.innofang.Adapter.uml.ObjectAdapter;
+package io.innofang.Adapter.base.ObjectAdapter;
 
 /**
  * Created by Inno Fang on 2017/4/26.
+ *
+ * Client
  */
 public class Client {
 

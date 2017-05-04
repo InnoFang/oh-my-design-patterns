@@ -1,7 +1,9 @@
-package io.innofang.Adapter.ClassAdapter;
+package io.innofang.Adapter.example.ClassAdapter;
 
 /**
  * Created by Inno Fang on 2017/4/26.
+ *
+ * VoltAdapter
  */
 public class VoltAdapter extends Volt220 implements VoltFive{
 
