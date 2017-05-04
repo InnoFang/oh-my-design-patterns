@@ -19,7 +19,7 @@
 
 ## Abstract Factory（抽象工厂）的UML类图
 
-<img src="http://img.my.csdn.net/uploads/201301/25/1359118637_4907.jpg" />
+[](https://raw.githubusercontent.com/InnoFang/DesignPatterns/master/uml/abstract_factory.png)
 
  + AbstractProductA：抽象产品A
   - ProductA1：具体产品A1

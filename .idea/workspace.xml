@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="230c2636-afb9-4de2-8189-ed15d9f8521c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uml/abstract_factory.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/innofang/AbstractFactory/README.md" afterPath="$PROJECT_DIR$/src/io/innofang/AbstractFactory/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,8 +35,8 @@
         <entry file="file://$PROJECT_DIR$/src/io/innofang/AbstractFactory/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="552">
-                <caret line="119" column="32" lean-forward="true" selection-start-line="119" selection-start-column="32" selection-end-line="119" selection-end-column="32" />
+              <first_editor relative-caret-position="672">
+                <caret line="21" column="92" lean-forward="false" selection-start-line="21" selection-start-column="92" selection-end-line="21" selection-end-column="92" />
                 <folding />
               </first_editor>
               <second_editor>
@@ -84,7 +84,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/io/innofang/Proxy/RealPicker.java" />
         <option value="$PROJECT_DIR$/src/io/innofang/Proxy/Client.java" />
         <option value="$PROJECT_DIR$/src/io/innofang/Proxy/IPicker.java" />
         <option value="$PROJECT_DIR$/src/io/innofang/Proxy/DynamicProxy.java" />
@@ -135,6 +134,7 @@
         <option value="$PROJECT_DIR$/src/io/innofang/AbstractFactory/base/ConcreteProductA1.java" />
         <option value="$PROJECT_DIR$/src/io/innofang/AbstractFactory/base/ConcreteProductA2.java" />
         <option value="$PROJECT_DIR$/src/io/innofang/AbstractFactory/base/ConcreteProductB1.java" />
+        <option value="$PROJECT_DIR$/src/io/innofang/AbstractFactory/README.md" />
       </list>
     </option>
   </component>
@@ -886,14 +886,7 @@
       <workItem from="1493258020332" duration="1557000" />
       <workItem from="1493473852221" duration="648000" />
       <workItem from="1493864730354" duration="4424000" />
-      <workItem from="1493885078705" duration="3779000" />
-    </task>
-    <task id="LOCAL-00024" summary="State Learning.">
-      <created>1488872067689</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1488872067689</updated>
+      <workItem from="1493885078705" duration="3839000" />
     </task>
     <task id="LOCAL-00025" summary="Update README.">
       <created>1488872930609</created>
@@ -1231,11 +1224,18 @@
       <option name="project" value="LOCAL" />
       <updated>1493888803066</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="update UML">
+      <created>1493888863677</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1493888863677</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="147567000" />
+    <option name="totallyTimeSpent" value="147627000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1908,8 +1908,8 @@
     <entry file="file://$PROJECT_DIR$/src/io/innofang/AbstractFactory/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="552">
-            <caret line="119" column="32" lean-forward="true" selection-start-line="119" selection-start-column="32" selection-end-line="119" selection-end-column="32" />
+          <first_editor relative-caret-position="672">
+            <caret line="21" column="92" lean-forward="false" selection-start-line="21" selection-start-column="92" selection-end-line="21" selection-end-column="92" />
             <folding />
           </first_editor>
           <second_editor>
