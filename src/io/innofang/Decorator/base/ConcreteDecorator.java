@@ -13,6 +13,6 @@ public class ConcreteDecorator extends Decorator {
     public void operation() {
         System.out.println("Add decorator operation 1");
         super.operation();
-        System.out.println("Add decorator operation 1");
+        System.out.println("Add decorator operation 2");
     }
 }
