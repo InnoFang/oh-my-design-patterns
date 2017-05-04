@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="230c2636-afb9-4de2-8189-ed15d9f8521c" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uml/abstract_factory.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -24,248 +25,23 @@
     <option name="SHOW_EMPTY_GROUPS" value="false" />
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
   </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/src/io/innofang/AbstractFactory/README.md">
-                <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-                  <state split_layout="FIRST">
-                    <first_editor relative-caret-position="3373">
-                      <caret line="126" column="0" lean-forward="false" selection-start-line="126" selection-start-column="0" selection-end-line="136" selection-end-column="1" />
-                      <folding />
-                    </first_editor>
-                    <second_editor>
-                      <js_state />
-                    </second_editor>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file leaf-file-name="Client.java" pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/src/io/innofang/AbstractFactory/example/Client.java">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="64">
-                    <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-                    <folding />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="Design Patterns" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Client.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/io/innofang/AbstractFactory/base/Client.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="5" column="9" lean-forward="false" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConcreteFactory1.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/io/innofang/AbstractFactory/base/ConcreteFactory1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConcreteFactory2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/io/innofang/AbstractFactory/base/ConcreteFactory2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-              <folding>
-                <element signature="e#336#337#0" expanded="true" />
-                <element signature="e#382#383#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConcreteProductA1.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/io/innofang/AbstractFactory/base/ConcreteProductA1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-              <folding>
-                <element signature="e#208#209#0" expanded="true" />
-                <element signature="e#266#267#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConcreteProductA2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/io/innofang/AbstractFactory/base/ConcreteProductA2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-              <folding>
-                <element signature="e#208#209#0" expanded="true" />
-                <element signature="e#266#267#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConcreteProductB1.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/io/innofang/AbstractFactory/base/ConcreteProductB1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConcreteProductB2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/io/innofang/AbstractFactory/base/ConcreteProductB2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JAVA/io.innofang.AbstractFactory.base" pinned="false" current-in-tab="true">
-        <entry file="uml://JAVA/io.innofang.AbstractFactory.base">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>JAVA</ID>
-              <OriginalElement>io.innofang.AbstractFactory.base</OriginalElement>
-              <nodes>
-                <node x="1059.0" y="134.0">io.innofang.AbstractFactory.base.ConcreteProductB1</node>
-                <node x="0.0" y="134.0">io.innofang.AbstractFactory.base.ConcreteProductA1</node>
-                <node x="649.5500000000001" y="0.0">io.innofang.AbstractFactory.base.AbstractProductB</node>
-                <node x="226.00000000000006" y="134.0">io.innofang.AbstractFactory.base.ConcreteProductB2</node>
-                <node x="523.0" y="395.0">io.innofang.AbstractFactory.base.Client</node>
-                <node x="140.42500000000007" y="258.0">io.innofang.AbstractFactory.base.ConcreteFactory1</node>
-                <node x="760.175" y="258.0">io.innofang.AbstractFactory.base.ConcreteFactory2</node>
-                <node x="450.00000000000006" y="121.0">io.innofang.AbstractFactory.base.AbstractFactory</node>
-                <node x="833.0" y="134.0">io.innofang.AbstractFactory.base.ConcreteProductA2</node>
-                <node x="423.55000000000007" y="0.0">io.innofang.AbstractFactory.base.AbstractProductA</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="io.innofang.AbstractFactory.base.ConcreteFactory2" target="io.innofang.AbstractFactory.base.AbstractFactory">
-                  <point x="-120.99999999999989" y="-43.5" />
-                  <point x="820.6750000000001" y="233.0" />
-                  <point x="722.25" y="233.0" />
-                  <point x="90.75" y="43.5" />
-                </edge>
-                <edge source="io.innofang.AbstractFactory.base.ConcreteProductA2" target="io.innofang.AbstractFactory.base.AbstractProductA">
-                  <point x="0.0" y="-30.5" />
-                  <point x="936.0" y="91.0" />
-                  <point x="567.5500000000001" y="91.0" />
-                  <point x="48.0" y="30.5" />
-                </edge>
-                <edge source="io.innofang.AbstractFactory.base.ConcreteFactory1" target="io.innofang.AbstractFactory.base.AbstractFactory">
-                  <point x="121.0" y="-43.5" />
-                  <point x="442.92500000000007" y="233.0" />
-                  <point x="540.75" y="233.0" />
-                  <point x="-90.75" y="43.5" />
-                </edge>
-                <edge source="io.innofang.AbstractFactory.base.Client" target="io.innofang.AbstractFactory.base.ConcreteFactory1">
-                  <point x="-54.5" y="-30.5" />
-                  <point x="577.5" y="370.0" />
-                  <point x="321.92500000000007" y="370.0" />
-                  <point x="0.0" y="43.5" />
-                </edge>
-                <edge source="io.innofang.AbstractFactory.base.ConcreteFactory2" target="io.innofang.AbstractFactory.base.ConcreteProductB1">
-                  <point x="121.00000000000011" y="-43.5" />
-                  <point x="1062.6750000000002" y="233.0" />
-                  <point x="1161.0" y="233.0" />
-                  <point x="0.0" y="30.5" />
-                </edge>
-                <edge source="io.innofang.AbstractFactory.base.Client" target="io.innofang.AbstractFactory.base.ConcreteFactory2">
-                  <point x="54.5" y="-30.5" />
-                  <point x="686.5" y="370.0" />
-                  <point x="941.675" y="370.0" />
-                  <point x="0.0" y="43.5" />
-                </edge>
-                <edge source="io.innofang.AbstractFactory.base.ConcreteFactory1" target="io.innofang.AbstractFactory.base.ConcreteProductA1">
-                  <point x="-121.0" y="-43.5" />
-                  <point x="200.92500000000007" y="233.0" />
-                  <point x="103.0" y="233.0" />
-                  <point x="0.0" y="30.5" />
-                </edge>
-                <edge source="io.innofang.AbstractFactory.base.ConcreteFactory2" target="io.innofang.AbstractFactory.base.ConcreteProductA2">
-                  <point x="1.1368683772161603E-13" y="-43.5" />
-                  <point x="941.6750000000001" y="233.0" />
-                  <point x="936.0" y="233.0" />
-                  <point x="0.0" y="30.5" />
-                </edge>
-                <edge source="io.innofang.AbstractFactory.base.ConcreteFactory1" target="io.innofang.AbstractFactory.base.ConcreteProductB2">
-                  <point x="0.0" y="-43.5" />
-                  <point x="321.92500000000007" y="233.0" />
-                  <point x="328.00000000000006" y="233.0" />
-                  <point x="0.0" y="30.5" />
-                </edge>
-                <edge source="io.innofang.AbstractFactory.base.ConcreteProductB2" target="io.innofang.AbstractFactory.base.AbstractProductB">
-                  <point x="0.0" y="-30.5" />
-                  <point x="328.00000000000006" y="101.0" />
-                  <point x="697.0500000000001" y="101.0" />
-                  <point x="-47.5" y="30.5" />
-                </edge>
-                <edge source="io.innofang.AbstractFactory.base.ConcreteProductA1" target="io.innofang.AbstractFactory.base.AbstractProductA">
-                  <point x="0.0" y="-30.5" />
-                  <point x="103.0" y="91.0" />
-                  <point x="471.55000000000007" y="91.0" />
-                  <point x="-48.0" y="30.5" />
-                </edge>
-                <edge source="io.innofang.AbstractFactory.base.ConcreteProductB1" target="io.innofang.AbstractFactory.base.AbstractProductB">
-                  <point x="0.0" y="-30.5" />
-                  <point x="1161.0" y="81.0" />
-                  <point x="792.0500000000001" y="81.0" />
-                  <point x="47.5" y="30.5" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="1.0" x="631.5" y="228.0" />
-              <SelectedNodes />
-              <Categories>
-                <Category>Fields</Category>
-                <Category>Constructors</Category>
-                <Category>Methods</Category>
-              </Categories>
-              <SCOPE>All</SCOPE>
-              <VISIBILITY>private</VISIBILITY>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractProductA.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/io/innofang/AbstractFactory/base/AbstractProductA.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractProductB.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/io/innofang/AbstractFactory/base/AbstractProductB.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-              <folding />
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/io/innofang/AbstractFactory/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="552">
+                <caret line="119" column="32" lean-forward="true" selection-start-line="119" selection-start-column="32" selection-end-line="119" selection-end-column="32" />
+                <folding />
+              </first_editor>
+              <second_editor>
+                <js_state />
+              </second_editor>
             </state>
           </provider>
         </entry>
@@ -1110,14 +886,7 @@
       <workItem from="1493258020332" duration="1557000" />
       <workItem from="1493473852221" duration="648000" />
       <workItem from="1493864730354" duration="4424000" />
-      <workItem from="1493885078705" duration="3711000" />
-    </task>
-    <task id="LOCAL-00023" summary="State Learning.">
-      <created>1488871948848</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1488871948848</updated>
+      <workItem from="1493885078705" duration="3779000" />
     </task>
     <task id="LOCAL-00024" summary="State Learning.">
       <created>1488872067689</created>
@@ -1455,11 +1224,18 @@
       <option name="project" value="LOCAL" />
       <updated>1493888700606</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="update UML">
+      <created>1493888803066</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1493888803066</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="147499000" />
+    <option name="totallyTimeSpent" value="147567000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1512,7 +1288,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Strategy Learning." />
     <MESSAGE value="State Learning." />
     <MESSAGE value="Observer Learning." />
     <MESSAGE value="Update README" />
@@ -1537,7 +1312,8 @@
     <MESSAGE value="update Decorator" />
     <MESSAGE value="update README" />
     <MESSAGE value="update Abstract Factory" />
-    <option name="LAST_COMMIT_MESSAGE" value="update Abstract Factory" />
+    <MESSAGE value="update UML" />
+    <option name="LAST_COMMIT_MESSAGE" value="update UML" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1928,19 +1704,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/innofang/AbstractFactory/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="3373">
-            <caret line="126" column="0" lean-forward="false" selection-start-line="126" selection-start-column="0" selection-end-line="136" selection-end-column="1" />
-            <folding />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/io/innofang/AbstractFactory/base/AbstractFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -2139,6 +1902,19 @@
           </Categories>
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/innofang/AbstractFactory/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="552">
+            <caret line="119" column="32" lean-forward="true" selection-start-line="119" selection-start-column="32" selection-end-line="119" selection-end-column="32" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
         </state>
       </provider>
     </entry>
