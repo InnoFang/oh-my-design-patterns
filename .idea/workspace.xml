@@ -36,7 +36,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
               <first_editor relative-caret-position="672">
-                <caret line="21" column="92" lean-forward="false" selection-start-line="21" selection-start-column="92" selection-end-line="21" selection-end-column="92" />
+                <caret line="21" column="1" lean-forward="false" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
                 <folding />
               </first_editor>
               <second_editor>
@@ -886,14 +886,7 @@
       <workItem from="1493258020332" duration="1557000" />
       <workItem from="1493473852221" duration="648000" />
       <workItem from="1493864730354" duration="4424000" />
-      <workItem from="1493885078705" duration="3839000" />
-    </task>
-    <task id="LOCAL-00025" summary="Update README.">
-      <created>1488872930609</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1488872930609</updated>
+      <workItem from="1493885078705" duration="3910000" />
     </task>
     <task id="LOCAL-00026" summary="Update README.">
       <created>1489040134577</created>
@@ -1231,11 +1224,18 @@
       <option name="project" value="LOCAL" />
       <updated>1493888863677</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="update Abstract Factory README">
+      <created>1493888932382</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1493888932382</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="147627000" />
+    <option name="totallyTimeSpent" value="147698000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1288,7 +1288,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="State Learning." />
     <MESSAGE value="Observer Learning." />
     <MESSAGE value="Update README" />
     <MESSAGE value="Memento Learning." />
@@ -1313,7 +1312,8 @@
     <MESSAGE value="update README" />
     <MESSAGE value="update Abstract Factory" />
     <MESSAGE value="update UML" />
-    <option name="LAST_COMMIT_MESSAGE" value="update UML" />
+    <MESSAGE value="update Abstract Factory README" />
+    <option name="LAST_COMMIT_MESSAGE" value="update Abstract Factory README" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1909,7 +1909,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="672">
-            <caret line="21" column="92" lean-forward="false" selection-start-line="21" selection-start-column="92" selection-end-line="21" selection-end-column="92" />
+            <caret line="21" column="1" lean-forward="false" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
             <folding />
           </first_editor>
           <second_editor>
