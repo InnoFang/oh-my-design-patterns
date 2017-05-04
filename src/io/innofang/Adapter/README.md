@@ -104,7 +104,7 @@ public class VoltAdapter implements VoltFive {
         /* convert the 220V to 5V */
         volt = 5;
         return volt;
-    }方ze'p
+    }
 }
 ```
 
