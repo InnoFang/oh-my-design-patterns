@@ -11,3 +11,30 @@
 # Decorator（装饰）模式的 UML 类图
 
 ![](https://github.com/InnoFang/DesignPatterns/blob/master/uml/decorator.png)
+
+ + Component : 组件接口，被装饰的原始对象
+ + ConcreteComponent : 具体组件，组件接口的实现类，被装饰的具体对象
+ + Decorator : 抽象装饰器，内部持有组件对象的一个实例
+ + ConcreteDecorator : 具体装饰器
+ + Client : 客户类
+
+下面看一下装饰器模式的简单实现
+
+首先就是 Component 组件接口
+```java
+public interface Component {
+
+    void operation();
+
+}
+```
+
+然后就是具体的组件，需要被装饰的对象 ConcreteComponent
+```java
+public class ConcreteComponent implements Component {
+    @Override
+    public void operation() {
+        System.out.println("This is Concrete Component");
+    }
+}
+```
