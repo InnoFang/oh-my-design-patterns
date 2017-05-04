@@ -1,6 +1,4 @@
-package io.innofang.AbstractFactory;
-
-import io.innofang.FactoryMethod.Cake;
+package io.innofang.AbstractFactory.example;
 
 /**
  * Created by InnF on 2017/2/25.
