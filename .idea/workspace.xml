@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="230c2636-afb9-4de2-8189-ed15d9f8521c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/io/innofang/Decorator/base/Client.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/io/innofang/Decorator/base/Component.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/io/innofang/Decorator/base/ConcreteComponent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/io/innofang/Decorator/base/ConcreteDecorator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/io/innofang/Decorator/base/Decorator.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/innofang/Decorator/README.md" afterPath="$PROJECT_DIR$/src/io/innofang/Decorator/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,12 +31,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/io/innofang/Decorator/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="384">
-                <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+                <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
                 <folding />
               </first_editor>
               <second_editor>
@@ -69,101 +65,6 @@
                 <element signature="e#178#179#0" expanded="true" />
                 <element signature="e#242#243#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Decorator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/io/innofang/Decorator/base/Decorator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-              <folding>
-                <element signature="e#215#216#0" expanded="true" />
-                <element signature="e#257#258#0" expanded="true" />
-                <element signature="e#302#303#0" expanded="true" />
-                <element signature="e#339#340#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConcreteDecorator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/io/innofang/Decorator/base/ConcreteDecorator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="15" column="53" lean-forward="false" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
-              <folding>
-                <element signature="e#184#185#0" expanded="true" />
-                <element signature="e#216#217#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Client.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/io/innofang/Decorator/base/Client.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JAVA/io.innofang.Decorator.base" pinned="false" current-in-tab="true">
-        <entry file="uml://JAVA/io.innofang.Decorator.base">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>JAVA</ID>
-              <OriginalElement>io.innofang.Decorator.base</OriginalElement>
-              <nodes>
-                <node x="342.0" y="138.0">io.innofang.Decorator.base.ConcreteComponent</node>
-                <node x="146.75" y="0.0">io.innofang.Decorator.base.Component</node>
-                <node x="197.60416666666669" y="414.0">io.innofang.Decorator.base.Client</node>
-                <node x="0.0" y="276.0">io.innofang.Decorator.base.ConcreteDecorator</node>
-                <node x="23.0" y="111.0">io.innofang.Decorator.base.Decorator</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="io.innofang.Decorator.base.Client" target="io.innofang.Decorator.base.ConcreteDecorator">
-                  <point x="-54.5" y="-30.5" />
-                  <point x="252.10416666666669" y="389.0" />
-                  <point x="172.5" y="389.0" />
-                  <point x="0.0" y="44.0" />
-                </edge>
-                <edge source="io.innofang.Decorator.base.ConcreteDecorator" target="io.innofang.Decorator.base.Decorator">
-                  <point x="0.0" y="-44.0" />
-                  <point x="0.0" y="57.5" />
-                </edge>
-                <edge source="io.innofang.Decorator.base.Decorator" target="io.innofang.Decorator.base.Component">
-                  <point x="74.75" y="-57.5" />
-                  <point x="0.0" y="30.5" />
-                </edge>
-                <edge source="io.innofang.Decorator.base.Client" target="io.innofang.Decorator.base.ConcreteComponent">
-                  <point x="54.5" y="-30.5" />
-                  <point x="361.1041666666667" y="389.0" />
-                  <point x="449.5" y="389.0" />
-                  <point x="0.0" y="30.5" />
-                </edge>
-                <edge source="io.innofang.Decorator.base.ConcreteComponent" target="io.innofang.Decorator.base.Component">
-                  <point x="0.0" y="-30.5" />
-                  <point x="449.5" y="86.0" />
-                  <point x="314.25" y="86.0" />
-                  <point x="67.0" y="30.5" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="1.0" x="202.0" y="283.0" />
-              <SelectedNodes />
-              <Categories>
-                <Category>Fields</Category>
-                <Category>Constructors</Category>
-                <Category>Methods</Category>
-                <Category>Properties</Category>
-                <Category>Inner Classes</Category>
-              </Categories>
-              <SCOPE>All</SCOPE>
-              <VISIBILITY>private</VISIBILITY>
             </state>
           </provider>
         </entry>
@@ -246,12 +147,12 @@
         <option value="$PROJECT_DIR$/src/io/innofang/Adapter/ObjectAdapter/VoltAdapter.java" />
         <option value="$PROJECT_DIR$/src/io/innofang/Adapter/ObjectAdapter/Client.java" />
         <option value="$PROJECT_DIR$/src/io/innofang/Adapter/README.md" />
-        <option value="$PROJECT_DIR$/src/io/innofang/Decorator/README.md" />
         <option value="$PROJECT_DIR$/src/io/innofang/Decorator/base/Component.java" />
         <option value="$PROJECT_DIR$/src/io/innofang/Decorator/base/ConcreteComponent.java" />
         <option value="$PROJECT_DIR$/src/io/innofang/Decorator/base/Decorator.java" />
         <option value="$PROJECT_DIR$/src/io/innofang/Decorator/base/ConcreteDecorator.java" />
         <option value="$PROJECT_DIR$/src/io/innofang/Decorator/base/Client.java" />
+        <option value="$PROJECT_DIR$/src/io/innofang/Decorator/README.md" />
       </list>
     </option>
   </component>
@@ -295,6 +196,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Design Patterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Design Patterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Design Patterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uml" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -992,14 +907,7 @@
       <workItem from="1493194881744" duration="6256000" />
       <workItem from="1493258020332" duration="1557000" />
       <workItem from="1493473852221" duration="648000" />
-      <workItem from="1493864730354" duration="3423000" />
-    </task>
-    <task id="LOCAL-00017" summary="Prototype Learning.">
-      <created>1488177559752</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1488177559752</updated>
+      <workItem from="1493864730354" duration="3653000" />
     </task>
     <task id="LOCAL-00018" summary="Prototype Learning.">
       <created>1488427927550</created>
@@ -1337,11 +1245,18 @@
       <option name="project" value="LOCAL" />
       <updated>1493867756793</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="update Decorator(implement the basic Decorator)">
+      <created>1493868582350</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1493868582350</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="142787000" />
+    <option name="totallyTimeSpent" value="143017000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1394,7 +1309,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Abstract Factory Learning." />
     <MESSAGE value="Factory Method Learning." />
     <MESSAGE value="Prototype Learning." />
     <MESSAGE value="Strategy Learning." />
@@ -1419,7 +1333,8 @@
     <MESSAGE value="update Adapter(add summary)" />
     <MESSAGE value="Create Decorator" />
     <MESSAGE value="update Decorator" />
-    <option name="LAST_COMMIT_MESSAGE" value="update Decorator" />
+    <MESSAGE value="update Decorator(implement the basic Decorator)" />
+    <option name="LAST_COMMIT_MESSAGE" value="update Decorator(implement the basic Decorator)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1440,13 +1355,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/Java/jdk1.8.0_91/src.zip!/java/lang/reflect/Proxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="705" column="39" lean-forward="true" selection-start-line="702" selection-start-column="4" selection-end-line="705" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/io/innofang/Proxy/Client.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="864">
@@ -1909,19 +1817,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/innofang/Decorator/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="384">
-            <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/io/innofang/Decorator/base/Component.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
@@ -1930,13 +1825,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/innofang/Decorator/base/ConcreteComponent.java">
+    <entry file="file://$PROJECT_DIR$/uml/decorator.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/io.innofang.Decorator.base">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>io.innofang.Decorator.base</OriginalElement>
+          <nodes>
+            <node x="" y="">io.innofang.Decorator.base.ConcreteComponent</node>
+            <node x="" y="">io.innofang.Decorator.base.Component</node>
+            <node x="" y="">io.innofang.Decorator.base.Client</node>
+            <node x="" y="">io.innofang.Decorator.base.ConcreteDecorator</node>
+            <node x="" y="">io.innofang.Decorator.base.Decorator</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="278.5" y="237.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/innofang/Decorator/base/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="8" column="54" lean-forward="false" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
+        <state relative-caret-position="352">
+          <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/innofang/Decorator/base/ConcreteDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="15" column="53" lean-forward="false" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
           <folding>
-            <element signature="e#178#179#0" expanded="true" />
-            <element signature="e#242#243#0" expanded="true" />
+            <element signature="e#184#185#0" expanded="true" />
+            <element signature="e#216#217#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1954,77 +1890,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/innofang/Decorator/base/ConcreteDecorator.java">
+    <entry file="file://$PROJECT_DIR$/src/io/innofang/Decorator/base/ConcreteComponent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="15" column="53" lean-forward="false" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
+        <state relative-caret-position="256">
+          <caret line="8" column="54" lean-forward="false" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
           <folding>
-            <element signature="e#184#185#0" expanded="true" />
-            <element signature="e#216#217#0" expanded="true" />
+            <element signature="e#178#179#0" expanded="true" />
+            <element signature="e#242#243#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/innofang/Decorator/base/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/io.innofang.Decorator.base">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>io.innofang.Decorator.base</OriginalElement>
-          <nodes>
-            <node x="342.0" y="138.0">io.innofang.Decorator.base.ConcreteComponent</node>
-            <node x="146.75" y="0.0">io.innofang.Decorator.base.Component</node>
-            <node x="197.60416666666669" y="414.0">io.innofang.Decorator.base.Client</node>
-            <node x="0.0" y="276.0">io.innofang.Decorator.base.ConcreteDecorator</node>
-            <node x="23.0" y="111.0">io.innofang.Decorator.base.Decorator</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="io.innofang.Decorator.base.Client" target="io.innofang.Decorator.base.ConcreteDecorator">
-              <point x="-54.5" y="-30.5" />
-              <point x="252.10416666666669" y="389.0" />
-              <point x="172.5" y="389.0" />
-              <point x="0.0" y="44.0" />
-            </edge>
-            <edge source="io.innofang.Decorator.base.ConcreteDecorator" target="io.innofang.Decorator.base.Decorator">
-              <point x="0.0" y="-44.0" />
-              <point x="0.0" y="57.5" />
-            </edge>
-            <edge source="io.innofang.Decorator.base.Decorator" target="io.innofang.Decorator.base.Component">
-              <point x="74.75" y="-57.5" />
-              <point x="0.0" y="30.5" />
-            </edge>
-            <edge source="io.innofang.Decorator.base.Client" target="io.innofang.Decorator.base.ConcreteComponent">
-              <point x="54.5" y="-30.5" />
-              <point x="361.1041666666667" y="389.0" />
-              <point x="449.5" y="389.0" />
-              <point x="0.0" y="30.5" />
-            </edge>
-            <edge source="io.innofang.Decorator.base.ConcreteComponent" target="io.innofang.Decorator.base.Component">
-              <point x="0.0" y="-30.5" />
-              <point x="449.5" y="86.0" />
-              <point x="314.25" y="86.0" />
-              <point x="67.0" y="30.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="202.0" y="283.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Constructors</Category>
-            <Category>Methods</Category>
-            <Category>Properties</Category>
-            <Category>Inner Classes</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
+    <entry file="file://$PROJECT_DIR$/src/io/innofang/Decorator/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="384">
+            <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
         </state>
       </provider>
     </entry>
