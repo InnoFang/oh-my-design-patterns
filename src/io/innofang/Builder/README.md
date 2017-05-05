@@ -27,6 +27,8 @@
  + Builder类 : 是抽象类，用来规范子类的组建
  + Concrete Builder类 : 是Builder的具体实现类
  + Director类 : 用于将产品同一组装
+ + Product类 : 要生产的产品
+ + Client类 : 客户端
 
 下面来看一下例子，如何实现一个简单的建造这模式
 

@@ -105,8 +105,8 @@
         <entry file="file://$PROJECT_DIR$/src/io/innofang/Builder/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="416">
-                <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <first_editor relative-caret-position="288">
+                <caret line="30" column="16" lean-forward="false" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
                 <folding />
               </first_editor>
               <second_editor>
@@ -914,14 +914,7 @@
       <workItem from="1493473852221" duration="648000" />
       <workItem from="1493864730354" duration="4424000" />
       <workItem from="1493885078705" duration="4441000" />
-      <workItem from="1493969055843" duration="1220000" />
-    </task>
-    <task id="LOCAL-00030" summary="Update README">
-      <created>1489199758047</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1489199758047</updated>
+      <workItem from="1493969055843" duration="1310000" />
     </task>
     <task id="LOCAL-00031" summary="Update README">
       <created>1489199953814</created>
@@ -1259,11 +1252,18 @@
       <option name="project" value="LOCAL" />
       <updated>1493970215573</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="update Builder">
+      <created>1493970280742</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1493970280743</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="149449000" />
+    <option name="totallyTimeSpent" value="149539000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1453,8 +1453,8 @@
         <state relative-caret-position="160">
           <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
           <folding>
-            <element signature="e#208#209#0" expanded="true" />
-            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#208#209#0" expanded="false" />
+            <element signature="e#266#267#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1464,8 +1464,8 @@
         <state relative-caret-position="160">
           <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
           <folding>
-            <element signature="e#208#209#0" expanded="true" />
-            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#208#209#0" expanded="false" />
+            <element signature="e#266#267#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1915,8 +1915,8 @@
     <entry file="file://$PROJECT_DIR$/src/io/innofang/Builder/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="416">
-            <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <first_editor relative-caret-position="288">
+            <caret line="30" column="16" lean-forward="false" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
             <folding />
           </first_editor>
           <second_editor>
