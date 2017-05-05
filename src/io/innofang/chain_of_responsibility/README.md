@@ -6,7 +6,7 @@
 
 ## Chain of Responsibility（责任链模式）的UML类图
 
-<img src="http://my.csdn.net/uploads/201204/02/1333348141_1360.jpg"/>
+![](https://raw.githubusercontent.com/InnoFang/DesignPatterns/master/uml/chain_of_responsibility.png)
 
  + Handler：抽象的请求处理类，
  + ConcreteHandler：具体的请求处理者
