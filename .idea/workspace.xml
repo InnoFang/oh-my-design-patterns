@@ -3,13 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="230c2636-afb9-4de2-8189-ed15d9f8521c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/ChainOfResponsibility/Client.java" afterPath="$PROJECT_DIR$/src/io/innofang/chain_of_responsibility/Client.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/ChainOfResponsibility/Dean.java" afterPath="$PROJECT_DIR$/src/io/innofang/chain_of_responsibility/Dean.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/ChainOfResponsibility/Handler.java" afterPath="$PROJECT_DIR$/src/io/innofang/chain_of_responsibility/Handler.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/ChainOfResponsibility/Principal.java" afterPath="$PROJECT_DIR$/src/io/innofang/chain_of_responsibility/Principal.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/ChainOfResponsibility/README.md" afterPath="$PROJECT_DIR$/src/io/innofang/chain_of_responsibility/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/ChainOfResponsibility/Secretary.java" afterPath="$PROJECT_DIR$/src/io/innofang/chain_of_responsibility/Secretary.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/ChainOfResponsibility/Tutor.java" afterPath="$PROJECT_DIR$/src/io/innofang/chain_of_responsibility/Tutor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/innofang/README.md" afterPath="$PROJECT_DIR$/src/io/innofang/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/chain_of_responsibility/Client.java" afterPath="$PROJECT_DIR$/src/io/innofang/chain_of_responsibility/example/Client.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/chain_of_responsibility/Dean.java" afterPath="$PROJECT_DIR$/src/io/innofang/chain_of_responsibility/example/Dean.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/chain_of_responsibility/Handler.java" afterPath="$PROJECT_DIR$/src/io/innofang/chain_of_responsibility/example/Handler.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/chain_of_responsibility/Principal.java" afterPath="$PROJECT_DIR$/src/io/innofang/chain_of_responsibility/example/Principal.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/chain_of_responsibility/Secretary.java" afterPath="$PROJECT_DIR$/src/io/innofang/chain_of_responsibility/example/Secretary.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/chain_of_responsibility/Tutor.java" afterPath="$PROJECT_DIR$/src/io/innofang/chain_of_responsibility/example/Tutor.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,7 +37,38 @@
     <favorites_list name="Design Patterns" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="576">
+                <caret line="18" column="61" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor>
+                <js_state />
+              </second_editor>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/io/innofang/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="776">
+                <caret line="65" column="0" lean-forward="true" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor>
+                <js_state />
+              </second_editor>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -74,8 +106,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/io/innofang/Decorator/base/Component.java" />
-        <option value="$PROJECT_DIR$/src/io/innofang/Decorator/base/ConcreteComponent.java" />
         <option value="$PROJECT_DIR$/src/io/innofang/Decorator/base/Decorator.java" />
         <option value="$PROJECT_DIR$/src/io/innofang/Decorator/base/Client.java" />
         <option value="$PROJECT_DIR$/src/io/innofang/Decorator/example/CakeEmbryo.java" />
@@ -86,8 +116,6 @@
         <option value="$PROJECT_DIR$/src/io/innofang/Decorator/example/FruitCake.java" />
         <option value="$PROJECT_DIR$/src/io/innofang/Decorator/example/Cake.java" />
         <option value="$PROJECT_DIR$/src/io/innofang/Decorator/README.md" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/io/innofang/README.md" />
         <option value="$PROJECT_DIR$/src/io/innofang/AbstractFactory/example/StrawberryCream.java" />
         <option value="$PROJECT_DIR$/src/io/innofang/AbstractFactory/base/ConcreteProductB2.java" />
         <option value="$PROJECT_DIR$/src/io/innofang/AbstractFactory/base/AbstractFactory.java" />
@@ -125,6 +153,10 @@
         <option value="$PROJECT_DIR$/src/io/innofang/Builder/example/Test.java" />
         <option value="$PROJECT_DIR$/src/io/innofang/Builder/example/Client.java" />
         <option value="$PROJECT_DIR$/src/io/innofang/Builder/README.md" />
+        <option value="$PROJECT_DIR$/src/io/innofang/chain_of_responsibility/example/Tutor.java" />
+        <option value="$PROJECT_DIR$/src/io/innofang/chain_of_responsibility/base/Handler.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/io/innofang/README.md" />
       </list>
     </option>
   </component>
@@ -210,28 +242,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="decorator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Design Patterns" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Design Patterns" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="innofang" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chain_of_responsibility" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -842,14 +852,7 @@
       <workItem from="1493473852221" duration="648000" />
       <workItem from="1493864730354" duration="4424000" />
       <workItem from="1493885078705" duration="4441000" />
-      <workItem from="1493969055843" duration="1721000" />
-    </task>
-    <task id="LOCAL-00037" summary="Iterator Learning.">
-      <created>1490004134674</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1490004134674</updated>
+      <workItem from="1493969055843" duration="2184000" />
     </task>
     <task id="LOCAL-00038" summary="Iterator Learning.">
       <created>1490068972776</created>
@@ -1187,11 +1190,18 @@
       <option name="project" value="LOCAL" />
       <updated>1493970699728</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <task id="LOCAL-00086" summary="update Chain Of Responsibility">
+      <created>1493970793245</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1493970793245</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="149950000" />
+    <option name="totallyTimeSpent" value="150413000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1204,6 +1214,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1098" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32852387" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1220,7 +1231,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33518314" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21459228" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21459228" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32963374" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1243,7 +1254,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Iterator Learning." />
     <MESSAGE value="Update README." />
     <MESSAGE value="TemplateMethod Learning." />
     <MESSAGE value="Singleton Learning." />
@@ -1268,13 +1278,14 @@
     <MESSAGE value="update adapter" />
     <MESSAGE value="update Abstract Factory" />
     <MESSAGE value="update Decorator" />
-    <option name="LAST_COMMIT_MESSAGE" value="update Decorator" />
+    <MESSAGE value="update Chain Of Responsibility" />
+    <option name="LAST_COMMIT_MESSAGE" value="update Chain Of Responsibility" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/io/innofang/chain_of_responsibility/Principal.java</url>
+          <url>file://$PROJECT_DIR$/src/io/innofang/chain_of_responsibility/example/Principal.java</url>
           <line>6</line>
           <properties />
           <option name="timeStamp" value="1" />
@@ -1289,78 +1300,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/io/innofang/abstract_factory/example/MangoHeartCake.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/innofang/abstract_factory/example/MangoSquareCake.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/innofang/abstract_factory/example/SquareStyle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/innofang/abstract_factory/example/StrawberryCream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/innofang/abstract_factory/example/CakeFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/innofang/abstract_factory/base/AbstractFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/innofang/abstract_factory/base/AbstractProductA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/innofang/abstract_factory/base/AbstractProductB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/innofang/abstract_factory/base/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="5" column="9" lean-forward="false" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/io/innofang/abstract_factory/base/ConcreteFactory1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -1374,7 +1313,7 @@
         <state relative-caret-position="160">
           <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
           <folding>
-            <element signature="e#336#337#0" expanded="true" />
+            <element signature="e#336#337#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1882,6 +1821,88 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/innofang/chain_of_responsibility/example/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/innofang/chain_of_responsibility/example/Dean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/innofang/chain_of_responsibility/example/Handler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/innofang/chain_of_responsibility/example/Principal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/innofang/chain_of_responsibility/example/Secretary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/innofang/chain_of_responsibility/example/Tutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/innofang/chain_of_responsibility/base/Handler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="576">
+            <caret line="18" column="61" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/innofang/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="776">
+            <caret line="65" column="0" lean-forward="true" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor>

@@ -10,9 +10,9 @@ THX :-)
 
 ##### 1. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/FactoryMethod">Factory Method（工厂方法）</a>
 
-##### 2. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/AbstractFactory">Abstract Factory（抽象工厂）</a>
+##### 2. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/abstract_factory">Abstract Factory（抽象工厂）</a>
 
-##### 3. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/Builder">Builder（建造者）</a>
+##### 3. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/builder">Builder（建造者）</a>
 
 ##### 4. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/Prototype">Prototype（原型）</a>
 
@@ -20,13 +20,13 @@ THX :-)
 
 ### 结构型
 
-##### 6.  <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/Adapter">Adapter Class/Object（适配器）</a>
+##### 6.  <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/adapter">Adapter Class/Object（适配器）</a>
 
 ##### 7.  Bridge（桥接）
 
 ##### 8.  Composite（组合）
 
-##### 9.  <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/Decorator">Decorator（装饰）</a>
+##### 9.  <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/decorator">Decorator（装饰）</a>
 
 ##### 10. Facade（外观）
 
@@ -40,7 +40,7 @@ THX :-)
 
 ##### 14. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/TemplateMethod">Template Method（模板方法）</a>
 
-##### 15. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/ChainOfResponsibility">Chain of Responsibility（责任链）</a>
+##### 15. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/chain_of_responsibility">Chain of Responsibility（责任链）</a>
 
 ##### 16. Command（命令）
 
