@@ -1,4 +1,4 @@
-package io.innofang.Adapter.example.ClassAdapter;
+package io.innofang.adapter.example.object_adapter;
 
 /**
  * Created by Inno Fang on 2017/4/26.
@@ -8,7 +8,8 @@ package io.innofang.Adapter.example.ClassAdapter;
 public class Client {
 
     public static void main(String[] args) {
-        VoltAdapter adapter = new VoltAdapter();
+        Volt220 volt220 = new Volt220();
+        VoltAdapter adapter = new VoltAdapter(volt220);
         int volt = adapter.provideVoltFive();
         System.out.println("After adapted, the volt is :" + volt);
     }

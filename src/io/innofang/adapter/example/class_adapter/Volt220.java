@@ -1,4 +1,4 @@
-package io.innofang.Adapter.example.ObjectAdapter;
+package io.innofang.adapter.example.class_adapter;
 
 /**
  * Created by Inno Fang on 2017/4/26.

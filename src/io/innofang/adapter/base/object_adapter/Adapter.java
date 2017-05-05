@@ -1,9 +1,9 @@
-package io.innofang.Adapter.base.ObjectAdapter;
+package io.innofang.adapter.base.object_adapter;
 
 /**
  * Created by Inno Fang on 2017/4/26.
  *
- * Adapter
+ * adapter
  */
 public class Adapter implements Target{
 
