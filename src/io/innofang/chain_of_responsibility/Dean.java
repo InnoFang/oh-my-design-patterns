@@ -1,4 +1,4 @@
-package io.innofang.ChainOfResponsibility;
+package io.innofang.chain_of_responsibility;
 
 /**
  * Created by Inno Fang on 2017/3/9.

@@ -3,18 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="230c2636-afb9-4de2-8189-ed15d9f8521c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/Decorator/README.md" afterPath="$PROJECT_DIR$/src/io/innofang/decorator/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/Decorator/base/Client.java" afterPath="$PROJECT_DIR$/src/io/innofang/decorator/base/Client.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/Decorator/base/Component.java" afterPath="$PROJECT_DIR$/src/io/innofang/decorator/base/Component.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/Decorator/base/ConcreteComponent.java" afterPath="$PROJECT_DIR$/src/io/innofang/decorator/base/ConcreteComponent.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/Decorator/base/ConcreteDecorator.java" afterPath="$PROJECT_DIR$/src/io/innofang/decorator/base/ConcreteDecorator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/Decorator/base/Decorator.java" afterPath="$PROJECT_DIR$/src/io/innofang/decorator/base/Decorator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/Decorator/example/Cake.java" afterPath="$PROJECT_DIR$/src/io/innofang/decorator/example/Cake.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/Decorator/example/CakeEmbryo.java" afterPath="$PROJECT_DIR$/src/io/innofang/decorator/example/CakeEmbryo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/Decorator/example/ChocolateCake.java" afterPath="$PROJECT_DIR$/src/io/innofang/decorator/example/ChocolateCake.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/Decorator/example/Client.java" afterPath="$PROJECT_DIR$/src/io/innofang/decorator/example/Client.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/Decorator/example/DecorateCake.java" afterPath="$PROJECT_DIR$/src/io/innofang/decorator/example/DecorateCake.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/Decorator/example/FruitCake.java" afterPath="$PROJECT_DIR$/src/io/innofang/decorator/example/FruitCake.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/ChainOfResponsibility/Client.java" afterPath="$PROJECT_DIR$/src/io/innofang/chain_of_responsibility/Client.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/ChainOfResponsibility/Dean.java" afterPath="$PROJECT_DIR$/src/io/innofang/chain_of_responsibility/Dean.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/ChainOfResponsibility/Handler.java" afterPath="$PROJECT_DIR$/src/io/innofang/chain_of_responsibility/Handler.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/ChainOfResponsibility/Principal.java" afterPath="$PROJECT_DIR$/src/io/innofang/chain_of_responsibility/Principal.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/ChainOfResponsibility/README.md" afterPath="$PROJECT_DIR$/src/io/innofang/chain_of_responsibility/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/ChainOfResponsibility/Secretary.java" afterPath="$PROJECT_DIR$/src/io/innofang/chain_of_responsibility/Secretary.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/ChainOfResponsibility/Tutor.java" afterPath="$PROJECT_DIR$/src/io/innofang/chain_of_responsibility/Tutor.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -215,6 +210,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="decorator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Design Patterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Design Patterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="innofang" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chain_of_responsibility" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -825,14 +842,7 @@
       <workItem from="1493473852221" duration="648000" />
       <workItem from="1493864730354" duration="4424000" />
       <workItem from="1493885078705" duration="4441000" />
-      <workItem from="1493969055843" duration="1632000" />
-    </task>
-    <task id="LOCAL-00036" summary="Iterator Learning.">
-      <created>1490002852942</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1490002852942</updated>
+      <workItem from="1493969055843" duration="1721000" />
     </task>
     <task id="LOCAL-00037" summary="Iterator Learning.">
       <created>1490004134674</created>
@@ -1170,11 +1180,18 @@
       <option name="project" value="LOCAL" />
       <updated>1493970558276</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="update Decorator">
+      <created>1493970699728</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1493970699728</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="149861000" />
+    <option name="totallyTimeSpent" value="149950000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1243,7 +1260,6 @@
     <MESSAGE value="update Adapter(add summary)" />
     <MESSAGE value="Create Decorator" />
     <MESSAGE value="update Decorator(implement the basic Decorator)" />
-    <MESSAGE value="update Decorator" />
     <MESSAGE value="update README" />
     <MESSAGE value="update UML" />
     <MESSAGE value="update Abstract Factory README" />
@@ -1251,13 +1267,14 @@
     <MESSAGE value="update Builder" />
     <MESSAGE value="update adapter" />
     <MESSAGE value="update Abstract Factory" />
-    <option name="LAST_COMMIT_MESSAGE" value="update Abstract Factory" />
+    <MESSAGE value="update Decorator" />
+    <option name="LAST_COMMIT_MESSAGE" value="update Decorator" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/io/innofang/ChainOfResponsibility/Principal.java</url>
+          <url>file://$PROJECT_DIR$/src/io/innofang/chain_of_responsibility/Principal.java</url>
           <line>6</line>
           <properties />
           <option name="timeStamp" value="1" />
@@ -1860,7 +1877,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/innofang/ChainOfResponsibility/README.md">
+    <entry file="file://$PROJECT_DIR$/src/io/innofang/chain_of_responsibility/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
