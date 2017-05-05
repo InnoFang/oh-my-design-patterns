@@ -20,7 +20,7 @@
 
 ## Builder（建造者模式）的UML类图
 
-![](http://img.my.csdn.net/uploads/201204/02/1333347984_5022.jpg)
+![](https://raw.githubusercontent.com/InnoFang/DesignPatterns/master/uml/builder.png)
 
 其中：
 
