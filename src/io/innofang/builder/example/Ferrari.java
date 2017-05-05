@@ -1,4 +1,4 @@
-package io.innofang.Builder.example;
+package io.innofang.builder.example;
 
 /**
  * Created by InnF on 2017/2/19.
