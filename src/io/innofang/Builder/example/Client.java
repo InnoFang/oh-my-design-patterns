@@ -1,9 +1,9 @@
-package io.innofang.Builder;
+package io.innofang.Builder.example;
 
 /**
  * Created by InnF on 2017/2/19.
  */
-public class Test {
+public class Client {
 
     public static void main(String[] args) {
         Builder builder = new CarBuilder();

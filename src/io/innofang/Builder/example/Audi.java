@@ -1,4 +1,4 @@
-package io.innofang.Builder;
+package io.innofang.Builder.example;
 
 /**
  * Created by Inno Fang on 2017/3/11.
