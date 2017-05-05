@@ -2,24 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="230c2636-afb9-4de2-8189-ed15d9f8521c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/io/innofang/adapter/example/object_adapter/Client.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/io/innofang/adapter/example/object_adapter/Volt220.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/io/innofang/adapter/example/object_adapter/VoltAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/io/innofang/adapter/example/object_adapter/VoltFive.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/Adapter/README.md" afterPath="$PROJECT_DIR$/src/io/innofang/adapter/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/Adapter/base/ClassAdapter/Adaptee.java" afterPath="$PROJECT_DIR$/src/io/innofang/adapter/base/class_adapter/Adaptee.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/Adapter/base/ClassAdapter/Adapter.java" afterPath="$PROJECT_DIR$/src/io/innofang/adapter/base/class_adapter/Adapter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/Adapter/base/ClassAdapter/Client.java" afterPath="$PROJECT_DIR$/src/io/innofang/adapter/base/class_adapter/Client.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/Adapter/base/ClassAdapter/Target.java" afterPath="$PROJECT_DIR$/src/io/innofang/adapter/base/class_adapter/Target.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/Adapter/base/ObjectAdapter/Adaptee.java" afterPath="$PROJECT_DIR$/src/io/innofang/adapter/base/object_adapter/Adaptee.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/Adapter/base/ObjectAdapter/Adapter.java" afterPath="$PROJECT_DIR$/src/io/innofang/adapter/base/object_adapter/Adapter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/Adapter/base/ObjectAdapter/Client.java" afterPath="$PROJECT_DIR$/src/io/innofang/adapter/base/object_adapter/Client.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/Adapter/base/ObjectAdapter/Target.java" afterPath="$PROJECT_DIR$/src/io/innofang/adapter/base/object_adapter/Target.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/Adapter/example/ClassAdapter/Client.java" afterPath="$PROJECT_DIR$/src/io/innofang/adapter/example/class_adapter/Client.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/Adapter/example/ClassAdapter/Volt220.java" afterPath="$PROJECT_DIR$/src/io/innofang/adapter/example/class_adapter/Volt220.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/Adapter/example/ClassAdapter/VoltAdapter.java" afterPath="$PROJECT_DIR$/src/io/innofang/adapter/example/class_adapter/VoltAdapter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/Adapter/example/ClassAdapter/VoltFive.java" afterPath="$PROJECT_DIR$/src/io/innofang/adapter/example/class_adapter/VoltFive.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/AbstractFactory/README.md" afterPath="$PROJECT_DIR$/src/io/innofang/abstract_factory/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/AbstractFactory/base/AbstractFactory.java" afterPath="$PROJECT_DIR$/src/io/innofang/abstract_factory/base/AbstractFactory.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/AbstractFactory/base/AbstractProductA.java" afterPath="$PROJECT_DIR$/src/io/innofang/abstract_factory/base/AbstractProductA.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/AbstractFactory/base/AbstractProductB.java" afterPath="$PROJECT_DIR$/src/io/innofang/abstract_factory/base/AbstractProductB.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/AbstractFactory/base/Client.java" afterPath="$PROJECT_DIR$/src/io/innofang/abstract_factory/base/Client.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/AbstractFactory/base/ConcreteFactory1.java" afterPath="$PROJECT_DIR$/src/io/innofang/abstract_factory/base/ConcreteFactory1.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/AbstractFactory/base/ConcreteFactory2.java" afterPath="$PROJECT_DIR$/src/io/innofang/abstract_factory/base/ConcreteFactory2.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/AbstractFactory/base/ConcreteProductA1.java" afterPath="$PROJECT_DIR$/src/io/innofang/abstract_factory/base/ConcreteProductA1.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/AbstractFactory/base/ConcreteProductA2.java" afterPath="$PROJECT_DIR$/src/io/innofang/abstract_factory/base/ConcreteProductA2.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/AbstractFactory/base/ConcreteProductB1.java" afterPath="$PROJECT_DIR$/src/io/innofang/abstract_factory/base/ConcreteProductB1.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/AbstractFactory/base/ConcreteProductB2.java" afterPath="$PROJECT_DIR$/src/io/innofang/abstract_factory/base/ConcreteProductB2.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/AbstractFactory/example/CakeCream.java" afterPath="$PROJECT_DIR$/src/io/innofang/abstract_factory/example/CakeCream.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/AbstractFactory/example/CakeFactory.java" afterPath="$PROJECT_DIR$/src/io/innofang/abstract_factory/example/CakeFactory.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/AbstractFactory/example/CakeStyle.java" afterPath="$PROJECT_DIR$/src/io/innofang/abstract_factory/example/CakeStyle.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/AbstractFactory/example/Client.java" afterPath="$PROJECT_DIR$/src/io/innofang/abstract_factory/example/Client.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/AbstractFactory/example/HeartStyle.java" afterPath="$PROJECT_DIR$/src/io/innofang/abstract_factory/example/HeartStyle.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/AbstractFactory/example/MangoCream.java" afterPath="$PROJECT_DIR$/src/io/innofang/abstract_factory/example/MangoCream.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/AbstractFactory/example/MangoHeartCake.java" afterPath="$PROJECT_DIR$/src/io/innofang/abstract_factory/example/MangoHeartCake.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/AbstractFactory/example/MangoSquareCake.java" afterPath="$PROJECT_DIR$/src/io/innofang/abstract_factory/example/MangoSquareCake.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/AbstractFactory/example/SquareStyle.java" afterPath="$PROJECT_DIR$/src/io/innofang/abstract_factory/example/SquareStyle.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/AbstractFactory/example/StrawberryCream.java" afterPath="$PROJECT_DIR$/src/io/innofang/abstract_factory/example/StrawberryCream.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/AbstractFactory/example/StrawberryHeartCake.java" afterPath="$PROJECT_DIR$/src/io/innofang/abstract_factory/example/StrawberryHeartCake.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -323,80 +328,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Design Patterns" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Design Patterns" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="innofang" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="adapter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Design Patterns" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Design Patterns" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="innofang" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="adapter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="example" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Design Patterns" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Design Patterns" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="innofang" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="adapter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="base" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane">
@@ -484,14 +415,14 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="Client (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="io.innofang.AbstractFactory.base.*" />
+          <option name="PATTERN" value="io.innofang.abstract_factory.base.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="io.innofang.AbstractFactory.base.Client" />
+      <option name="MAIN_CLASS_NAME" value="io.innofang.abstract_factory.base.Client" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -914,13 +845,13 @@
     <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Application.Client" />
       <item index="1" class="java.lang.String" itemvalue="Application.Client (1)" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Client (2)" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Client" />
       <item index="3" class="java.lang.String" itemvalue="Application.Client" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Application.Client" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Client (2)" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Client" />
         <item index="2" class="java.lang.String" itemvalue="Application.Client" />
         <item index="3" class="java.lang.String" itemvalue="Application.Client (1)" />
         <item index="4" class="java.lang.String" itemvalue="Application.Client" />
@@ -1004,14 +935,7 @@
       <workItem from="1493473852221" duration="648000" />
       <workItem from="1493864730354" duration="4424000" />
       <workItem from="1493885078705" duration="4441000" />
-      <workItem from="1493969055843" duration="1441000" />
-    </task>
-    <task id="LOCAL-00034" summary="Update README.">
-      <created>1489727474783</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1489727474783</updated>
+      <workItem from="1493969055843" duration="1484000" />
     </task>
     <task id="LOCAL-00035" summary="Update README.">
       <created>1489727880574</created>
@@ -1349,11 +1273,18 @@
       <option name="project" value="LOCAL" />
       <updated>1493970440704</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="update adapter">
+      <created>1493970509634</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1493970509634</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="149670000" />
+    <option name="totallyTimeSpent" value="149713000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1405,7 +1336,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Memento Learning." />
     <MESSAGE value="Iterator Learning." />
     <MESSAGE value="Update README." />
     <MESSAGE value="TemplateMethod Learning." />
@@ -1430,7 +1360,8 @@
     <MESSAGE value="update Abstract Factory README" />
     <MESSAGE value="update Adapter" />
     <MESSAGE value="update Builder" />
-    <option name="LAST_COMMIT_MESSAGE" value="update Builder" />
+    <MESSAGE value="update adapter" />
+    <option name="LAST_COMMIT_MESSAGE" value="update adapter" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1451,56 +1382,55 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/io/innofang/AbstractFactory/example/MangoCream.java">
+    <entry file="file://$PROJECT_DIR$/src/io/innofang/abstract_factory/example/MangoCream.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/innofang/AbstractFactory/example/MangoHeartCake.java">
+    <entry file="file://$PROJECT_DIR$/src/io/innofang/abstract_factory/example/MangoHeartCake.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/innofang/AbstractFactory/example/MangoSquareCake.java">
+    <entry file="file://$PROJECT_DIR$/src/io/innofang/abstract_factory/example/MangoSquareCake.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/innofang/AbstractFactory/example/SquareStyle.java">
+    <entry file="file://$PROJECT_DIR$/src/io/innofang/abstract_factory/example/SquareStyle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/innofang/AbstractFactory/example/StrawberryCream.java">
+    <entry file="file://$PROJECT_DIR$/src/io/innofang/abstract_factory/example/StrawberryCream.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/innofang/AbstractFactory/example/CakeFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/io/innofang/abstract_factory/example/CakeFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/innofang/AbstractFactory/base/AbstractFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/innofang/AbstractFactory/base/AbstractProductA.java">
+    <entry file="file://$PROJECT_DIR$/src/io/innofang/abstract_factory/base/AbstractFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
@@ -1508,7 +1438,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/innofang/AbstractFactory/base/AbstractProductB.java">
+    <entry file="file://$PROJECT_DIR$/src/io/innofang/abstract_factory/base/AbstractProductA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/innofang/abstract_factory/base/AbstractProductB.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
@@ -1516,50 +1454,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/innofang/AbstractFactory/base/Client.java">
+    <entry file="file://$PROJECT_DIR$/src/io/innofang/abstract_factory/base/Client.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="5" column="9" lean-forward="false" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/innofang/AbstractFactory/base/ConcreteFactory1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/innofang/AbstractFactory/base/ConcreteFactory2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/innofang/AbstractFactory/base/ConcreteProductA1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-          <folding>
-            <element signature="e#208#209#0" expanded="false" />
-            <element signature="e#266#267#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/innofang/AbstractFactory/base/ConcreteProductA2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-          <folding>
-            <element signature="e#208#209#0" expanded="false" />
-            <element signature="e#266#267#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/innofang/AbstractFactory/base/ConcreteProductB1.java">
+    <entry file="file://$PROJECT_DIR$/src/io/innofang/abstract_factory/base/ConcreteFactory1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
@@ -1567,14 +1470,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/innofang/AbstractFactory/example/Client.java">
+    <entry file="file://$PROJECT_DIR$/src/io/innofang/abstract_factory/base/ConcreteFactory2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        <state relative-caret-position="160">
+          <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+          <folding>
+            <element signature="e#336#337#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/innofang/AbstractFactory/base/ConcreteProductB2.java">
+    <entry file="file://$PROJECT_DIR$/src/io/innofang/abstract_factory/base/ConcreteProductA1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+          <folding>
+            <element signature="e#209#210#0" expanded="false" />
+            <element signature="e#267#268#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/innofang/abstract_factory/base/ConcreteProductA2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+          <folding>
+            <element signature="e#209#210#0" expanded="false" />
+            <element signature="e#267#268#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/innofang/abstract_factory/base/ConcreteProductB1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/innofang/abstract_factory/example/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/innofang/abstract_factory/base/ConcreteProductB2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
@@ -1686,7 +1630,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/innofang/AbstractFactory/README.md">
+    <entry file="file://$PROJECT_DIR$/src/io/innofang/abstract_factory/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="512">
@@ -1704,6 +1648,7 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="3988">
             <caret line="127" column="4" lean-forward="false" selection-start-line="127" selection-start-column="4" selection-end-line="127" selection-end-column="4" />
+            <folding />
           </first_editor>
           <second_editor>
             <js_state />

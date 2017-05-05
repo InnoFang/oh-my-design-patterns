@@ -1,4 +1,4 @@
-package io.innofang.AbstractFactory.example;
+package io.innofang.abstract_factory.example;
 
 /**
  * Created by InnF on 2017/2/25.
