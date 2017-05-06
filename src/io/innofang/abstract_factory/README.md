@@ -1,6 +1,6 @@
 # Abstract Factory（抽象工厂）
 
-在此之前，已经学习过了<a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/FactoryMethod">Factory Method（工厂方法）</a>，抽象工厂和工厂方法这两个模式都属于创建型设计模式，那么根据[工厂]这个词，大概也能猜出这两个模式都是用来“生产”的
+在此之前，已经学习过了<a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/factory_method">Factory Method（工厂方法）</a>，抽象工厂和工厂方法这两个模式都属于创建型设计模式，那么根据[工厂]这个词，大概也能猜出这两个模式都是用来“生产”的
 
 那么这两种用来“生产”的模式 ——— 抽象工厂和工厂方法，这两个设计模式有什么区别呢？或者说也两个模式“生产”的东西有什么不同的吗？
 
@@ -17,7 +17,7 @@
 
 说了这么多，但是还没有见到抽象模式的真身，下面先介绍一下抽象工厂模式，然后，再重新打造我们的工厂，让其能够生产更多类型的蛋糕
 
-## Abstract Factory（抽象工厂）的UML类图
+# Abstract Factory（抽象工厂）的UML类图
 
 ![](https://raw.githubusercontent.com/InnoFang/DesignPatterns/master/uml/abstract_factory.png)
 
@@ -138,6 +138,8 @@ public class ConcreteFactory2 extends AbstractFactory {
 ```
 
 好了，现在我们只需要通过这两个工厂，就能得到一个具有A和B两种不同细节的产品
+
+# 抽象工厂模式的简单实现
 
 还是挺简单的，那么，接下来，借助上面的经验，是时候将蛋糕店好好装修一番了，让蛋糕店可以生产各种各样的产品
 
