@@ -6,7 +6,7 @@
 
 ## Factory Method（工厂方法）的UML类图
 
-![](http://img.my.csdn.net/uploads/201204/02/1333347948_2280.jpg)
+![](https://raw.githubusercontent.com/InnoFang/DesignPatterns/master/uml/factory_method.png)
 
 如上图
 
