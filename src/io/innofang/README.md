@@ -8,7 +8,7 @@ THX :-)
 
 ### 创建型
 
-##### 1. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/FactoryMethod">Factory Method（工厂方法）</a>
+##### 1. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/factory_method">Factory Method（工厂方法）</a>
 
 ##### 2. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/abstract_factory">Abstract Factory（抽象工厂）</a>
 
@@ -57,9 +57,3 @@ THX :-)
 ##### 22. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/Strategy">Strategy（策略）</a>
 
 ##### 23. Visitor（访问者）
-
--------------
-
-## LICENSE
-
-   [Apache License 2.0](https://github.com/InnoFang/DesignPatterns/blob/master/LICENSE)
