@@ -5,6 +5,6 @@ package io.innofang.factory_method.base;
  */
 public abstract class Factory {
 
-    public abstract Product createProduct();
+    public abstract <T extends Product> T createProduct(Class<T> clz);
 
 }

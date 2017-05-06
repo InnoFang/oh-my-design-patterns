@@ -25,32 +25,20 @@ public interface Product {
 }
 ```
 
-然后，接着定义两个具体产品类A和B
+然后，接着定义具体产品类
 
-A
+Concrete Product
 ```java
-public class A implements Product{
-
+public class ConcreteProduct implements Product {
     @Override
-    public void do() {
-        System.out.println("Hi, I'm product A!");
+    public void method() {
+        System.out.println("This is product");
     }
 }
+
 ```
 
-B
-```java
-public class B implements Product{
-
-    @Override
-    public void do() {
-        System.out.println("Hi, I'm product B!");
-    }
-}
-```
-
-那么分别对应于产品A和B，就要有对应的工厂A和工厂B
-在此之前先定义一个抽象的工厂类
+那么对于具体产品就要有对应的工厂，在此之前先定义一个抽象的工厂类
 ```java
 public abstract class Factory {
 
@@ -58,70 +46,49 @@ public abstract class Factory {
 }
 ```
 
-工厂A
+具体工厂
 ```java
-public class FactoryA extends Factory {
+public class ConcreteFactory extends Factory {
 
     @Override
     public Product createProduct() {
-        return new A(); // create the product A
-    }
-}
-```
-
-工厂B
-```java
-public class FactoryB extends Factory {
-
-    @Override
-    public Product createProduct() {
-        return new B(); // create the product B
+        return new ConcreteProduct(); // create the product
     }
 }
 ```
 
 OK，我们来测试一下
 ```java
-Factory factoryA = new FactoryA(); // create factory A
-Product productA = factoryA.createProduct();
-productA.do();
-
-Factory factoryB = new FactoryA(); // create factory B
-Product productB = factoryB.createProduct();
-productB.do();
-
+Factory factory = new ConcreteFactory();
+Product product = factory.createProduct();
+product.method();
 ```
 
 Result：
-`
-Hi, I'm product A!
-Hi, I'm product B!
-`
+```console
+This is product
+```
 
-但是，难道我们们每一个产品都要创建一个对应的产品工厂吗？一两个产品还好，但是如果是10个呢？50个呢？
-
-这样一来，都会多出很多的类，使得工程更加的冗余
+但是，难道我们们每一个产品都要创建一个对应的产品工厂吗？一两个产品还好，但是如果是10个呢？50个呢？这样一来，都会多出很多的类，使得工程更加的冗余
 
 所以在这里，我们完全可以利用反射来减少代码量
 
 为了达成目的，我们首先就需要对抽象工厂做出修改，具体实现如下
 ```java
 public abstract class Factory {
+
     public abstract <T extends Product> T createProduct(Class<T> clz);
+
 }
 ```
 
-从上面的代码中可以看出，我们需要让传入一个类，然后经过操作返回一个具体的产品
-
-所以核心就是如何实现这个具体工厂，接着往下看
-
-现在修改具体工厂实现，
+从上面的代码中可以看出，我们需要让传入一个类，然后经过操作返回一个具体的产品。所以核心就是如何实现这个具体工厂，接着往下看。现在修改具体工厂实现
 
 ```java
-public class ConcreteFactory extends Factory {
+public class ConcreteFactory extends Factory{
 
     @Override
-    public <T exdents Product> T createProduct(Class<T> clz) {
+    public <T extends Product> T createProduct(Class<T> clz) {
         Product product = null;
         try {
             product = (Product) Class.forName(clz.getName()).newInstance();
@@ -138,17 +105,16 @@ public class ConcreteFactory extends Factory {
 现在我们再来测试一下
 ```java
 Factory factory = new ConcreteFactory();
-Product productA = factory.createProduct(ProductA.class);
-productA.do();
-
-Factory factory = new ConcreteFactory();
-Product productB = factory.createProduct(ProductB.class);
-productB.do();
+Product product = factory.createProduct(ConcreteProduct.class);
+product.method();
 ```
 
 测试结果同上面一样
 
 经过上面的编码，可以发现工厂方法模式大大降低了对象之间的耦合度，这种依赖抽象的架构具有非常好的可扩展性
+
+
+# 工厂方法模式的简单实现
 
 好，上面只是简单讲解，下面来一个工厂方法的简单实现
 
@@ -157,7 +123,6 @@ productB.do();
 现在蛋糕店需要生产两种类型的蛋糕，分别是红色的草莓蛋糕和黄色的芒果蛋糕
 
 因为蛋糕有着不同的制作材料和烘焙时间，所以在制作的过程中就需要区别对待了
-
 
 那么了解了需求过后我们利用刚学的工厂方法模式来完成需求吧~
 
