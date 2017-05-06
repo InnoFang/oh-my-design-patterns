@@ -44,7 +44,7 @@ THX :-)
 
 ##### 16. Command（命令）
 
-##### 17. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/Iterator">Iterator（迭代器）</a>
+##### 17. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/iterator">Iterator（迭代器）</a>
 
 ##### 18. Mediator（中介者）
 
