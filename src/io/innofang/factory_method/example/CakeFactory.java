@@ -1,4 +1,4 @@
-package io.innofang.FactoryMethod;
+package io.innofang.factory_method.example;
 
 /**
  * Created by InnF on 2017/2/23.
