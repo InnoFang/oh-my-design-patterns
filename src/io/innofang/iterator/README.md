@@ -19,7 +19,7 @@ while(iterator.hasNext()) {
 
 下面来看一下迭代器模式UML的类图
 
-## Iterator (迭代器模式)的UML类图
+# Iterator (迭代器模式)的UML类图
 
 ![](http://my.csdn.net/uploads/201204/02/1333348153_6748.jpg)
 
@@ -34,7 +34,7 @@ while(iterator.hasNext()) {
 
 如果这一块不熟悉，可以看一下上面的例子来加深理解
 
-## 迭代器模式的简单实现
+# 迭代器模式的简单实现
 
 来一个例子：如果假设现在图书馆新进了一批书，现在你需要遍历查找这些新进的书是否有自己想要的
 
@@ -67,7 +67,7 @@ public interface Iterator<T> {
  + `boolean hasNext();` 是否有下一个元素
  + `T next()` 返回下一个元素
 
-这里要提一点的就是，Java也有一个 `Iterator` 接口
+这里要提一点的就是，Java也有一个 `iterator` 接口
 
 在 `java.util` 包下，简单看一下内部代码
 ```java
@@ -89,9 +89,9 @@ public interface Iterator<E> {
 }
 ```
 
-可以看到官方的 `Iterator` 内部还多了两个默认方法，分别用于删除容器元素和遍历容器元素
+可以看到官方的 `iterator` 内部还多了两个默认方法，分别用于删除容器元素和遍历容器元素
 
-所以这里继承哪一个 `Iterator` 都是可以的， 这里采用自己定义的 `Iterator`
+所以这里继承哪一个 `iterator` 都是可以的， 这里采用自己定义的 `iterator`
 
 既然要实现两个书籍容器，为了体现迭代器模式的优势，这里将文学类书籍的存储方式设置为数组存储，将变成类书籍的存储方式设置为List存储
 
@@ -178,9 +178,9 @@ public interface BookIterable<T> {
 }
 ```
 
-与 `Iterator` 相对应的，Java 也有一个 Iterable 接口，并且集合接口 `Collection` 继承了这个接口
+与 `iterator` 相对应的，Java 也有一个 Iterable 接口，并且集合接口 `Collection` 继承了这个接口
 
-官方的 `Iterator` 接口
+官方的 `iterator` 接口
 ```java
 public interface Iterable<T> {
 
@@ -298,7 +298,7 @@ Book{name='计算机网络自顶向下方法', ISBN='9787111165057', press='机�
 
 到此，即实现了一个简单的迭代器模式，其实更加细致的实现细节，可以参考集合类的实现方式，这里不再赘述
 
-## 总结
+# 总结
 
 关于迭代器模式，总结一下优缺点
 

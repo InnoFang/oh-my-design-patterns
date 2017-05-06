@@ -1,4 +1,4 @@
-package io.innofang.Iterator;
+package io.innofang.iterator.example;
 
 import java.util.ArrayList;
 import java.util.List;
