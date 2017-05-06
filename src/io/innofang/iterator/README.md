@@ -21,18 +21,113 @@ while(iterator.hasNext()) {
 
 # Iterator (迭代器模式)的UML类图
 
-![](http://my.csdn.net/uploads/201204/02/1333348153_6748.jpg)
+![](https://raw.githubusercontent.com/InnoFang/DesignPatterns/master/uml/iterator.png)
 
  + Aggregate : 容器接口
  + ConcreteAggregate : 具体容器类
  + Iterator : 迭代器接口
  + ConcreteIterator : 具体的迭代器接口
 
-那么迭代器模式在一个自定义的容器中是如何使用的呢？、
+那么迭代器模式在一个自定义的容器中是如何使用的呢？
 
 我们在使用迭代器模式的时候，是先从容器中获得迭代器对象的，当获得迭代器对象后，在利用迭代器的 `hasNext()` 方法来判断是否有下一个元素，当结果为 `true` 时，再利用 `next()` 方法返回下一个数据，以此来达到遍历结合的目的
 
-如果这一块不熟悉，可以看一下上面的例子来加深理解
+如果这一块不熟悉，可以看一下下面的例子来加深理解
+
+首先先创建一个 Iterator 接口
+```java
+public interface Iterator<T> {
+
+    boolean hasNext();
+
+    T next();
+
+}
+```
+这里含有两个方法，分别是用来判断是否有下一个元素的 `hasNext()` 方法和获取下一个元素的 `next()` 方法
+
+再创建 Aggregate 接口
+```java
+public interface Aggregate<T> {
+
+    void add(T obj);
+
+    void remove(T obj);
+
+    Iterator<T> iterator();
+
+}
+```
+这里有三个方法，分别是添加元素，删除元素，获取对应的迭代器
+
+然后就可以实现具体的 Aggregate 类 和 对应的具体的 Iterator 类了
+
+具体的 Aggregate 类 -> ConcreteAggregate
+```java
+public class ConcreteAggregate<T> implements Aggregate<T> {
+
+    private List<T> list = new ArrayList<>();
+
+
+    @Override
+    public void add(T obj) {
+        list.add(obj);
+    }
+
+    @Override
+    public void remove(T obj) {
+        list.remove(obj);
+    }
+
+    @Override
+    public Iterator<T> iterator() {
+        return new ConcreteIterator<T>(list);
+    }
+}
+```
+具体的 Iterator 类 -> ConcreteIterator
+```java
+public class ConcreteIterator<T> implements Iterator<T> {
+
+    private List<T> list;
+    private int cursor = 0;
+
+    public ConcreteIterator(List<T> list) {
+        this.list = list;
+    }
+
+    @Override
+    public boolean hasNext() {
+        return cursor != list.size();
+    }
+
+    @Override
+    public T next() {
+        T obj = null;
+        if (hasNext()) {
+            obj =  list.get(cursor++);
+        }
+        return obj;
+    }
+
+}
+```
+
+测试如下
+```java
+Aggregate<String> aggregate = new ConcreteAggregate<>();
+aggregate.add("Hello");
+aggregate.add("Android");
+aggregate.add("Bye");
+Iterator<String> iterator = aggregate.iterator();
+while (iterator.hasNext()) {
+    System.out.println(iterator.next());
+}
+```
+用户只需要将元素添加进对应的 Aggregate 即可，至于具体的迭代细节不需要考虑，这便是迭代器模式的好处
+
+下面来看一下迭代器模式的简单实现
+
 
 # 迭代器模式的简单实现
 
@@ -304,6 +399,5 @@ Book{name='计算机网络自顶向下方法', ISBN='9787111165057', press='机�
 
  + 优点：优点在上一小节中提高过，就是迭代器模式降低了容器类和迭代算法的耦合度
  + 缺点：每一个容器都有可能有一个对应的迭代器实现，这也导致了类的增加
-
 
 END.
