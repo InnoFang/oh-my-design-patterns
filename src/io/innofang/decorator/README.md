@@ -10,7 +10,7 @@
 
 # Decorator（装饰）模式的 UML 类图
 
-![](https://github.com/InnoFang/DesignPatterns/blob/master/uml/decorator.png)
+![](https://raw.githubusercontent.com/InnoFang/DesignPatterns/master/uml/decorator.png)
 
  + Component : 组件接口，被装饰的原始对象
  + ConcreteComponent : 具体组件，组件接口的实现类，被装饰的具体对象
