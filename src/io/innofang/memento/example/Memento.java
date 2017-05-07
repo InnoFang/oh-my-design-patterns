@@ -1,7 +1,4 @@
-package io.innofang.Memento;
-
-import java.text.SimpleDateFormat;
-import java.util.Date;
+package io.innofang.memento.example;
 
 /**
  * Created by Inno Fang on 2017/3/15.
@@ -37,7 +34,7 @@ public class Memento {
 
     @Override
     public String toString() {
-        return "Memento{" +
+        return "memento{" +
                 "Date='" + mDate + '\'' +
                 ", Todo='" + mTodo + '\'' +
                 ", IsFinish=" + mIsFinish +

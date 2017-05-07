@@ -1,4 +1,4 @@
-package io.innofang.Memento;
+package io.innofang.memento.example;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
