@@ -2,22 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="230c2636-afb9-4de2-8189-ed15d9f8521c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uml/observer.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/io/innofang/observer/base/ConcreteObserver.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/io/innofang/observer/base/ConcreteSubject.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/io/innofang/observer/base/Observer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/io/innofang/observer/base/Subject.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/Observer/README.md" afterPath="$PROJECT_DIR$/src/io/innofang/observer/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/Observer/example1/Bookstore.java" afterPath="$PROJECT_DIR$/src/io/innofang/observer/example1/Bookstore.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/Observer/example1/Magazine.java" afterPath="$PROJECT_DIR$/src/io/innofang/observer/example1/Magazine.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/Observer/example1/Observer.java" afterPath="$PROJECT_DIR$/src/io/innofang/observer/example1/Observer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/Observer/example1/Subject.java" afterPath="$PROJECT_DIR$/src/io/innofang/observer/example1/Subject.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/Observer/example1/Subscriber.java" afterPath="$PROJECT_DIR$/src/io/innofang/observer/example1/Subscriber.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/Observer/example1/Test.java" afterPath="$PROJECT_DIR$/src/io/innofang/observer/example1/Client.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/Observer/example2/Magazine.java" afterPath="$PROJECT_DIR$/src/io/innofang/observer/example2/Magazine.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/Observer/example2/Subscriber.java" afterPath="$PROJECT_DIR$/src/io/innofang/observer/example2/Subscriber.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/Observer/example2/Test.java" afterPath="$PROJECT_DIR$/src/io/innofang/observer/example2/Client.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/innofang/observer/README.md" afterPath="$PROJECT_DIR$/src/io/innofang/observer/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,6 +26,29 @@
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
   </component>
   <component name="DockManager">
+    <window id="2">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/src/io/innofang/observer/README.md">
+                <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+                  <state split_layout="SPLIT">
+                    <first_editor relative-caret-position="493">
+                      <caret line="88" column="0" lean-forward="true" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
+                      <folding />
+                    </first_editor>
+                    <second_editor>
+                      <js_state />
+                    </second_editor>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
     <window id="1">
       <content type="file-editors">
         <state>
@@ -49,7 +58,7 @@
                 <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
                   <state split_layout="SPLIT">
                     <first_editor relative-caret-position="397">
-                      <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+                      <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
                       <folding />
                     </first_editor>
                     <second_editor>
@@ -84,7 +93,48 @@
     <favorites_list name="Design Patterns" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="Subject.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/io/innofang/observer/base/Subject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Observer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/io/innofang/observer/base/Observer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConcreteObserver.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/io/innofang/observer/base/ConcreteObserver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="10" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConcreteSubject.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/io/innofang/observer/base/ConcreteSubject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="27" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -122,7 +172,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/io/innofang/Adapter/example/ClassAdapter/Volt220.java" />
         <option value="$PROJECT_DIR$/src/io/innofang/Adapter/example/ClassAdapter/VoltAdapter.java" />
         <option value="$PROJECT_DIR$/src/io/innofang/Adapter/example/ClassAdapter/VoltFive.java" />
         <option value="$PROJECT_DIR$/src/io/innofang/Adapter/example/ObjectAdapter/Client.java" />
@@ -173,6 +222,7 @@
         <option value="$PROJECT_DIR$/src/io/innofang/observer/base/Observer.java" />
         <option value="$PROJECT_DIR$/src/io/innofang/observer/base/ConcreteObserver.java" />
         <option value="$PROJECT_DIR$/src/io/innofang/observer/base/ConcreteSubject.java" />
+        <option value="$PROJECT_DIR$/src/io/innofang/observer/README.md" />
       </list>
     </option>
   </component>
@@ -962,14 +1012,7 @@
       <workItem from="1493885078705" duration="4441000" />
       <workItem from="1493969055843" duration="3630000" />
       <workItem from="1494036663902" duration="3920000" />
-      <workItem from="1494123673558" duration="1968000" />
-    </task>
-    <task id="LOCAL-00056" summary="update README.">
-      <created>1491810063852</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1491810063853</updated>
+      <workItem from="1494123673558" duration="2398000" />
     </task>
     <task id="LOCAL-00057" summary="update Proxy Pattern.">
       <created>1491810087066</created>
@@ -1307,11 +1350,18 @@
       <option name="project" value="LOCAL" />
       <updated>1494124897110</updated>
     </task>
-    <option name="localTasksCounter" value="105" />
+    <task id="LOCAL-00105" summary="update Observer">
+      <created>1494125654720</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1494125654720</updated>
+    </task>
+    <option name="localTasksCounter" value="106" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="157747000" />
+    <option name="totallyTimeSpent" value="158177000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1324,6 +1374,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1098" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32852387" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1339,7 +1390,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33518314" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22103004" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22103004" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32963374" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1364,7 +1415,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add Proxy Pattern" />
     <MESSAGE value="update Proxy Pattern" />
     <MESSAGE value="implement Proxy Pattern" />
     <MESSAGE value="implement Dynamic Proxy" />
@@ -1389,7 +1439,8 @@
     <MESSAGE value="update Iterator" />
     <MESSAGE value="update Memento" />
     <MESSAGE value="update README" />
-    <option name="LAST_COMMIT_MESSAGE" value="update README" />
+    <MESSAGE value="update Observer" />
+    <option name="LAST_COMMIT_MESSAGE" value="update Observer" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1637,7 +1688,7 @@
         <state relative-caret-position="224">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="27" selection-end-column="1" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1647,9 +1698,9 @@
         <state relative-caret-position="832">
           <caret line="31" column="1" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="31" selection-end-column="1" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#289#290#0" expanded="true" />
-            <element signature="e#321#322#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#289#290#0" expanded="false" />
+            <element signature="e#321#322#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1867,19 +1918,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/innofang/observer/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="576">
-            <caret line="18" column="65" lean-forward="false" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="65" />
-            <folding />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/io/innofang/observer/example1/Magazine.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-96">
@@ -1897,49 +1935,12 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="397">
-            <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+            <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor>
             <js_state />
           </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/innofang/observer/base/Observer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/innofang/observer/base/Subject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/innofang/observer/base/ConcreteObserver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="7" column="23" lean-forward="false" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/innofang/observer/base/ConcreteSubject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="24" column="30" lean-forward="false" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
-          <folding>
-            <element signature="e#243#244#0" expanded="true" />
-            <element signature="e#282#283#0" expanded="true" />
-            <element signature="e#341#342#0" expanded="true" />
-            <element signature="e#383#384#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1978,6 +1979,51 @@
           </Categories>
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/innofang/observer/base/Subject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/innofang/observer/base/Observer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/innofang/observer/base/ConcreteObserver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="10" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/innofang/observer/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="493">
+            <caret line="88" column="0" lean-forward="true" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/innofang/observer/base/ConcreteSubject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="27" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
