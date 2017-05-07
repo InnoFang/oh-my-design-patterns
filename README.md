@@ -32,7 +32,7 @@ THX :-)
 
 ##### 11. Flyweight（享元）
 
-##### 12. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/Proxy">Proxy（代理）</a>
+##### 12. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/proxy">Proxy（代理）</a>
 
 ### 行为型
 
