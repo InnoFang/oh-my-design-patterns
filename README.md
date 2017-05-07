@@ -16,7 +16,7 @@ THX :-)
 
 ##### 4. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/prototype">Prototype（原型）</a>
 
-##### 5. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/Singleton">Singleton（单例）</a>
+##### 5. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/singleton">Singleton（单例）</a>
 
 ### 结构型
 
