@@ -1,4 +1,4 @@
-package io.innofang.Proxy;
+package io.innofang.proxy.example;
 
 import java.lang.reflect.Proxy;
 
@@ -15,7 +15,7 @@ public class Client {
         proxyPicker.signatureAcceptance();
 
         System.out.println();
-        /*      Dynamic Proxy        */
+        /*      Dynamic proxy        */
 
         IPicker iPicker = new RealPicker();
         DynamicProxy proxy = new DynamicProxy(iPicker);

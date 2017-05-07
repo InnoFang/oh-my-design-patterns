@@ -1,4 +1,4 @@
-package io.innofang.Proxy;
+package io.innofang.proxy.example;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
@@ -6,7 +6,7 @@ import java.lang.reflect.Method;
 /**
  * Created by Inno Fang on 2017/4/8.
  *
- * Dynamic Proxy
+ * Dynamic proxy
  */
 public class DynamicProxy implements InvocationHandler {
 

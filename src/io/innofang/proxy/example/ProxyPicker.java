@@ -1,4 +1,4 @@
-package io.innofang.Proxy;
+package io.innofang.proxy.example;
 
 /**
  * Created by Inno Fang on 2017/4/8.
