@@ -48,7 +48,7 @@ THX :-)
 
 ##### 18. Mediator（中介者）
 
-##### 19. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/Memento">Memento（备忘录）</a>
+##### 19. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/memento">Memento（备忘录）</a>
 
 ##### 20. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/Observer">Observer（观察者）</a>
 
