@@ -1,4 +1,4 @@
-package io.innofang.Prototype;
+package io.innofang.prototype.example;
 
 /**
  * Created by Inno Fang on 2017/2/27.

@@ -1,4 +1,4 @@
-package io.innofang.Prototype;
+package io.innofang.prototype.example;
 
 import java.util.ArrayList;
 
