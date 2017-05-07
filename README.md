@@ -50,7 +50,7 @@ THX :-)
 
 ##### 19. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/memento">Memento（备忘录）</a>
 
-##### 20. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/Observer">Observer（观察者）</a>
+##### 20. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/observer">Observer（观察者）</a>
 
 ##### 21. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/State">State（状态）</a>
 
