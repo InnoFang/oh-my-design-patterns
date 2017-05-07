@@ -14,7 +14,7 @@ THX :-)
 
 ##### 3. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/builder">Builder（建造者）</a>
 
-##### 4. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/Prototype">Prototype（原型）</a>
+##### 4. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/prototype">Prototype（原型）</a>
 
 ##### 5. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/Singleton">Singleton（单例）</a>
 

@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="230c2636-afb9-4de2-8189-ed15d9f8521c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/innofang/prototype/README.md" afterPath="$PROJECT_DIR$/src/io/innofang/prototype/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/innofang/README.md" afterPath="$PROJECT_DIR$/src/io/innofang/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -71,12 +72,42 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/io/innofang/prototype/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="438">
-                <caret line="305" column="8" lean-forward="true" selection-start-line="305" selection-start-column="8" selection-end-line="305" selection-end-column="9" />
+              <first_editor relative-caret-position="502">
+                <caret line="307" column="10" lean-forward="false" selection-start-line="307" selection-start-column="10" selection-end-line="307" selection-end-column="10" />
+                <folding />
+              </first_editor>
+              <second_editor>
+                <js_state />
+              </second_editor>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="414">
+                <caret line="16" column="98" lean-forward="false" selection-start-line="16" selection-start-column="98" selection-end-line="16" selection-end-column="98" />
+                <folding />
+              </first_editor>
+              <second_editor>
+                <js_state />
+              </second_editor>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/io/innofang/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="809">
+                <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor>
@@ -168,13 +199,13 @@
         <option value="$PROJECT_DIR$/src/io/innofang/observer/base/ConcreteObserver.java" />
         <option value="$PROJECT_DIR$/src/io/innofang/observer/base/ConcreteSubject.java" />
         <option value="$PROJECT_DIR$/src/io/innofang/observer/README.md" />
-        <option value="$PROJECT_DIR$/src/io/innofang/README.md" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/io/innofang/prototype/WordDocument.java" />
         <option value="$PROJECT_DIR$/src/io/innofang/prototype/example/Client.java" />
         <option value="$PROJECT_DIR$/src/io/innofang/prototype/base/Prototype.java" />
         <option value="$PROJECT_DIR$/src/io/innofang/prototype/base/ConcretePrototype.java" />
         <option value="$PROJECT_DIR$/src/io/innofang/prototype/README.md" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/io/innofang/README.md" />
       </list>
     </option>
   </component>
@@ -924,14 +955,7 @@
       <workItem from="1493885078705" duration="4441000" />
       <workItem from="1493969055843" duration="3630000" />
       <workItem from="1494036663902" duration="3920000" />
-      <workItem from="1494123673558" duration="3181000" />
-    </task>
-    <task id="LOCAL-00060" summary="create Adapter Pattern">
-      <created>1492320660208</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1492320660209</updated>
+      <workItem from="1494123673558" duration="3314000" />
     </task>
     <task id="LOCAL-00061" summary="update">
       <created>1492739790579</created>
@@ -1269,11 +1293,18 @@
       <option name="project" value="LOCAL" />
       <updated>1494126745653</updated>
     </task>
-    <option name="localTasksCounter" value="109" />
+    <task id="LOCAL-00109" summary="update Prototype">
+      <created>1494126860192</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1494126860192</updated>
+    </task>
+    <option name="localTasksCounter" value="110" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="158960000" />
+    <option name="totallyTimeSpent" value="159093000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1814,37 +1845,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/innofang/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="617">
-            <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/io/innofang/observer/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="621">
             <caret line="92" column="0" lean-forward="false" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="630">
-            <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor>
@@ -1926,8 +1931,34 @@
     <entry file="file://$PROJECT_DIR$/src/io/innofang/prototype/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="438">
-            <caret line="305" column="8" lean-forward="true" selection-start-line="305" selection-start-column="8" selection-end-line="305" selection-end-column="9" />
+          <first_editor relative-caret-position="502">
+            <caret line="307" column="10" lean-forward="false" selection-start-line="307" selection-start-column="10" selection-end-line="307" selection-end-column="10" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="414">
+            <caret line="16" column="98" lean-forward="false" selection-start-line="16" selection-start-column="98" selection-end-line="16" selection-end-column="98" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/innofang/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="809">
+            <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor>
