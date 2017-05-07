@@ -1,10 +1,10 @@
-package io.innofang.Singleton;
+package io.innofang.singleton;
 
 /**
  * Created by InnF on 2017/2/18.
- * Test Singleton Pattern
+ * Test singleton Pattern
  */
-public class Test {
+public class Client {
 
     public static void main(String[] args) {
         Singleton singleton = Singleton.getInstance();
