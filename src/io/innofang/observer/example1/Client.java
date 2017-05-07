@@ -1,9 +1,9 @@
-package io.innofang.Observer.example1;
+package io.innofang.observer.example1;
 
 /**
  * Created by Inno Fang on 2017/3/10.
  */
-public class Test {
+public class Client {
     public static void main(String[] args) {
         Magazine magazine = new Magazine();
 

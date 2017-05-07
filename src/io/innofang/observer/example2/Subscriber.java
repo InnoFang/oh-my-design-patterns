@@ -1,4 +1,4 @@
-package io.innofang.Observer.example2;
+package io.innofang.observer.example2;
 
 import java.util.Observable;
 import java.util.Observer;

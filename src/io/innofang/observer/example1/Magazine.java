@@ -1,4 +1,4 @@
-package io.innofang.Observer.example1;
+package io.innofang.observer.example1;
 
 import java.util.ArrayList;
 import java.util.List;
