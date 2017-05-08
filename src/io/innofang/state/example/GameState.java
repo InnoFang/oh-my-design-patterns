@@ -1,4 +1,4 @@
-package io.innofang.State;
+package io.innofang.state.example;
 
 
 public interface GameState {

@@ -1,4 +1,4 @@
-package io.innofang.State;
+package io.innofang.state.example;
 
 /**
  * Created by Inno Fang on 2017/3/7.
