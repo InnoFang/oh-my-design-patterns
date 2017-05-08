@@ -6,9 +6,9 @@
 
 下面看一下状态模式的UML类图
 
-## State（状态模式）的UML类图
+# State（状态模式）的UML类图
 
-<img src="http://my.csdn.net/uploads/201204/02/1333348183_3457.jpg"/>
+![](https://raw.githubusercontent.com/InnoFang/DesignPatterns/master/uml/state.png)
 
  + Context：上下文，维护状态的实例
  + State：抽象状态类，用于表示一系列状态下的行为有哪些
@@ -23,7 +23,7 @@
 
 概念较抽象，还是上代码吧~
 
-## 状态模式的简单实现
+# 状态模式的简单实现
 
 在日常生活中，做每一件事都有一系列的状态，就拿打游戏来举例吧
 
