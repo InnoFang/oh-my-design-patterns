@@ -3,13 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="230c2636-afb9-4de2-8189-ed15d9f8521c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/Strategy/GoToChangChun.java" afterPath="$PROJECT_DIR$/src/io/innofang/strategy/example/GoToChangChun.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/Strategy/GoToEMei.java" afterPath="$PROJECT_DIR$/src/io/innofang/strategy/example/GoToEMei.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/Strategy/GoToGuiLin.java" afterPath="$PROJECT_DIR$/src/io/innofang/strategy/example/GoToGuiLin.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/Strategy/GoToHaiNan.java" afterPath="$PROJECT_DIR$/src/io/innofang/strategy/example/GoToHaiNan.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/Strategy/GoToStrategy.java" afterPath="$PROJECT_DIR$/src/io/innofang/strategy/example/GoToStrategy.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/Strategy/README.md" afterPath="$PROJECT_DIR$/src/io/innofang/strategy/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/Strategy/Wang.java" afterPath="$PROJECT_DIR$/src/io/innofang/strategy/example/Wang.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/TemplateMethod/AssemblyLine.java" afterPath="$PROJECT_DIR$/src/io/innofang/template_method/example/AssemblyLine.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/TemplateMethod/ComputerAssemblyLine.java" afterPath="$PROJECT_DIR$/src/io/innofang/template_method/example/ComputerAssemblyLine.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/TemplateMethod/README.md" afterPath="$PROJECT_DIR$/src/io/innofang/template_method/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/TemplateMethod/RadioAssemblyLine.java" afterPath="$PROJECT_DIR$/src/io/innofang/template_method/example/RadioAssemblyLine.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/TemplateMethod/Test.java" afterPath="$PROJECT_DIR$/src/io/innofang/template_method/example/Test.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -112,11 +110,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Wang.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Wang.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/io/innofang/strategy/example/Wang.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="197">
               <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AssemblyLine.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/io/innofang/template_method/example/AssemblyLine.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ComputerAssemblyLine.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/io/innofang/template_method/example/ComputerAssemblyLine.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RadioAssemblyLine.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/io/innofang/template_method/example/RadioAssemblyLine.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/io/innofang/template_method/example/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -160,7 +198,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/io/innofang/chain_of_responsibility/example/Tutor.java" />
         <option value="$PROJECT_DIR$/src/io/innofang/chain_of_responsibility/base/Handler.java" />
         <option value="$PROJECT_DIR$/src/io/innofang/chain_of_responsibility/base/ConcreteHandler1.java" />
         <option value="$PROJECT_DIR$/src/io/innofang/chain_of_responsibility/base/ConcreteHandler2.java" />
@@ -211,6 +248,7 @@
         <option value="$PROJECT_DIR$/src/io/innofang/state/README.md" />
         <option value="$PROJECT_DIR$/src/io/innofang/README.md" />
         <option value="$PROJECT_DIR$/src/io/innofang/strategy/example/Wang.java" />
+        <option value="$PROJECT_DIR$/src/io/innofang/template_method/example/Test.java" />
       </list>
     </option>
   </component>
@@ -321,7 +359,33 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="strategy" />
+              <option name="myItemId" value="template_method" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Design Patterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Design Patterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="innofang" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template_method" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -344,10 +408,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="strategy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="example" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -970,14 +1030,7 @@
       <workItem from="1493969055843" duration="3630000" />
       <workItem from="1494036663902" duration="3920000" />
       <workItem from="1494123673558" duration="4240000" />
-      <workItem from="1494217798050" duration="1651000" />
-    </task>
-    <task id="LOCAL-00065" summary="update Decorator">
-      <created>1493867756793</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1493867756793</updated>
+      <workItem from="1494217798050" duration="1764000" />
     </task>
     <task id="LOCAL-00066" summary="update Decorator(implement the basic Decorator)">
       <created>1493868582350</created>
@@ -1315,11 +1368,18 @@
       <option name="project" value="LOCAL" />
       <updated>1494219652624</updated>
     </task>
-    <option name="localTasksCounter" value="114" />
+    <task id="LOCAL-00114" summary="update Strategy">
+      <created>1494219878245</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1494219878245</updated>
+    </task>
+    <option name="localTasksCounter" value="115" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="161670000" />
+    <option name="totallyTimeSpent" value="161783000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1373,7 +1433,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update README." />
     <MESSAGE value="update Proxy Pattern." />
     <MESSAGE value="create Adapter Pattern" />
     <MESSAGE value="update Adapter(implement Class Adapter)" />
@@ -1398,7 +1457,8 @@
     <MESSAGE value="update README" />
     <MESSAGE value="update Proxy" />
     <MESSAGE value="update State" />
-    <option name="LAST_COMMIT_MESSAGE" value="update State" />
+    <MESSAGE value="update Strategy" />
+    <option name="LAST_COMMIT_MESSAGE" value="update Strategy" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1419,34 +1479,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/io/innofang/observer/example2/Magazine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="7" column="37" lean-forward="true" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/innofang/observer/example1/Subject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/innofang/observer/example1/Bookstore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/innofang/observer/example1/Subscriber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/io/innofang/observer/example1/Observer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -1948,6 +1980,38 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/innofang/template_method/example/AssemblyLine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/innofang/template_method/example/ComputerAssemblyLine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/innofang/template_method/example/RadioAssemblyLine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/innofang/template_method/example/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding />
         </state>
       </provider>
