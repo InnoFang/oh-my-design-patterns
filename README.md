@@ -38,7 +38,7 @@ THX :-)
 
 ##### 13. Interpreter（解释器）
 
-##### 14. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/TemplateMethod">Template Method（模板方法）</a>
+##### 14. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/template_method">Template Method（模板方法）</a>
 
 ##### 15. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/chain_of_responsibility">Chain of Responsibility（责任链）</a>
 
@@ -52,9 +52,9 @@ THX :-)
 
 ##### 20. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/observer">Observer（观察者）</a>
 
-##### 21. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/State">State（状态）</a>
+##### 21. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/state">State（状态）</a>
 
-##### 22. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/Strategy">Strategy（策略）</a>
+##### 22. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/strategy">Strategy（策略）</a>
 
 ##### 23. Visitor（访问者）
 
