@@ -16,18 +16,76 @@
 
 ## Observer（观察者模式）的UML类图
 
-![观察者模式](http://my.csdn.net/uploads/201204/02/1333348177_4158.jpg)
+![观察者模式](https://raw.githubusercontent.com/InnoFang/DesignPatterns/master/uml/observer.png)
 
  + Subject：主题，被观察者
  + ConcreteSubject：具体的被观察者
  + Observer：观察者
  + ConcreteObserver：具体的观察者
 
-在上面的UML类图中，可以看到Subject对Observer有一个notifies的操作，而ConcreteObserver对ConcreteSubject有一个observers的操作
+在上面的 UML 类图中，可以看到 Subject 与 Observer 有一个相互操作的过程。在观察者模式中，观察者只需要实现一个订阅操作，当主题或者被观察者有了什么变化，只需要通过一个修改操作就可以使所有的观察者得到相应，颇有一种"牵一发而动全身"的意思。
 
-也就是是说在观察者模式中，观察者只需要实现一个订阅操作，当主题或者被观察者有了什么变化，只需要通过一个修改操作就可以使所有的观察者得到相应，颇有一种"牵一发而动全身"的意思
+下面看一下类图的实现细节
+首先是 Subject 主题接口
+```java
+public interface Subject {
 
-基本概念介绍完了，就要开始实现一个自己的观察者模式了
+    void attach(Observer observer);
+
+    void detach(Observer observer);
+
+    void notifyObservers();
+
+}
+```
+在主题内部有增、删、改三个方法，下面看一下 Observer 观察者接口
+```java
+public interface Observer {
+
+    void update();
+
+}
+```
+观察者只需要提供一个 `update()` 方法即可，用于当被观察者有更新时可以给被观察者提供一个对观察者的更新操作
+
+下面就是具体的观察者和具体的主题实现了
+
+观察者实现具体的更新操作
+```java
+public class ConcreteObserver implements Observer{
+    @Override
+    public void update() {
+        // TODO : update Observer
+    }
+}
+```
+
+被观察者实现对观察者的增、删、改过程
+```java
+public class ConcreteSubject implements Subject {
+
+    List<Observer> observers;
+
+    @Override
+    public void attach(Observer observer) {
+        observers.add(observer);
+    }
+
+    @Override
+    public void detach(Observer observer) {
+        observers.remove(observer);
+    }
+
+    @Override
+    public void notifyObservers() {
+        for (Observer observer : observers) {
+            observer.update();
+        }
+    }
+}
+```
+
+以上，基本概念介绍完了。下面就要开始实现一个自己的观察者模式了
 
 ## 观察者模式的简单实现
 

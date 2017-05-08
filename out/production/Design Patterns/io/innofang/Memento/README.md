@@ -4,13 +4,68 @@
 
 这种模式很好理解，所以下面直接看UML类图
 
-## Memento（备忘录模式）的UML类图
+# Memento（备忘录模式）的UML类图
 
-![Memento](http://my.csdn.net/uploads/201204/02/1333348164_3637.jpg)
+![Memento](https://raw.githubusercontent.com/innofang/designpatterns/master/uml/memento.png)
 
  + Originator : 创建备忘录，可用于记录，恢复自身状态
  + Memento : 备忘录实体类，用于存储Originator的内部状态，防止Originator以外的类访问
  + Caretaker : 用于存储和获取备忘录，不能对备忘录的内容进行访问和修改
+
+先来看看 Memoto
+```java
+public class Memoto {
+
+    private int state;
+
+    public int getState() {
+        return state;
+    }
+
+    public void setState(int state) {
+        this.state = state;
+    }
+}
+```
+Memoto 相当于一个实体类，下面再来看看 Caretaker 类，这个类只负责对 Memoto 的存储与恢复
+```java
+public class Caretaker {
+
+    private Memoto memoto;
+
+    public void storeMemoto(Memoto memoto) {
+        this.memoto = memoto;
+    }
+
+    public Memoto restoreMemoto() {
+        return memoto;
+    }
+
+}
+```
+
+而关于备忘录具体要记录的内容是什么，则是有 Originator 来负责
+```java
+public class Originator {
+
+    private int state;
+
+    public Originator(int state) {
+        this.state = state;
+    }
+
+    public Memoto createMemoto() {
+        Memoto memoto = new Memoto();
+        memoto.setState(state);
+        return memoto;
+    }
+
+    public void restore(Memoto memoto){
+        this.state = memoto.getState();
+    }
+
+}
+```
 
 如果将Originator比作一张记有备忘细节的便签的话，Caretaker就好比是一个便签本，而Memento就相当于你这个备忘录要记录的要点
 
@@ -18,7 +73,7 @@
 
 这三者的关系就是如上所述，下面来看看备忘录模式的简单实现吧
 
-## 备忘录模式的简单实现
+# 备忘录模式的简单实现
 
 既然是备忘录模式，那么要举例的话，还是实现一个备忘录便签本更直观一点
 

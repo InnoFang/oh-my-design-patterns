@@ -124,7 +124,7 @@ Signature Acceptance
  ```
    这个接口内部的 `invoke` 方法，这个方法就是用来调用具体的被代理方法的
 
- + `java.lang.reflect.Proxy` 这个类内部有一个静态方法
+ + `java.lang.reflect.proxy` 这个类内部有一个静态方法
  ```java
  public static Object newProxyInstance(ClassLoader loader,
                                            Class<?>[] interfaces,

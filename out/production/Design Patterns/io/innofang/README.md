@@ -14,9 +14,9 @@ THX :-)
 
 ##### 3. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/builder">Builder（建造者）</a>
 
-##### 4. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/Prototype">Prototype（原型）</a>
+##### 4. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/prototype">Prototype（原型）</a>
 
-##### 5. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/Singleton">Singleton（单例）</a>
+##### 5. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/singleton">Singleton（单例）</a>
 
 ### 结构型
 
@@ -32,7 +32,7 @@ THX :-)
 
 ##### 11. Flyweight（享元）
 
-##### 12. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/Proxy">Proxy（代理）</a>
+##### 12. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/proxy">Proxy（代理）</a>
 
 ### 行为型
 
@@ -44,13 +44,13 @@ THX :-)
 
 ##### 16. Command（命令）
 
-##### 17. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/Iterator">Iterator（迭代器）</a>
+##### 17. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/iterator">Iterator（迭代器）</a>
 
 ##### 18. Mediator（中介者）
 
-##### 19. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/Memento">Memento（备忘录）</a>
+##### 19. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/memento">Memento（备忘录）</a>
 
-##### 20. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/Observer">Observer（观察者）</a>
+##### 20. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/observer">Observer（观察者）</a>
 
 ##### 21. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/State">State（状态）</a>
 
