@@ -68,7 +68,7 @@ public class Wang {
 
 ## Strategy（策略模式）的UML类图
 
-<img src="http://img.my.csdn.net/uploads/201204/02/1333348192_7686.jpg"/>
+![](https://raw.githubusercontent.com/InnoFang/DesignPatterns/master/uml/strategy.png)
 
 
  + Context：用来操作策略的上下文，比如上面讲的小王

@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="230c2636-afb9-4de2-8189-ed15d9f8521c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uml/strategy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/io/innofang/strategy/base/ConcreteStrategyA.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/io/innofang/strategy/base/ConcreteStrategyB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/io/innofang/strategy/base/Context.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/io/innofang/strategy/base/Strategy.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Design Patterns/io/innofang/TemplateMethod/README.md" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Design Patterns/io/innofang/README.md" afterPath="$PROJECT_DIR$/out/production/Design Patterns/io/innofang/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Design Patterns/io/innofang/State/README.md" afterPath="$PROJECT_DIR$/out/production/Design Patterns/io/innofang/State/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/innofang/strategy/README.md" afterPath="$PROJECT_DIR$/src/io/innofang/strategy/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,31 +24,6 @@
     <option name="SHOW_TABLE_DETAILS" value="true" />
     <option name="SHOW_EMPTY_GROUPS" value="false" />
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-  </component>
-  <component name="DockManager">
-    <window id="3">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/src/io/innofang/strategy/README.md">
-                <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-                  <state split_layout="SPLIT">
-                    <first_editor relative-caret-position="416">
-                      <caret line="70" column="1" lean-forward="false" selection-start-line="70" selection-start-column="1" selection-end-line="70" selection-end-column="1" />
-                      <folding />
-                    </first_editor>
-                    <second_editor>
-                      <js_state />
-                    </second_editor>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -100,7 +68,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/io/innofang/chain_of_responsibility/README.md" />
         <option value="$PROJECT_DIR$/src/io/innofang/decorator/README.md" />
         <option value="$PROJECT_DIR$/src/io/innofang/adapter/README.md" />
         <option value="$PROJECT_DIR$/src/io/innofang/factory_method/example/StrawberryCake.java" />
@@ -151,6 +118,7 @@
         <option value="$PROJECT_DIR$/src/io/innofang/strategy/base/ConcreteStrategyB.java" />
         <option value="$PROJECT_DIR$/src/io/innofang/strategy/base/ConcreteStrategyA.java" />
         <option value="$PROJECT_DIR$/src/io/innofang/strategy/base/Context.java" />
+        <option value="$PROJECT_DIR$/src/io/innofang/strategy/README.md" />
       </list>
     </option>
   </component>
@@ -961,14 +929,7 @@
       <workItem from="1493969055843" duration="3630000" />
       <workItem from="1494036663902" duration="3920000" />
       <workItem from="1494123673558" duration="4240000" />
-      <workItem from="1494217798050" duration="3042000" />
-    </task>
-    <task id="LOCAL-00068" summary="update Decorator">
-      <created>1493887783079</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1493887783080</updated>
+      <workItem from="1494217798050" duration="3268000" />
     </task>
     <task id="LOCAL-00069" summary="update README">
       <created>1493887920282</created>
@@ -1306,11 +1267,18 @@
       <option name="project" value="LOCAL" />
       <updated>1494220139878</updated>
     </task>
-    <option name="localTasksCounter" value="117" />
+    <task id="LOCAL-00117" summary="update Strategy">
+      <created>1494221269394</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1494221269394</updated>
+    </task>
+    <option name="localTasksCounter" value="118" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="163061000" />
+    <option name="totallyTimeSpent" value="163287000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1385,10 +1353,10 @@
     <MESSAGE value="update Prototype" />
     <MESSAGE value="update Proxy" />
     <MESSAGE value="update State" />
-    <MESSAGE value="update Strategy" />
     <MESSAGE value="update Template Method" />
     <MESSAGE value="update README" />
-    <option name="LAST_COMMIT_MESSAGE" value="update README" />
+    <MESSAGE value="update Strategy" />
+    <option name="LAST_COMMIT_MESSAGE" value="update Strategy" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1944,8 +1912,8 @@
     <entry file="file://$PROJECT_DIR$/src/io/innofang/strategy/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="416">
-            <caret line="70" column="1" lean-forward="false" selection-start-line="70" selection-start-column="1" selection-end-line="70" selection-end-column="1" />
+          <first_editor relative-caret-position="608">
+            <caret line="76" column="0" lean-forward="true" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor>
