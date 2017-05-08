@@ -5,7 +5,7 @@
 比如，类似的功能或许具体的实现细节不一样，但是功能的执行流程是一样的，这时通过将执行流程封装起来，那么在使用这种模式的时候，只需要去关注如何实现功能细节就可以了。这样将公共代码提取出来，便于维护。
 
 # Template Method（模板方法）的UML类图
-![](http://my.csdn.net/uploads/201204/02/1333348131_8870.jpg)
+![](https://raw.githubusercontent.com/InnoFang/DesignPatterns/master/uml/template_method.png)
 
  + AbstractClass : 抽象模板，定义了模板方法的执行流程
  + ConcreteClass : 具体实现类
