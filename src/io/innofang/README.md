@@ -22,7 +22,7 @@ THX :-)
 
 ##### 6.  <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/adapter">Adapter Class/Object（适配器）</a>
 
-##### 7.  Bridge（桥接）
+##### 7.  <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/bridge">Bridge（桥接）</a>
 
 ##### 8.  Composite（组合）
 
