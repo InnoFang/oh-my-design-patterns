@@ -1,18 +1,22 @@
-*.iml
-/.idea/workspace.xml
-/.idea/libraries
-
-# Java class files
+# Compiled class file
 *.class
 
-# generated files
-bin/
-gen/
-build/
+# Log file
+*.log
 
-# Eclipse project files
-.classpath
-.project
+# BlueJ files
+*.ctxt
 
-# Build floder
-/build
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*

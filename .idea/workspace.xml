@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="230c2636-afb9-4de2-8189-ed15d9f8521c" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/innofang/README.md" afterPath="$PROJECT_DIR$/src/io/innofang/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,17 +31,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/io/innofang/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="383">
-                <caret line="22" column="128" lean-forward="true" selection-start-line="22" selection-start-column="128" selection-end-line="22" selection-end-column="128" />
+              <first_editor relative-caret-position="447">
+                <caret line="24" column="94" lean-forward="false" selection-start-line="24" selection-start-column="94" selection-end-line="24" selection-end-column="94" />
                 <folding />
               </first_editor>
               <second_editor>
                 <js_state />
               </second_editor>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="672">
+              <caret line="21" column="11" lean-forward="false" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -204,7 +214,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/io/innofang/iterator/base/Aggregate.java" />
         <option value="$PROJECT_DIR$/src/io/innofang/iterator/base/ConcreteIterator.java" />
         <option value="$PROJECT_DIR$/src/io/innofang/iterator/base/ConcreteAggregate.java" />
         <option value="$PROJECT_DIR$/src/io/innofang/iterator/base/Client.java" />
@@ -255,6 +264,7 @@
         <option value="$PROJECT_DIR$/src/io/innofang/mediator/README.md" />
         <option value="$PROJECT_DIR$/src/io/innofang/visitor/README.md" />
         <option value="$PROJECT_DIR$/src/io/innofang/README.md" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -964,14 +974,7 @@
       <workItem from="1495896787765" duration="496000" />
       <workItem from="1496979012851" duration="240000" />
       <workItem from="1497772736717" duration="10000" />
-      <workItem from="1497761534184" duration="84000" />
-    </task>
-    <task id="LOCAL-00080" summary="update Builder">
-      <created>1493970369721</created>
-      <option name="number" value="00080" />
-      <option name="presentableId" value="LOCAL-00080" />
-      <option name="project" value="LOCAL" />
-      <updated>1493970369721</updated>
+      <workItem from="1497761534184" duration="208000" />
     </task>
     <task id="LOCAL-00081" summary="update Builder">
       <created>1493970377430</created>
@@ -1309,11 +1312,18 @@
       <option name="project" value="LOCAL" />
       <updated>1496979151476</updated>
     </task>
-    <option name="localTasksCounter" value="129" />
+    <task id="LOCAL-00129" summary="update">
+      <created>1497761626999</created>
+      <option name="number" value="00129" />
+      <option name="presentableId" value="LOCAL-00129" />
+      <option name="project" value="LOCAL" />
+      <updated>1497761626999</updated>
+    </task>
+    <option name="localTasksCounter" value="130" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="165784000" />
+    <option name="totallyTimeSpent" value="165908000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1368,7 +1378,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update Decorator" />
-    <MESSAGE value="update" />
     <MESSAGE value="update UML" />
     <MESSAGE value="update Chain Of Responsibility" />
     <MESSAGE value="update decorator" />
@@ -1392,7 +1401,8 @@
     <MESSAGE value="create Interpreter" />
     <MESSAGE value="create Mediator" />
     <MESSAGE value="create Visitor" />
-    <option name="LAST_COMMIT_MESSAGE" value="create Visitor" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1413,13 +1423,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/io/innofang/proxy/base/ProxySubject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/io/innofang/proxy/base/Subject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -1915,13 +1918,21 @@
     <entry file="file://$PROJECT_DIR$/src/io/innofang/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="383">
-            <caret line="22" column="128" lean-forward="true" selection-start-line="22" selection-start-column="128" selection-end-line="22" selection-end-column="128" />
+          <first_editor relative-caret-position="447">
+            <caret line="24" column="94" lean-forward="false" selection-start-line="24" selection-start-column="94" selection-end-line="24" selection-end-column="94" />
             <folding />
           </first_editor>
           <second_editor>
             <js_state />
           </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="21" column="11" lean-forward="false" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+          <folding />
         </state>
       </provider>
     </entry>
