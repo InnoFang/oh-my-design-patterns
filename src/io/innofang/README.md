@@ -24,7 +24,7 @@ THX :-)
 
 ##### 7.  <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/bridge">Bridge（桥接）</a>
 
-##### 8.  Composite（组合）
+##### 8.  <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/composite">Composite（组合）</a>
 
 ##### 9.  <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/decorator">Decorator（装饰）</a>
 
