@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="230c2636-afb9-4de2-8189-ed15d9f8521c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/innofang/README.md" afterPath="$PROJECT_DIR$/src/io/innofang/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,8 +35,8 @@
         <entry file="file://$PROJECT_DIR$/src/io/innofang/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="351">
-                <caret line="26" column="118" lean-forward="false" selection-start-line="26" selection-start-column="118" selection-end-line="26" selection-end-column="118" />
+              <first_editor relative-caret-position="287">
+                <caret line="30" column="112" lean-forward="false" selection-start-line="30" selection-start-column="112" selection-end-line="30" selection-end-column="112" />
                 <folding />
               </first_editor>
               <second_editor>
@@ -881,14 +882,7 @@
       <workItem from="1497772736717" duration="10000" />
       <workItem from="1497761534184" duration="360000" />
       <workItem from="1498266666238" duration="112000" />
-      <workItem from="1498007600959" duration="36000" />
-    </task>
-    <task id="LOCAL-00082" summary="update Builder">
-      <created>1493970440704</created>
-      <option name="number" value="00082" />
-      <option name="presentableId" value="LOCAL-00082" />
-      <option name="project" value="LOCAL" />
-      <updated>1493970440704</updated>
+      <workItem from="1498007600959" duration="98000" />
     </task>
     <task id="LOCAL-00083" summary="update adapter">
       <created>1493970509634</created>
@@ -1226,11 +1220,18 @@
       <option name="project" value="LOCAL" />
       <updated>1497848161238</updated>
     </task>
-    <option name="localTasksCounter" value="131" />
+    <task id="LOCAL-00131" summary="update">
+      <created>1498007646005</created>
+      <option name="number" value="00131" />
+      <option name="presentableId" value="LOCAL-00131" />
+      <option name="project" value="LOCAL" />
+      <updated>1498007646006</updated>
+    </task>
+    <option name="localTasksCounter" value="132" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="166208000" />
+    <option name="totallyTimeSpent" value="166270000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1307,9 +1308,9 @@
     <MESSAGE value="create Interpreter" />
     <MESSAGE value="create Mediator" />
     <MESSAGE value="create Visitor" />
-    <MESSAGE value="update" />
     <MESSAGE value="modify" />
-    <option name="LAST_COMMIT_MESSAGE" value="modify" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1825,8 +1826,8 @@
     <entry file="file://$PROJECT_DIR$/src/io/innofang/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="351">
-            <caret line="26" column="118" lean-forward="false" selection-start-line="26" selection-start-column="118" selection-end-line="26" selection-end-column="118" />
+          <first_editor relative-caret-position="287">
+            <caret line="30" column="112" lean-forward="false" selection-start-line="30" selection-start-column="112" selection-end-line="30" selection-end-column="112" />
             <folding />
           </first_editor>
           <second_editor>
