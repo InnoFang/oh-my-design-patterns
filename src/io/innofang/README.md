@@ -30,7 +30,7 @@ THX :-)
 
 ##### 10. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/facade">Facade（外观）</a>
 
-##### 11. Flyweight（享元）
+##### 11. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/flyweight">Flyweight（享元）</a>
 
 ##### 12. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/proxy">Proxy（代理）</a>
 

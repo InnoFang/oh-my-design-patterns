@@ -35,8 +35,8 @@
         <entry file="file://$PROJECT_DIR$/src/io/innofang/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="287">
-                <caret line="30" column="112" lean-forward="false" selection-start-line="30" selection-start-column="112" selection-end-line="30" selection-end-column="112" />
+              <first_editor relative-caret-position="351">
+                <caret line="32" column="118" lean-forward="false" selection-start-line="32" selection-start-column="118" selection-end-line="32" selection-end-column="118" />
                 <folding />
               </first_editor>
               <second_editor>
@@ -882,14 +882,7 @@
       <workItem from="1497772736717" duration="10000" />
       <workItem from="1497761534184" duration="360000" />
       <workItem from="1498266666238" duration="112000" />
-      <workItem from="1498007600959" duration="98000" />
-    </task>
-    <task id="LOCAL-00083" summary="update adapter">
-      <created>1493970509634</created>
-      <option name="number" value="00083" />
-      <option name="presentableId" value="LOCAL-00083" />
-      <option name="project" value="LOCAL" />
-      <updated>1493970509634</updated>
+      <workItem from="1498007600959" duration="145000" />
     </task>
     <task id="LOCAL-00084" summary="update Abstract Factory">
       <created>1493970558276</created>
@@ -1227,11 +1220,18 @@
       <option name="project" value="LOCAL" />
       <updated>1498007646006</updated>
     </task>
-    <option name="localTasksCounter" value="132" />
+    <task id="LOCAL-00132" summary="update">
+      <created>1498094099112</created>
+      <option name="number" value="00132" />
+      <option name="presentableId" value="LOCAL-00132" />
+      <option name="project" value="LOCAL" />
+      <updated>1498094099112</updated>
+    </task>
+    <option name="localTasksCounter" value="133" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="166270000" />
+    <option name="totallyTimeSpent" value="166317000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1826,8 +1826,8 @@
     <entry file="file://$PROJECT_DIR$/src/io/innofang/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="287">
-            <caret line="30" column="112" lean-forward="false" selection-start-line="30" selection-start-column="112" selection-end-line="30" selection-end-column="112" />
+          <first_editor relative-caret-position="351">
+            <caret line="32" column="118" lean-forward="false" selection-start-line="32" selection-start-column="118" selection-end-line="32" selection-end-column="118" />
             <folding />
           </first_editor>
           <second_editor>
