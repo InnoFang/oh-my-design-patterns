@@ -35,8 +35,8 @@
         <entry file="file://$PROJECT_DIR$/src/io/innofang/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="351">
-                <caret line="32" column="118" lean-forward="false" selection-start-line="32" selection-start-column="118" selection-end-line="32" selection-end-column="118" />
+              <first_editor relative-caret-position="63">
+                <caret line="38" column="123" lean-forward="false" selection-start-line="38" selection-start-column="123" selection-end-line="38" selection-end-column="123" />
                 <folding />
               </first_editor>
               <second_editor>
@@ -183,6 +183,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -252,7 +253,6 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -882,14 +882,8 @@
       <workItem from="1497772736717" duration="10000" />
       <workItem from="1497761534184" duration="360000" />
       <workItem from="1498266666238" duration="112000" />
-      <workItem from="1498007600959" duration="145000" />
-    </task>
-    <task id="LOCAL-00084" summary="update Abstract Factory">
-      <created>1493970558276</created>
-      <option name="number" value="00084" />
-      <option name="presentableId" value="LOCAL-00084" />
-      <option name="project" value="LOCAL" />
-      <updated>1493970558276</updated>
+      <workItem from="1498007600959" duration="164000" />
+      <workItem from="1498180609810" duration="33000" />
     </task>
     <task id="LOCAL-00085" summary="update Decorator">
       <created>1493970699728</created>
@@ -1227,11 +1221,18 @@
       <option name="project" value="LOCAL" />
       <updated>1498094099112</updated>
     </task>
-    <option name="localTasksCounter" value="133" />
+    <task id="LOCAL-00133" summary="update">
+      <created>1498094146825</created>
+      <option name="number" value="00133" />
+      <option name="presentableId" value="LOCAL-00133" />
+      <option name="project" value="LOCAL" />
+      <updated>1498094146825</updated>
+    </task>
+    <option name="localTasksCounter" value="134" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="166317000" />
+    <option name="totallyTimeSpent" value="166369000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1260,7 +1261,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33518314" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26126608" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26502147" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1826,8 +1827,8 @@
     <entry file="file://$PROJECT_DIR$/src/io/innofang/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="351">
-            <caret line="32" column="118" lean-forward="false" selection-start-line="32" selection-start-column="118" selection-end-line="32" selection-end-column="118" />
+          <first_editor relative-caret-position="63">
+            <caret line="38" column="123" lean-forward="false" selection-start-line="38" selection-start-column="123" selection-end-line="38" selection-end-column="123" />
             <folding />
           </first_editor>
           <second_editor>

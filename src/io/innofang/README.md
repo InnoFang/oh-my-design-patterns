@@ -36,7 +36,7 @@ THX :-)
 
 ### 行为型
 
-##### 13. Interpreter（解释器）
+##### 13. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/interpreter">Interpreter（解释器）</a>
 
 ##### 14. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/template_method">Template Method（模板方法）</a>
 
