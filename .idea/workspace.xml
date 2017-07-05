@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="230c2636-afb9-4de2-8189-ed15d9f8521c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uml/facade.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/io/innofang/facade/uml/Client.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/io/innofang/facade/uml/Facade.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/io/innofang/facade/uml/SubSystemA.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/io/innofang/facade/uml/SubSystemB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/io/innofang/facade/uml/SubSystemC.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/innofang/facade/README.md" afterPath="$PROJECT_DIR$/src/io/innofang/facade/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,7 +56,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JAVA/io.innofang.facade.uml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="JAVA/io.innofang.facade.uml" pinned="false" current-in-tab="false">
         <entry file="uml://JAVA/io.innofang.facade.uml">
           <provider selected="true" editor-type-id="UmlEditorProvider">
             <state>
@@ -99,7 +94,7 @@
                   <point x="0.0" y="56.5" />
                 </edge>
               </edges>
-              <settings layout="Hierarchic Group" zoom="1.0" x="264.5" y="167.5" />
+              <settings layout="Hierarchic Group" zoom="1.0" x="-173.5" y="106.5" />
               <SelectedNodes />
               <Categories>
                 <Category>Methods</Category>
@@ -107,6 +102,28 @@
               </Categories>
               <SCOPE>All</SCOPE>
               <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="facade.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/uml/facade.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/io/innofang/facade/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="224">
+                <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+                <folding />
+              </first_editor>
+              <second_editor>
+                <js_state />
+              </second_editor>
             </state>
           </provider>
         </entry>
@@ -237,7 +254,6 @@
         <option value="$PROJECT_DIR$/src/io/innofang/template_method/base/ConcreteTemplate.java" />
         <option value="$PROJECT_DIR$/src/io/innofang/template_method/base/Client.java" />
         <option value="$PROJECT_DIR$/src/io/innofang/template_method/README.md" />
-        <option value="$PROJECT_DIR$/src/io/innofang/facade/README.md" />
         <option value="$PROJECT_DIR$/src/io/innofang/composite/README.md" />
         <option value="$PROJECT_DIR$/src/io/innofang/flyweight/README.md" />
         <option value="$PROJECT_DIR$/src/io/innofang/bridge/README.md" />
@@ -255,6 +271,7 @@
         <option value="$PROJECT_DIR$/src/io/innofang/facade/uml/SubSystemB.java" />
         <option value="$PROJECT_DIR$/src/io/innofang/facade/uml/SubSystemC.java" />
         <option value="$PROJECT_DIR$/src/io/innofang/facade/uml/Facade.java" />
+        <option value="$PROJECT_DIR$/src/io/innofang/facade/README.md" />
       </list>
     </option>
   </component>
@@ -352,32 +369,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="facade" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Design Patterns" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Design Patterns" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="innofang" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="facade" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="uml" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1032,14 +1023,7 @@
       <workItem from="1498007600959" duration="164000" />
       <workItem from="1498180609810" duration="61000" />
       <workItem from="1499227520861" duration="80000" />
-      <workItem from="1499227718910" duration="1345000" />
-    </task>
-    <task id="LOCAL-00086" summary="update Chain Of Responsibility">
-      <created>1493970793245</created>
-      <option name="number" value="00086" />
-      <option name="presentableId" value="LOCAL-00086" />
-      <option name="project" value="LOCAL" />
-      <updated>1493970793245</updated>
+      <workItem from="1499227718910" duration="2058000" />
     </task>
     <task id="LOCAL-00087" summary="update">
       <created>1493971248848</created>
@@ -1377,11 +1361,18 @@
       <option name="project" value="LOCAL" />
       <updated>1498180647987</updated>
     </task>
-    <option name="localTasksCounter" value="135" />
+    <task id="LOCAL-00135" summary="facade uml">
+      <created>1499232428832</created>
+      <option name="number" value="00135" />
+      <option name="presentableId" value="LOCAL-00135" />
+      <option name="project" value="LOCAL" />
+      <updated>1499232428833</updated>
+    </task>
+    <option name="localTasksCounter" value="136" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="167822000" />
+    <option name="totallyTimeSpent" value="168535000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1406,12 +1397,12 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26304108" sideWeight="0.50214595" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32963374" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26304108" sideWeight="0.49785408" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26304108" sideWeight="0.49785408" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33518314" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2725322" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2725322" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1435,7 +1426,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update UML" />
     <MESSAGE value="update Chain Of Responsibility" />
     <MESSAGE value="update decorator" />
     <MESSAGE value="update Adapter" />
@@ -1460,7 +1450,8 @@
     <MESSAGE value="create Visitor" />
     <MESSAGE value="modify" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="facade uml" />
+    <option name="LAST_COMMIT_MESSAGE" value="facade uml" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1481,13 +1472,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/io/innofang/state/example/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/io/innofang/proxy/example/Client.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="416">
@@ -1780,18 +1764,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/innofang/facade/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/io/innofang/flyweight/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
@@ -2014,7 +1986,7 @@
               <point x="0.0" y="56.5" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="264.5" y="167.5" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-173.5" y="106.5" />
           <SelectedNodes />
           <Categories>
             <Category>Methods</Category>
@@ -2022,6 +1994,24 @@
           </Categories>
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uml/facade.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/innofang/facade/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="224">
+            <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
         </state>
       </provider>
     </entry>
