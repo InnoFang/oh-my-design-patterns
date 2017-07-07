@@ -7,7 +7,7 @@ package io.innofang.adapter.base.object_adapter;
  */
 public class Adapter implements Target{
 
-    Adaptee adaptee;
+    private Adaptee adaptee;
 
     public Adapter(Adaptee adaptee) {
         this.adaptee = adaptee;
@@ -16,5 +16,9 @@ public class Adapter implements Target{
     @Override
     public void operation() {
         System.out.println("This is adapter's operaion");
+    }
+
+    public void adaptedOperation(){
+        adaptee.adaptedOperation();
     }
 }
