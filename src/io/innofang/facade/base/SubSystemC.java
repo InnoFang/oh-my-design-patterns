@@ -1,4 +1,4 @@
-package io.innofang.facade.uml;
+package io.innofang.facade.base;
 
 /**
  * Created by Inno Fang on 2017/7/5.
