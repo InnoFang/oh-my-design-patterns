@@ -28,7 +28,7 @@ THX :-)
 
 ##### 9.  <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/decorator">Decorator（装饰）</a>
 
-##### 10. Facade（外观）
+##### 10. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/facade">Facade（外观）</a>
 
 ##### 11. Flyweight（享元）
 
