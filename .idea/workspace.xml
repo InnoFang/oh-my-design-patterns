@@ -2,30 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="230c2636-afb9-4de2-8189-ed15d9f8521c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Design Patterns/io/innofang/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Design Patterns/io/innofang/abstract_factory/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Design Patterns/io/innofang/adapter/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Design Patterns/io/innofang/bridge/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Design Patterns/io/innofang/builder/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Design Patterns/io/innofang/chain_of_responsibility/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Design Patterns/io/innofang/command/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Design Patterns/io/innofang/composite/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Design Patterns/io/innofang/decorator/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Design Patterns/io/innofang/facade/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Design Patterns/io/innofang/factory_method/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Design Patterns/io/innofang/flyweight/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Design Patterns/io/innofang/interpreter/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Design Patterns/io/innofang/iterator/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Design Patterns/io/innofang/mediator/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Design Patterns/io/innofang/memento/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Design Patterns/io/innofang/observer/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Design Patterns/io/innofang/prototype/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Design Patterns/io/innofang/proxy/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Design Patterns/io/innofang/singleton/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Design Patterns/io/innofang/state/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Design Patterns/io/innofang/strategy/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Design Patterns/io/innofang/template_method/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Design Patterns/io/innofang/visitor/README.md" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uml/object_adapter.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -165,7 +142,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JAVA/io.innofang.adapter.base.object_adapter" pinned="false" current-in-tab="false">
+      <file leaf-file-name="JAVA/io.innofang.adapter.base.object_adapter" pinned="false" current-in-tab="true">
         <entry file="uml://JAVA/io.innofang.adapter.base.object_adapter">
           <provider selected="true" editor-type-id="UmlEditorProvider">
             <state>
@@ -202,7 +179,7 @@
                   <point x="0.0" y="30.5" />
                 </edge>
               </edges>
-              <settings layout="Hierarchic Group" zoom="1.0" x="-302.0" y="-79.5" />
+              <settings layout="Hierarchic Group" zoom="1.0" x="136.0" y="100.0" />
               <SelectedNodes />
               <Categories>
                 <Category>Fields</Category>
@@ -212,13 +189,6 @@
               <SCOPE>All</SCOPE>
               <VISIBILITY>private</VISIBILITY>
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="object_adapter.png" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/uml/object_adapter.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
           </provider>
         </entry>
       </file>
@@ -1254,7 +1224,7 @@
       <workItem from="1499227520861" duration="80000" />
       <workItem from="1499227718910" duration="3143000" />
       <workItem from="1499344848324" duration="726000" />
-      <workItem from="1499402591357" duration="5556000" />
+      <workItem from="1499402591357" duration="5673000" />
     </task>
     <task id="LOCAL-00093" summary="update Factory Method">
       <created>1494037827274</created>
@@ -1603,7 +1573,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="175902000" />
+    <option name="totallyTimeSpent" value="176019000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2260,54 +2230,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="uml://JAVA/io.innofang.adapter.base.object_adapter">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>io.innofang.adapter.base.object_adapter</OriginalElement>
-          <nodes>
-            <node x="184.5" y="302.0">io.innofang.adapter.base.object_adapter.Client</node>
-            <node x="0.0" y="0.0">io.innofang.adapter.base.object_adapter.Target</node>
-            <node x="221.0" y="0.0">io.innofang.adapter.base.object_adapter.Adaptee</node>
-            <node x="33.0" y="111.0">io.innofang.adapter.base.object_adapter.Adapter</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="io.innofang.adapter.base.object_adapter.Client" target="io.innofang.adapter.base.object_adapter.Adapter">
-              <point x="-54.5" y="-30.5" />
-              <point x="239.0" y="277.0" />
-              <point x="168.0" y="277.0" />
-              <point x="0.0" y="70.5" />
-            </edge>
-            <edge source="io.innofang.adapter.base.object_adapter.Client" target="io.innofang.adapter.base.object_adapter.Adaptee">
-              <point x="54.5" y="-30.5" />
-              <point x="348.0" y="277.0" />
-              <point x="419.0" y="277.0" />
-              <point x="65.99999999999999" y="30.5" />
-            </edge>
-            <edge source="io.innofang.adapter.base.object_adapter.Adapter" target="io.innofang.adapter.base.object_adapter.Adaptee">
-              <point x="67.5" y="-70.5" />
-              <point x="235.5" y="86.0" />
-              <point x="287.0" y="86.0" />
-              <point x="-66.0" y="30.5" />
-            </edge>
-            <edge source="io.innofang.adapter.base.object_adapter.Adapter" target="io.innofang.adapter.base.object_adapter.Target">
-              <point x="-67.5" y="-70.5" />
-              <point x="0.0" y="30.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-302.0" y="-79.5" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Constructors</Category>
-            <Category>Methods</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/io/innofang/adapter/example/object_adapter/Volt220.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -2346,6 +2268,54 @@
     <entry file="file://$PROJECT_DIR$/uml/object_adapter.png">
       <provider selected="true" editor-type-id="images">
         <state />
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/io.innofang.adapter.base.object_adapter">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>io.innofang.adapter.base.object_adapter</OriginalElement>
+          <nodes>
+            <node x="184.5" y="302.0">io.innofang.adapter.base.object_adapter.Client</node>
+            <node x="0.0" y="0.0">io.innofang.adapter.base.object_adapter.Target</node>
+            <node x="221.0" y="0.0">io.innofang.adapter.base.object_adapter.Adaptee</node>
+            <node x="33.0" y="111.0">io.innofang.adapter.base.object_adapter.Adapter</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="io.innofang.adapter.base.object_adapter.Client" target="io.innofang.adapter.base.object_adapter.Adapter">
+              <point x="-54.5" y="-30.5" />
+              <point x="239.0" y="277.0" />
+              <point x="168.0" y="277.0" />
+              <point x="0.0" y="70.5" />
+            </edge>
+            <edge source="io.innofang.adapter.base.object_adapter.Client" target="io.innofang.adapter.base.object_adapter.Adaptee">
+              <point x="54.5" y="-30.5" />
+              <point x="348.0" y="277.0" />
+              <point x="419.0" y="277.0" />
+              <point x="65.99999999999999" y="30.5" />
+            </edge>
+            <edge source="io.innofang.adapter.base.object_adapter.Adapter" target="io.innofang.adapter.base.object_adapter.Adaptee">
+              <point x="67.5" y="-70.5" />
+              <point x="235.5" y="86.0" />
+              <point x="287.0" y="86.0" />
+              <point x="-66.0" y="30.5" />
+            </edge>
+            <edge source="io.innofang.adapter.base.object_adapter.Adapter" target="io.innofang.adapter.base.object_adapter.Target">
+              <point x="-67.5" y="-70.5" />
+              <point x="0.0" y="30.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="136.0" y="100.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
       </provider>
     </entry>
   </component>
