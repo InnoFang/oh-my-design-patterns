@@ -20,4 +20,9 @@ public class VoltAdapter implements VoltFive {
         volt = 5;
         return volt;
     }
+
+    public int provideVolt220(){
+        return volt220.provideVolt220();
+    }
+
 }
