@@ -2,6 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="230c2636-afb9-4de2-8189-ed15d9f8521c" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Design Patterns/io/innofang/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Design Patterns/io/innofang/abstract_factory/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Design Patterns/io/innofang/adapter/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Design Patterns/io/innofang/bridge/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Design Patterns/io/innofang/builder/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Design Patterns/io/innofang/chain_of_responsibility/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Design Patterns/io/innofang/command/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Design Patterns/io/innofang/composite/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Design Patterns/io/innofang/decorator/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Design Patterns/io/innofang/facade/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Design Patterns/io/innofang/factory_method/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Design Patterns/io/innofang/flyweight/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Design Patterns/io/innofang/interpreter/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Design Patterns/io/innofang/iterator/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Design Patterns/io/innofang/mediator/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Design Patterns/io/innofang/memento/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Design Patterns/io/innofang/observer/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Design Patterns/io/innofang/prototype/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Design Patterns/io/innofang/proxy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Design Patterns/io/innofang/singleton/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Design Patterns/io/innofang/state/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Design Patterns/io/innofang/strategy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Design Patterns/io/innofang/template_method/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Design Patterns/io/innofang/visitor/README.md" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -202,7 +226,7 @@
         <entry file="file://$PROJECT_DIR$/src/io/innofang/adapter/example/class_adapter/VoltAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="320">
-              <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+              <caret line="10" column="32" lean-forward="false" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
               <folding>
                 <element signature="e#226#227#0" expanded="true" />
                 <element signature="e#250#251#0" expanded="true" />
@@ -1230,7 +1254,7 @@
       <workItem from="1499227520861" duration="80000" />
       <workItem from="1499227718910" duration="3143000" />
       <workItem from="1499344848324" duration="726000" />
-      <workItem from="1499402591357" duration="5448000" />
+      <workItem from="1499402591357" duration="5556000" />
     </task>
     <task id="LOCAL-00093" summary="update Factory Method">
       <created>1494037827274</created>
@@ -1579,7 +1603,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="175794000" />
+    <option name="totallyTimeSpent" value="175902000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2164,7 +2188,7 @@
     <entry file="file://$PROJECT_DIR$/src/io/innofang/adapter/example/class_adapter/VoltAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
-          <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+          <caret line="10" column="32" lean-forward="false" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
           <folding>
             <element signature="e#226#227#0" expanded="true" />
             <element signature="e#250#251#0" expanded="true" />
