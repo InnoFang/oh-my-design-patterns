@@ -12,6 +12,7 @@ public class Client {
         movieTicket2.printTicket("14:00-16:30", "Seat  F-6");
         MovieTicket movieTicket3 = new MovieTicket("Transformers 5");
         movieTicket3.printTicket("18:00-22:30", "Seat  A-2");
+
     }
 
 }

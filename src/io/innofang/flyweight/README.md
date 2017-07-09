@@ -95,5 +95,102 @@ key1 : value3
 
 正如上面所说，享元模式适用于可能存在大量重复对象的场景，所以，诸如订票系统这类例子。因为同一类型的票会产生很多份，那么对应的重复对象的创建和销毁就会产生，这将导致程序性能下降和内存占用率的上升
 
-接下来就以订购电影票为例子。
+接下来就以订购电影票为例子。简单的分析一下，一张电影票大概含有一下几个元素：电影名，时间，座位和价格，这其中电影名是重复的，座位和时间根据情况的不同是不一样的。
 
+首先就是关于票的接口：Ticket
+```java
+public interface Ticket {
+
+    public void printTicket(String time, String seat);
+
+}
+```
+`printTicket()` 方法是根据时间和作为打印出相应的电影票
+
+
+然后就是具体的电影票：MovieTicket
+```java
+public class MovieTicket implements Ticket {
+
+    private String movieName;
+    private String price;
+
+    public MovieTicket(String movieName) {
+        this.movieName = movieName;
+        price = "Price " + new Random().nextInt(100);
+    }
+
+    @Override
+    public void printTicket(String time, String seat) {
+        System.out.println("+-------------------+");
+        System.out.printf("| %-12s    |\n", movieName);
+        System.out.println("|                   |");
+        System.out.printf("|       %-12s|\n", time);
+        System.out.printf("|       %-12s|\n", seat);
+        System.out.printf("|       %-12s|\n", price);
+        System.out.println("|                   |");
+        System.out.println("+-------------------+");
+    }
+}
+```
+在创建这电影票的对象时，需要根据电影名来创建，也就是说电影名是作为享元对象的键。这里为了效果，在 `printTicket()` 方法中，格式化打印输出了一张电影票大概的样子。
+
+那么享元工厂跟之前写的差不了多少：TicketFactory
+```java
+public class TicketFactory {
+
+    private static Map<String, Ticket> map = new ConcurrentHashMap<>();
+
+    public static Ticket getTicket(String movieName) {
+        if (map.containsKey(movieName)) {
+            return map.get(movieName);
+        } else {
+            Ticket ticket = new MovieTicket(movieName);
+            map.put(movieName, ticket);
+            return ticket;
+        }
+    }
+
+}
+```
+
+接下来就可以测试一下了
+```java
+MovieTicket movieTicket1 = new MovieTicket("Transformers 5");
+movieTicket1.printTicket("14:00-16:30", "Seat  D-5");
+MovieTicket movieTicket2 = new MovieTicket("Transformers 5");
+movieTicket2.printTicket("14:00-16:30", "Seat  F-6");
+MovieTicket movieTicket3 = new MovieTicket("Transformers 5");
+movieTicket3.printTicket("18:00-22:30", "Seat  A-2");
+```
+
+相同的电影名，但是根据不同的时间和座位号打印出不同的票
+```console
++-------------------+
+| Transformers 5    |
+|                   |
+|       14:00-16:30 |
+|       Seat  D-5   |
+|       Price 4     |
+|                   |
++-------------------+
++-------------------+
+| Transformers 5    |
+|                   |
+|       14:00-16:30 |
+|       Seat  F-6   |
+|       Price 30    |
+|                   |
++-------------------+
++-------------------+
+| Transformers 5    |
+|                   |
+|       18:00-22:30 |
+|       Seat  A-2   |
+|       Price 29    |
+|                   |
++-------------------+
+```
+
+
+END.
