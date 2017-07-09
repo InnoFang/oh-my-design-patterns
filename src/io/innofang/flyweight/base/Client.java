@@ -4,7 +4,7 @@ package io.innofang.flyweight.base;
  * Created by Inno Fang on 2017/7/9.
  */
 public class Client {
-
+    
     public static void main(String[] args) {
 
         Flyweight flyweight1 = FlyweightFactory.getFlyweight("key1");
