@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="230c2636-afb9-4de2-8189-ed15d9f8521c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,7 +35,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="566">
-                <caret line="199" column="14" lean-forward="true" selection-start-line="199" selection-start-column="14" selection-end-line="199" selection-end-column="14" />
+                <caret line="199" column="14" lean-forward="false" selection-start-line="199" selection-start-column="14" selection-end-line="199" selection-end-column="14" />
                 <folding />
               </first_editor>
               <second_editor>
@@ -1063,14 +1062,7 @@
       <workItem from="1499515843406" duration="612000" />
       <workItem from="1499588080717" duration="6712000" />
       <workItem from="1499596364584" duration="7238000" />
-      <workItem from="1499679691834" duration="2390000" />
-    </task>
-    <task id="LOCAL-00102" summary="update Memento">
-      <created>1494124547630</created>
-      <option name="number" value="00102" />
-      <option name="presentableId" value="LOCAL-00102" />
-      <option name="project" value="LOCAL" />
-      <updated>1494124547630</updated>
+      <workItem from="1499679691834" duration="2399000" />
     </task>
     <task id="LOCAL-00103" summary="update Memento">
       <created>1494124762030</created>
@@ -1408,11 +1400,18 @@
       <option name="project" value="LOCAL" />
       <updated>1499681363126</updated>
     </task>
-    <option name="localTasksCounter" value="151" />
+    <task id="LOCAL-00151" summary="updatea">
+      <created>1499682142323</created>
+      <option name="number" value="00151" />
+      <option name="presentableId" value="LOCAL-00151" />
+      <option name="project" value="LOCAL" />
+      <updated>1499682142323</updated>
+    </task>
+    <option name="localTasksCounter" value="152" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="193138000" />
+    <option name="totallyTimeSpent" value="193147000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1466,7 +1465,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update Prototype" />
     <MESSAGE value="update Proxy" />
     <MESSAGE value="update State" />
     <MESSAGE value="update README" />
@@ -1491,7 +1489,8 @@
     <MESSAGE value="update Flyweight(implement base)" />
     <MESSAGE value="upload the uml of flyweight" />
     <MESSAGE value="update flyweight" />
-    <option name="LAST_COMMIT_MESSAGE" value="update flyweight" />
+    <MESSAGE value="updatea" />
+    <option name="LAST_COMMIT_MESSAGE" value="updatea" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2023,7 +2022,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="566">
-            <caret line="199" column="14" lean-forward="true" selection-start-line="199" selection-start-column="14" selection-end-line="199" selection-end-column="14" />
+            <caret line="199" column="14" lean-forward="false" selection-start-line="199" selection-start-column="14" selection-end-line="199" selection-end-column="14" />
             <folding />
           </first_editor>
           <second_editor>
