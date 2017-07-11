@@ -34,7 +34,7 @@
         <entry file="file://$PROJECT_DIR$/src/io/innofang/flyweight/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="566">
+              <first_editor relative-caret-position="6368">
                 <caret line="199" column="14" lean-forward="false" selection-start-line="199" selection-start-column="14" selection-end-line="199" selection-end-column="14" />
                 <folding />
               </first_editor>
@@ -49,7 +49,7 @@
         <entry file="file://$PROJECT_DIR$/src/io/innofang/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="566">
+              <first_editor relative-caret-position="1024">
                 <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="118" />
                 <folding />
               </first_editor>
@@ -64,8 +64,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="489">
-                <caret line="32" column="61" lean-forward="false" selection-start-line="32" selection-start-column="61" selection-end-line="32" selection-end-column="61" />
+              <first_editor relative-caret-position="265">
+                <caret line="32" column="118" lean-forward="true" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="118" />
                 <folding />
               </first_editor>
               <second_editor>
@@ -257,7 +257,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -422,6 +421,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -1062,14 +1062,8 @@
       <workItem from="1499515843406" duration="612000" />
       <workItem from="1499588080717" duration="6712000" />
       <workItem from="1499596364584" duration="7238000" />
-      <workItem from="1499679691834" duration="2399000" />
-    </task>
-    <task id="LOCAL-00103" summary="update Memento">
-      <created>1494124762030</created>
-      <option name="number" value="00103" />
-      <option name="presentableId" value="LOCAL-00103" />
-      <option name="project" value="LOCAL" />
-      <updated>1494124762030</updated>
+      <workItem from="1499679691834" duration="2680000" />
+      <workItem from="1499694315954" duration="18000" />
     </task>
     <task id="LOCAL-00104" summary="update README">
       <created>1494124897110</created>
@@ -1407,11 +1401,18 @@
       <option name="project" value="LOCAL" />
       <updated>1499682142323</updated>
     </task>
-    <option name="localTasksCounter" value="152" />
+    <task id="LOCAL-00152" summary="update">
+      <created>1499682151584</created>
+      <option name="number" value="00152" />
+      <option name="presentableId" value="LOCAL-00152" />
+      <option name="project" value="LOCAL" />
+      <updated>1499682151584</updated>
+    </task>
+    <option name="localTasksCounter" value="153" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="193147000" />
+    <option name="totallyTimeSpent" value="193446000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1440,7 +1441,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33518314" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21512875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21834764" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1482,7 +1483,6 @@
     <MESSAGE value="facade uml" />
     <MESSAGE value="update Facade" />
     <MESSAGE value="finish Facade" />
-    <MESSAGE value="update" />
     <MESSAGE value="update Adapter" />
     <MESSAGE value="update UML" />
     <MESSAGE value="update Flyweight" />
@@ -1490,7 +1490,8 @@
     <MESSAGE value="upload the uml of flyweight" />
     <MESSAGE value="update flyweight" />
     <MESSAGE value="updatea" />
-    <option name="LAST_COMMIT_MESSAGE" value="updatea" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2021,7 +2022,7 @@
     <entry file="file://$PROJECT_DIR$/src/io/innofang/flyweight/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="566">
+          <first_editor relative-caret-position="6368">
             <caret line="199" column="14" lean-forward="false" selection-start-line="199" selection-start-column="14" selection-end-line="199" selection-end-column="14" />
             <folding />
           </first_editor>
@@ -2034,7 +2035,7 @@
     <entry file="file://$PROJECT_DIR$/src/io/innofang/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="566">
+          <first_editor relative-caret-position="1024">
             <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="118" />
             <folding />
           </first_editor>
@@ -2047,8 +2048,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="489">
-            <caret line="32" column="61" lean-forward="false" selection-start-line="32" selection-start-column="61" selection-end-line="32" selection-end-column="61" />
+          <first_editor relative-caret-position="265">
+            <caret line="32" column="118" lean-forward="true" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="118" />
             <folding />
           </first_editor>
           <second_editor>

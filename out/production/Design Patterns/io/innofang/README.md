@@ -6,7 +6,7 @@ But if you have some advice or supplement , please and welcome to pull request f
 
 THX :-)
 
-### Creational (创建型)
+### 创建型
 
 ##### 1. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/factory_method">Factory Method（工厂方法）</a>
 
@@ -18,13 +18,13 @@ THX :-)
 
 ##### 5. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/singleton">Singleton（单例）</a>
 
-### Structural (结构型)
+### 结构型
 
 ##### 6.  <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/adapter">Adapter Class/Object（适配器）</a>
 
-##### 7.  Bridge（桥接）
+##### 7.  <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/bridge">Bridge（桥接）</a>
 
-##### 8.  Composite（组合）
+##### 8.  <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/composite">Composite（组合）</a>
 
 ##### 9.  <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/decorator">Decorator（装饰）</a>
 
@@ -34,9 +34,9 @@ THX :-)
 
 ##### 12. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/proxy">Proxy（代理）</a>
 
-### Behavioral (行为型)
+### 行为型
 
-##### 13. Interpreter（解释器）
+##### 13. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/interpreter">Interpreter（解释器）</a>
 
 ##### 14. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/template_method">Template Method（模板方法）</a>
 
@@ -57,13 +57,3 @@ THX :-)
 ##### 22. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/strategy">Strategy（策略）</a>
 
 ##### 23. Visitor（访问者）
-
--------------
-
-# Reference (引用)
-
- + 《Android源码设计模式解析与实战》
-
-# LICENSE
-
-   [Apache License 2.0](https://github.com/InnoFang/DesignPatterns/blob/master/LICENSE)
