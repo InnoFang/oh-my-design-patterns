@@ -19,43 +19,39 @@ NO. |         Pattern         | Code
 
 ### Structural (结构型)
 
-##### 6.  <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/adapter">Adapter Class/Object（适配器）</a>
-
-##### 7.  Bridge（桥接）
-
-##### 8.  Composite（组合）
-
-##### 9.  <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/decorator">Decorator（装饰）</a>
-
-##### 10. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/facade">Facade（外观）</a>
-
-##### 11. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/flyweight">Flyweight（享元）</a>
-
-##### 12. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/proxy">Proxy（代理）</a>
+NO. |         Pattern         | Code
+----|-------------------------|-----
+6   | [Adapter Class/Object (适配器)[https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/adapter] | [Java](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/adapter/example)
+7   | Bridge (桥接)           | &nbsp;
+8   | Composite (组合)         | &nbsp;
+9   | [Decorator (装饰)](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/decorator) | [Java](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/decorator/example)
+10  | [Facade (外观)](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/facade) | [Java](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/facade/example)
+11  | [Flyweight (享元)](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/flyweight) | [Java](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/flyweight/example)
+12  | [Proxy (代理)](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/proxy) | [Java](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/proxy/example)
 
 ### Behavioral (行为型)
 
 ##### 13. Interpreter（解释器）
 
-##### 14. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/template_method">Template Method（模板方法）</a>
+##### 14. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/template_method">Template Method (模板方法)</a>
 
-##### 15. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/chain_of_responsibility">Chain of Responsibility（责任链）</a>
+##### 15. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/chain_of_responsibility">Chain of Responsibility (责任链)</a>
 
-##### 16. Command（命令）
+##### 16. Command (命令)
 
-##### 17. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/iterator">Iterator（迭代器）</a>
+##### 17. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/iterator">Iterator (迭代器)</a>
 
 ##### 18. Mediator（中介者）
 
-##### 19. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/memento">Memento（备忘录）</a>
+##### 19. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/memento">Memento (备忘录)</a>
 
-##### 20. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/observer">Observer（观察者）</a>
+##### 20. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/observer">Observer (观察者)</a>
 
-##### 21. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/state">State（状态）</a>
+##### 21. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/state">State (状态)</a>
 
-##### 22. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/strategy">Strategy（策略）</a>
+##### 22. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/strategy">Strategy (策略)</a>
 
-##### 23. Visitor（访问者）
+##### 23. Visitor (访问者)
 
 # Reference (引用)
 
