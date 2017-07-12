@@ -21,7 +21,7 @@ NO. |         Pattern         | Code
 
 NO. |         Pattern         | Code
 ----|-------------------------|-----
-6   | [Adapter Class/Object (适配器)[https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/adapter] | [Java](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/adapter/example)
+6   | [Adapter Class/Object (适配器)](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/adapter) | [Java](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/adapter/example)
 7   | Bridge (桥接)           | &nbsp;
 8   | Composite (组合)         | &nbsp;
 9   | [Decorator (装饰)](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/decorator) | [Java](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/decorator/example)
