@@ -31,27 +31,19 @@ NO. |         Pattern         | Code
 
 ### Behavioral (行为型)
 
-##### 13. Interpreter（解释器）
-
-##### 14. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/template_method">Template Method (模板方法)</a>
-
-##### 15. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/chain_of_responsibility">Chain of Responsibility (责任链)</a>
-
-##### 16. Command (命令)
-
-##### 17. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/iterator">Iterator (迭代器)</a>
-
-##### 18. Mediator（中介者）
-
-##### 19. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/memento">Memento (备忘录)</a>
-
-##### 20. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/observer">Observer (观察者)</a>
-
-##### 21. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/state">State (状态)</a>
-
-##### 22. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/strategy">Strategy (策略)</a>
-
-##### 23. Visitor (访问者)
+NO. |         Pattern         | Code
+----|-------------------------|-----
+13  | Interpreter (解释器) |  &nbsp;
+14  | [Template Method (模板方法)](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/template_method) | [Java](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/template_method/example)
+15  | [Chain of Responsibility (责任链)](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/chain_of_responsibility) | [Java](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/chain_of_responsibility/example)
+16  | Command (命令) | &nbsp;
+17  | [Iterator (迭代器)](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/iterator) | [Java](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/iterator/example)
+18  | Mediator（中介者） | &nbsp;
+19  | [Memento (备忘录)](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/memento) | [Java](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/memento/example)
+20  | [Observer (观察者)](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/observer) | [Java](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/observer/example)
+21  | [State (状态)](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/state) | [Java](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/state/example)
+22  | [Strategy (策略)](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/strategy) | [Java](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/strategy/example)
+23  | Visitor (访问者) | &nbsp;
 
 # Reference (引用)
 
