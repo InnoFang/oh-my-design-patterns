@@ -8,15 +8,14 @@ THX :-)
 
 ### Creational (创建型)
 
-##### 1. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/factory_method">Factory Method（工厂方法）</a>
+NO. |         Pattern         | Code
+----|-------------------------|-----
+ 1  | Factory Method (工厂方法) | [Java](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/factory_method)
+2   |Abstract Factory (抽象工厂)|[Java](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/abstract_factory)
+3   |Builder (建造者)|[Java](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/builder)
+4   |Prototype (原型)|[Java](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/prototype)
+5   |Singleton ()单例)|[Java](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/singleton)
 
-##### 2. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/abstract_factory">Abstract Factory（抽象工厂）</a>
-
-##### 3. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/builder">Builder（建造者）</a>
-
-##### 4. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/prototype">Prototype（原型）</a>
-
-##### 5. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/singleton">Singleton（单例）</a>
 
 ### Structural (结构型)
 
