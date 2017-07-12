@@ -10,11 +10,11 @@ THX :-)
 
 NO. |         Pattern         | Code
 ----|-------------------------|-----
- 1  | Factory Method (工厂方法) | [Java](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/factory_method)
+ 1  | [Factory Method (工厂方法)](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/factory_method) | [Java]（）()
 2   |Abstract Factory (抽象工厂)|[Java](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/abstract_factory)
 3   |Builder (建造者)|[Java](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/builder)
 4   |Prototype (原型)|[Java](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/prototype)
-5   |Singleton ()单例)|[Java](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/singleton)
+5   |Singleton (单例)|[Java](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/singleton)
 
 
 ### Structural (结构型)

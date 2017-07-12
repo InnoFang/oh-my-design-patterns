@@ -1,4 +1,4 @@
-package io.innofang.singleton;
+package io.innofang.singleton.example;
 
 /**
  * Created by InnF on 2017/2/18.
