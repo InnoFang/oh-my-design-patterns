@@ -22,13 +22,6 @@ public class Wang {
     private static final String E_MEI = "guang_xi_gui_lin";     //四川峨嵋
     private static final String CHANG_CHUN = "guang_xi_gui_lin";//吉林长春
 
-    public static void main(String[] args) {
-        Wang wang = new Wang();
-        wang.goTo(GUI_LIN);
-        wang.goTo(E_MEI);
-        wang.goTo(CHANG_CHUN);
-    }
-
     public void takeCar() {
         System.out.println("take my car");
     }
@@ -51,6 +44,18 @@ public class Wang {
         }
     }
 
+}
+```
+
+在客户类中执行操作
+```java
+public class Client {
+    public static void main(String[] args) {
+        Wang wang = new Wang();
+        wang.goTo(GUI_LIN);
+        wang.goTo(E_MEI);
+        wang.goTo(CHANG_CHUN);
+    }
 }
 ```
 
@@ -129,13 +134,6 @@ public class Wang {
 
     private GoToStrategy goToStrategy;
 
-    public static void main(String[] args) {
-        Wang wang = new Wang();
-        wang.setGoToStrategy(new GoToChangChun());
-        wang.take();
-    }
-
-
     public void setGoToStrategy(GoToStrategy goToStrategy) {
         this.goToStrategy = goToStrategy;
     }
@@ -145,14 +143,17 @@ public class Wang {
     }
 }
 ```
-
-如果小王改主意想去峨嵋，那么只需要更改setStrategy就可以了
+这时候，Wang这个类就变成了操作和管理策略的类了，具体的该执行什么策略，那么就可以在客户类中像下面这样操作
+```java
+Wang wang = new Wang();
+wang.setGoToStrategy(new GoToChangChun());
+wang.take();
+```
+如果小王改变主意想去峨嵋了，那么只需要更改setStrategy就可以了，其他的都不需要更改
 
 ```java
 wang.setGoToStrategy(new GoToEMei());
 ```
-
-其他的都不需要更改
 
 那如果，他又想去乘轮船去海南的话，只需要再实现一个策略就可以了
 
@@ -165,13 +166,9 @@ public class GoToHaiNan implements GoToStrategy{
 }
 ```
 
-那么对于小王来说只需要再次更改setStrategy就可以了
-```java
-wang.setGoToStrategy(new GoToHaiNan());
-```
+然后再次更改调用 `Wang` 这个类的对象的 `setStrategy()` 方法就可以了
 
-
-以上就是策略模式的简单实现
+以上就是策略模式的简单实现。还有一点需要强调的是，Wang 这个类在这里是操作策略的上下文，也就是说到底该执行什么策略，是由外部来调用 Wang 的方法来决定的，而不是 Wang 在类内部来决定的
 
 ## 总结
 
@@ -183,3 +180,5 @@ wang.setGoToStrategy(new GoToHaiNan());
    - 操作封装也更为彻底，数据更为安全
  + 缺点：
    - 随着策略的增加，子类也会变得繁多
+
+END.
