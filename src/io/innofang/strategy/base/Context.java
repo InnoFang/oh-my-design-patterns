@@ -15,12 +15,4 @@ public class Context {
         strategy.execute();
     }
 
-    public static void main(String[] args) {
-        Context context = new Context();
-        context.setStrategy(new ConcreteStrategyA());
-        context.doSomething();
-    }
-
-
-
 }

@@ -9,20 +9,11 @@ public class Wang {
 
     private GoToStrategy goToStrategy;
 
-    public static void main(String[] args) {
-        Wang wang = new Wang();
-//        wang.setGoToStrategy(new GoToChangChun());
-//        wang.setGoToStrategy(new GoToEMei());
-        wang.setGoToStrategy(new GoToHaiNan());
-        wang.take();
-    }
-
-
     public void setGoToStrategy(GoToStrategy goToStrategy) {
         this.goToStrategy = goToStrategy;
     }
 
-    private void take() {
+    public void take() {
         goToStrategy.transportation();
     }
 }
