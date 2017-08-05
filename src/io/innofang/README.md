@@ -42,7 +42,7 @@ THX :-)
 
 ##### 15. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/chain_of_responsibility">Chain of Responsibility（责任链）</a>
 
-##### 16. Command（命令）
+##### 16. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/command">Command（命令）</a>
 
 ##### 17. <a href="https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/iterator">Iterator（迭代器）</a>
 
