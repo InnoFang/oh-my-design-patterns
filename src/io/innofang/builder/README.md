@@ -315,4 +315,4 @@ public class Audi {
 
 [源码地址](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/builder)
 
-[更多内容](innofang.github.io)
+[更多内容](https://innofang.github.io)
