@@ -2,10 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="230c2636-afb9-4de2-8189-ed15d9f8521c" name="Default" comment="update">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/io/innofang/singleton/example/java/EnumSingleton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/io/innofang/singleton/example/java/SingletonManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/io/innofang/singleton/example/kotlin/Client.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/io/innofang/singleton/example/kotlin/EnumSingleton.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/io/innofang/singleton/example/kotlin/NotThreadSafeSingleton.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/io/innofang/singleton/example/kotlin/Singleton.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/io/innofang/singleton/example/kotlin/SingletonManager.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/io/innofang/singleton/example/kotlin/ThreadSafeDoubleCheckSingleton.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/io/innofang/singleton/example/kotlin/ThreadSafeStaticInnerClassSingleton.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/io/innofang/singleton/example/kotlin/ThreadSafeSynchronizedSingleton.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/innofang/singleton/README.md" afterPath="$PROJECT_DIR$/src/io/innofang/singleton/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/innofang/singleton/example/java/ThreadSafeStaticInnerClass.java" afterPath="$PROJECT_DIR$/src/io/innofang/singleton/example/java/ThreadSafeStaticInnerClass.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/singleton/example/java/ThreadSafeStaticInnerClass.java" afterPath="$PROJECT_DIR$/src/io/innofang/singleton/example/java/ThreadSafeStaticInnerClassSingleton.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,110 +34,90 @@
     <option name="SHOW_EMPTY_GROUPS" value="false" />
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
   </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/src/io/innofang/singleton/README.md">
-                <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-                  <state split_layout="FIRST">
-                    <first_editor relative-caret-position="563">
-                      <caret line="161" column="0" lean-forward="true" selection-start-line="161" selection-start-column="0" selection-end-line="161" selection-end-column="0" />
-                      <folding />
-                    </first_editor>
-                    <second_editor>
-                      <js_state />
-                    </second_editor>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="Design Patterns" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="NotThreadSafeSingleton.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/io/innofang/singleton/example/java/NotThreadSafeSingleton.java">
+      <file leaf-file-name="Client.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/io/innofang/singleton/example/kotlin/Client.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="5" column="32" lean-forward="false" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+            <state relative-caret-position="352">
+              <caret line="11" column="50" lean-forward="false" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Singleton.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/io/innofang/singleton/example/java/Singleton.java">
+      <file leaf-file-name="SingletonManager.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/io/innofang/singleton/example/kotlin/SingletonManager.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="576">
+              <caret line="19" column="31" lean-forward="true" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ThreadSafeSynchronizedSingleton.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/io/innofang/singleton/example/java/ThreadSafeSynchronizedSingleton.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ThreadSafeDoubleCheckSingleton.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/io/innofang/singleton/example/java/ThreadSafeDoubleCheckSingleton.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="22" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ThreadSafeStaticInnerClass.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/io/innofang/singleton/example/java/ThreadSafeStaticInnerClass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding>
-                <element signature="e#374#375#0" expanded="true" />
-                <element signature="e#412#413#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EnumSingleton.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/io/innofang/singleton/example/java/EnumSingleton.java">
+      <file leaf-file-name="EnumSingleton.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/io/innofang/singleton/example/kotlin/EnumSingleton.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="192">
-              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SingletonManager.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/io/innofang/singleton/example/java/SingletonManager.java">
+      <file leaf-file-name="Singleton.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/io/innofang/singleton/example/kotlin/Singleton.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="23" selection-end-column="1" />
+            <state relative-caret-position="160">
+              <caret line="5" column="7" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NotThreadSafeSingleton.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/io/innofang/singleton/example/kotlin/NotThreadSafeSingleton.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="523">
+              <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#501#502#0" expanded="true" />
-                <element signature="e#542#543#0" expanded="true" />
+                <element signature="n#!!doc;n#NotThreadSafeSingleton#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ThreadSafeDoubleCheckSingleton.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/io/innofang/singleton/example/kotlin/ThreadSafeDoubleCheckSingleton.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="608">
+              <caret line="19" column="16" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ThreadSafeSynchronizedSingleton.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/io/innofang/singleton/example/kotlin/ThreadSafeSynchronizedSingleton.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ThreadSafeStaticInnerClassSingleton.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/io/innofang/singleton/example/kotlin/ThreadSafeStaticInnerClassSingleton.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -142,6 +129,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -177,15 +165,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/io/innofang/command/README.md" />
-        <option value="$PROJECT_DIR$/src/io/innofang/interpreter/README.md" />
-        <option value="$PROJECT_DIR$/src/io/innofang/mediator/README.md" />
-        <option value="$PROJECT_DIR$/src/io/innofang/visitor/README.md" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/io/innofang/facade/uml/SubSystemCImpl.java" />
-        <option value="$PROJECT_DIR$/src/io/innofang/facade/uml/SubSystemBImpl.java" />
-        <option value="$PROJECT_DIR$/src/io/innofang/facade/uml/Client.java" />
-        <option value="$PROJECT_DIR$/src/io/innofang/facade/uml/SubSystemAImpl.java" />
         <option value="$PROJECT_DIR$/src/io/innofang/facade/uml/SubSystemA.java" />
         <option value="$PROJECT_DIR$/src/io/innofang/facade/uml/SubSystemB.java" />
         <option value="$PROJECT_DIR$/src/io/innofang/facade/uml/SubSystemC.java" />
@@ -227,7 +206,16 @@
         <option value="$PROJECT_DIR$/src/io/innofang/singleton/example/java/ThreadSafeStaticInnerClass.java" />
         <option value="$PROJECT_DIR$/src/io/innofang/singleton/example/java/EnumSingleton.java" />
         <option value="$PROJECT_DIR$/src/io/innofang/singleton/example/java/SingletonManager.java" />
+        <option value="$PROJECT_DIR$/src/io/innofang/singleton/example/kotlin/Singleton.kt" />
+        <option value="$PROJECT_DIR$/src/io/innofang/singleton/example/kotlin/NotThreadSafeSingleton.kt" />
+        <option value="$PROJECT_DIR$/src/io/innofang/singleton/example/kotlin/ThreadSafeStaticInnerClass.kt" />
         <option value="$PROJECT_DIR$/src/io/innofang/singleton/README.md" />
+        <option value="$PROJECT_DIR$/src/io/innofang/singleton/example/kotlin/ThreadSafeSynchronizedSingleton.kt" />
+        <option value="$PROJECT_DIR$/src/io/innofang/singleton/example/kotlin/ThreadSafeDoubleCheckSingleton.kt" />
+        <option value="$PROJECT_DIR$/src/io/innofang/singleton/example/kotlin/ThreadSafeStaticInnerClassSingleton.kt" />
+        <option value="$PROJECT_DIR$/src/io/innofang/singleton/example/kotlin/EnumSingleton.kt" />
+        <option value="$PROJECT_DIR$/src/io/innofang/singleton/example/kotlin/Client.kt" />
+        <option value="$PROJECT_DIR$/src/io/innofang/singleton/example/kotlin/SingletonManager.kt" />
       </list>
     </option>
   </component>
@@ -262,22 +250,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Design Patterns" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Design Patterns" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -355,6 +327,10 @@
               <option name="myItemId" value="example" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kotlin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -384,6 +360,22 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Design Patterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Design Patterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -422,27 +414,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client (4)">
-    <configuration default="false" name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="io.innofang.template_method.base.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="io.innofang.template_method.base.Client" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Design Patterns" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Kotlin.io.innofang.singleton.example.kotlin.ClientKt">
     <configuration default="false" name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -518,6 +490,19 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Design Patterns" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="io.innofang.singleton.example.kotlin.ClientKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="io.innofang.singleton.example.kotlin.ClientKt" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="Design Patterns" />
       <envs />
@@ -911,19 +896,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Client" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Client (1)" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Client (2)" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Client (3)" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Client (4)" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Client (1)" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Client (2)" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Client (3)" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Client (4)" />
+      <item index="4" class="java.lang.String" itemvalue="Kotlin.io.innofang.singleton.example.kotlin.ClientKt" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Client (4)" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Client (3)" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Client (2)" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Client (1)" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Client" />
+        <item index="0" class="java.lang.String" itemvalue="Kotlin.io.innofang.singleton.example.kotlin.ClientKt" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Client (4)" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Client (3)" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Client (2)" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Client (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -1032,7 +1017,8 @@
       <workItem from="1499839899125" duration="56000" />
       <workItem from="1500107609789" duration="2181000" />
       <workItem from="1501935535247" duration="386000" />
-      <workItem from="1502546189558" duration="1300000" />
+      <workItem from="1502546189558" duration="1480000" />
+      <workItem from="1502547696417" duration="1252000" />
     </task>
     <task id="LOCAL-00109" summary="update Prototype">
       <created>1494126860192</created>
@@ -1381,7 +1367,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="197369000" />
+    <option name="totallyTimeSpent" value="198801000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1399,31 +1385,31 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32852387" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32852387" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26304108" sideWeight="0.50214595" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16384777" sideWeight="0.49785408" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32963374" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16426194" sideWeight="0.49785408" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33518314" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23096707" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23405349" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39852008" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39955604" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Module Dependencies" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32852387" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32963374" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1481,62 +1467,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/io/innofang/facade/example/ItalyCuisine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="15" column="11" lean-forward="false" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/innofang/facade/example/ItalyCuisineImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="21" column="5" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="21" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/innofang/facade/example/ChineseCuisine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="15" column="11" lean-forward="false" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/innofang/facade/example/ChineseCuisineImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/innofang/facade/example/FrenchCuisine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="9" column="11" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/innofang/facade/example/FrenchCuisineImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/innofang/facade/example/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/innofang/facade/example/Menu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="41" column="35" lean-forward="false" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/io/innofang/adapter/example/class_adapter/Volt220.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
@@ -1851,7 +1781,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1859,7 +1788,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1867,12 +1795,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <element signature="e#224#225#0" expanded="false" />
-            <element signature="e#272#273#0" expanded="false" />
-            <element signature="e#298#299#0" expanded="false" />
-            <element signature="e#343#344#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1881,7 +1803,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="6368">
             <caret line="199" column="14" lean-forward="false" selection-start-line="199" selection-start-column="14" selection-end-line="199" selection-end-column="14" />
-            <folding />
           </first_editor>
           <second_editor>
             <js_state />
@@ -1893,7 +1814,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="448">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1902,7 +1822,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="544">
             <caret line="17" column="19" lean-forward="false" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-            <folding />
           </first_editor>
           <second_editor>
             <js_state />
@@ -1923,7 +1842,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/innofang/singleton/example/java/Client.java">
+    <entry file="file://$PROJECT_DIR$/src/io/innofang/singleton/example/java/EnumSingleton.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
@@ -1955,6 +1874,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/innofang/singleton/example/java/ThreadSafeStaticInnerClassSingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="16" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/io/innofang/singleton/example/java/ThreadSafeDoubleCheckSingleton.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -1963,30 +1890,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/innofang/singleton/example/java/ThreadSafeStaticInnerClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="e#374#375#0" expanded="true" />
-            <element signature="e#412#413#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/innofang/singleton/example/java/EnumSingleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/io/innofang/singleton/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="563">
-            <caret line="161" column="0" lean-forward="true" selection-start-line="161" selection-start-column="0" selection-end-line="161" selection-end-column="0" />
+          <first_editor relative-caret-position="741">
+            <caret line="110" column="1" lean-forward="false" selection-start-line="110" selection-start-column="1" selection-end-line="110" selection-end-column="1" />
             <folding />
           </first_editor>
           <second_editor>
@@ -1995,15 +1903,87 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/innofang/singleton/example/java/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/innofang/singleton/example/kotlin/ThreadSafeSynchronizedSingleton.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/innofang/singleton/example/kotlin/ThreadSafeStaticInnerClassSingleton.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/innofang/singleton/example/kotlin/ThreadSafeDoubleCheckSingleton.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="19" column="16" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/innofang/singleton/example/kotlin/NotThreadSafeSingleton.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="523">
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <element signature="n#!!doc;n#NotThreadSafeSingleton#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/innofang/singleton/example/kotlin/Singleton.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="5" column="7" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/innofang/singleton/example/kotlin/EnumSingleton.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/innofang/singleton/example/kotlin/Client.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="11" column="50" lean-forward="false" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/io/innofang/singleton/example/java/SingletonManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="23" selection-end-column="1" />
+        <state relative-caret-position="640">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="22" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#501#502#0" expanded="true" />
-            <element signature="e#542#543#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/innofang/singleton/example/kotlin/SingletonManager.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="19" column="31" lean-forward="true" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>

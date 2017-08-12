@@ -97,19 +97,18 @@ public class ThreadSafeDoubleCheckSingleton {
 ### 静态内部类单例模式
 
 ```java
-public class ThreadSafeStaticInnerClass {
+public class ThreadSafeStaticInnerClassSingleton {
 
-    private ThreadSafeStaticInnerClass() {}
+    private ThreadSafeStaticInnerClassSingleton() {}
 
     private static class Holder {
-        private static ThreadSafeStaticInnerClass instance = new ThreadSafeStaticInnerClass();
+        private static ThreadSafeStaticInnerClassSingleton instance = new ThreadSafeStaticInnerClassSingleton();
     }
 
-    public static ThreadSafeStaticInnerClass getInstance() {
+    public static ThreadSafeStaticInnerClassSingleton getInstance() {
         return Holder.instance;
     }
 }
-
 ```
 
 由于在 DCL 在高并发的情况下，可能出现 DCL 失效问题，所以这里**更建议采用这种创建单例类的方式**，原因如下：
