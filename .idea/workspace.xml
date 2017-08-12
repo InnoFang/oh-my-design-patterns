@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="230c2636-afb9-4de2-8189-ed15d9f8521c" name="Default" comment="update">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/io/innofang/singleton/example/kotlin/Client.kt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/io/innofang/singleton/example/kotlin/EnumSingleton.kt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/io/innofang/singleton/example/kotlin/NotThreadSafeSingleton.kt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/io/innofang/singleton/example/kotlin/Singleton.kt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/io/innofang/singleton/example/kotlin/SingletonManager.kt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/io/innofang/singleton/example/kotlin/ThreadSafeDoubleCheckSingleton.kt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/io/innofang/singleton/example/kotlin/ThreadSafeStaticInnerClassSingleton.kt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/io/innofang/singleton/example/kotlin/ThreadSafeSynchronizedSingleton.kt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/innofang/singleton/README.md" afterPath="$PROJECT_DIR$/src/io/innofang/singleton/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/singleton/example/java/ThreadSafeStaticInnerClass.java" afterPath="$PROJECT_DIR$/src/io/innofang/singleton/example/java/ThreadSafeStaticInnerClassSingleton.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,12 +40,42 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SingletonManager.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SingletonManager.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/io/innofang/singleton/example/kotlin/SingletonManager.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="576">
-              <caret line="19" column="31" lean-forward="true" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+              <caret line="19" column="31" lean-forward="false" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/io/innofang/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="1000">
+                <caret line="44" column="114" lean-forward="false" selection-start-line="44" selection-start-column="114" selection-end-line="44" selection-end-column="114" />
+                <folding />
+              </first_editor>
+              <second_editor>
+                <js_state />
+              </second_editor>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="320">
+                <caret line="10" column="36" lean-forward="true" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+                <folding />
+              </first_editor>
+              <second_editor>
+                <js_state />
+              </second_editor>
             </state>
           </provider>
         </entry>
@@ -191,7 +211,6 @@
         <option value="$PROJECT_DIR$/src/io/innofang/flyweight/example/TicketFactory.java" />
         <option value="$PROJECT_DIR$/src/io/innofang/flyweight/example/Client.java" />
         <option value="$PROJECT_DIR$/src/io/innofang/flyweight/README.md" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/io/innofang/singleton/example/Singleton.java" />
         <option value="$PROJECT_DIR$/src/io/innofang/strategy/base/Context.java" />
         <option value="$PROJECT_DIR$/src/io/innofang/strategy/base/Client.java" />
@@ -216,6 +235,7 @@
         <option value="$PROJECT_DIR$/src/io/innofang/singleton/example/kotlin/EnumSingleton.kt" />
         <option value="$PROJECT_DIR$/src/io/innofang/singleton/example/kotlin/Client.kt" />
         <option value="$PROJECT_DIR$/src/io/innofang/singleton/example/kotlin/SingletonManager.kt" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -1018,7 +1038,7 @@
       <workItem from="1500107609789" duration="2181000" />
       <workItem from="1501935535247" duration="386000" />
       <workItem from="1502546189558" duration="1480000" />
-      <workItem from="1502547696417" duration="1252000" />
+      <workItem from="1502547696417" duration="1387000" />
     </task>
     <task id="LOCAL-00109" summary="update Prototype">
       <created>1494126860192</created>
@@ -1367,7 +1387,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="198801000" />
+    <option name="totallyTimeSpent" value="198936000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1764,19 +1784,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="992">
-            <caret line="31" column="20" lean-forward="false" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
-            <folding />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/io/innofang/strategy/base/Context.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
@@ -1822,19 +1829,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="544">
             <caret line="17" column="19" lean-forward="false" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/innofang/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="288">
-            <caret line="44" column="114" lean-forward="false" selection-start-line="44" selection-start-column="114" selection-end-line="44" selection-end-column="114" />
-            <folding />
           </first_editor>
           <second_editor>
             <js_state />
@@ -1982,8 +1976,34 @@
     <entry file="file://$PROJECT_DIR$/src/io/innofang/singleton/example/kotlin/SingletonManager.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="576">
-          <caret line="19" column="31" lean-forward="true" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+          <caret line="19" column="31" lean-forward="false" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/innofang/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="1000">
+            <caret line="44" column="114" lean-forward="false" selection-start-line="44" selection-start-column="114" selection-end-line="44" selection-end-column="114" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="320">
+            <caret line="10" column="36" lean-forward="true" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
         </state>
       </provider>
     </entry>
