@@ -161,6 +161,6 @@ public class SingletonManager {
 
 参考：《Android源码设计模式解析与实战》
 
-[源码地址](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/Singleton)
+[源码地址](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/singleton)
 
 [更多内容](https://innofang.github.io)
