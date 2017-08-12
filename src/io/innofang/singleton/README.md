@@ -70,7 +70,7 @@ public class Singleton {
 
 **缺点：** 每次调用`getInstance()`方法都进行同步，造成不必要的开销
 
-### Double Cheack Lock (DCL) 实现单例
+### Double Check Lock (DCL) 实现单例
 ```java
 public class Singleton {
 
