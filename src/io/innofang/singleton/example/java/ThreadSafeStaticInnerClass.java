@@ -9,11 +9,9 @@ public class ThreadSafeStaticInnerClass {
 
     private static class Holder {
         private static ThreadSafeStaticInnerClass instance = new ThreadSafeStaticInnerClass();
-
     }
 
     public static ThreadSafeStaticInnerClass getInstance() {
         return Holder.instance;
     }
-
 }
