@@ -1,4 +1,4 @@
-package io.innofang.prototype.example;
+package io.innofang.prototype.example.java;
 
 /**
  * Created by Inno Fang on 2017/2/27.
@@ -19,7 +19,7 @@ public class Client {
 
         copyDoc.setText("This is a copy document");
 
-        // add this line to test the origin document what will happen when the copy document add a image
+        // add this line to test the origin document what will happen after the copy document add a image
         copyDoc.addImage("a new Image");
 
         copyDoc.showDocument();
