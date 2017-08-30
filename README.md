@@ -13,7 +13,7 @@ NO. |         Pattern         | Code
  1  | [Factory Method (工厂方法)](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/factory_method) | [Java](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/factory_method/example)
 2   | [Abstract Factory (抽象工厂)](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/abstract_factory)|[Java](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/abstract_factory/example)
 3   | [Builder (建造者)](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/builder)|[Java](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/builder/example)
-4   | [Prototype (原型)](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/prototype)|[Java](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/prototype/example)
+4   | [Prototype (原型)](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/prototype)|[Java](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/prototype/example/java) &nbsp;&nbsp;&nbsp; [Kotlin](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/prototype/example/kotlin)
 5   | [Singleton (单例)](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/singleton)|[Java](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/singleton/example/java) &nbsp;&nbsp;&nbsp; [Kotlin](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/singleton/example/kotlin)
 
 

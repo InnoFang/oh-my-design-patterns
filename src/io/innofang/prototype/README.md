@@ -40,7 +40,7 @@ public class WordDocument implements Cloneable {
     }
 
 
-    public String getmText() {
+    public String getText() {
         return text;
     }
 
@@ -48,7 +48,7 @@ public class WordDocument implements Cloneable {
         this.text = mText;
     }
 
-    public ArrayList<String> getmImages() {
+    public ArrayList<String> getImages() {
         return images;
     }
 
