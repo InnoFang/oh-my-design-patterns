@@ -12,4 +12,11 @@ fun main(args: Array<String>) {
     }
 
     println(ferrari)
+
+    val audi = Audi.build {
+        brand = "Audi"
+        color = "blue"
+        licensePlate = "C88888"
+    }
+    println(audi)
 }

@@ -12,6 +12,7 @@ private constructor(var id: String = "", var name: String = "") {
 
 }
 
+
 fun main(args: Array<String>) {
     val user = User.build {
         id = "123"
