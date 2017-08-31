@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="230c2636-afb9-4de2-8189-ed15d9f8521c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/io/innofang/builder/example/kotlin/Audi.kt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/innofang/builder/example/kotlin/Client.kt" afterPath="$PROJECT_DIR$/src/io/innofang/builder/example/kotlin/Client.kt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/innofang/builder/example/kotlin/main.kt" afterPath="$PROJECT_DIR$/src/io/innofang/builder/example/kotlin/main.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/innofang/builder/example/kotlin/Ferrari.kt" afterPath="$PROJECT_DIR$/src/io/innofang/builder/example/kotlin/Ferrari.kt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -76,19 +75,34 @@
       <file leaf-file-name="Ferrari.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/io/innofang/builder/example/kotlin/Ferrari.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+            <state relative-caret-position="160">
+              <caret line="5" column="47" lean-forward="false" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Audi.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Audi.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/io/innofang/builder/example/kotlin/Audi.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="640">
-              <caret line="20" column="59" lean-forward="false" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
+            <state relative-caret-position="96">
+              <caret line="3" column="37" lean-forward="true" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="390">
+                <caret line="14" column="228" lean-forward="false" selection-start-line="14" selection-start-column="228" selection-end-line="14" selection-end-column="228" />
+                <folding />
+              </first_editor>
+              <second_editor>
+                <js_state />
+              </second_editor>
             </state>
           </provider>
         </entry>
@@ -202,12 +216,12 @@
         <option value="$PROJECT_DIR$/src/io/innofang/prototype/example/java/Client.java" />
         <option value="$PROJECT_DIR$/src/io/innofang/prototype/example/kotlin/Client.kt" />
         <option value="$PROJECT_DIR$/src/io/innofang/prototype/README.md" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/io/innofang/builder/example/java/Ferrari.java" />
-        <option value="$PROJECT_DIR$/src/io/innofang/builder/example/kotlin/Ferrari.kt" />
         <option value="$PROJECT_DIR$/src/io/innofang/builder/example/kotlin/main.kt" />
         <option value="$PROJECT_DIR$/src/io/innofang/builder/example/kotlin/Audi.kt" />
         <option value="$PROJECT_DIR$/src/io/innofang/builder/example/kotlin/Client.kt" />
+        <option value="$PROJECT_DIR$/src/io/innofang/builder/example/kotlin/Ferrari.kt" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -991,14 +1005,7 @@
       <workItem from="1502546189558" duration="1480000" />
       <workItem from="1502547696417" duration="1983000" />
       <workItem from="1504097686027" duration="2790000" />
-      <workItem from="1504139795899" duration="2996000" />
-    </task>
-    <task id="LOCAL-00112" summary="update State">
-      <created>1494219352330</created>
-      <option name="number" value="00112" />
-      <option name="presentableId" value="LOCAL-00112" />
-      <option name="project" value="LOCAL" />
-      <updated>1494219352330</updated>
+      <workItem from="1504139795899" duration="3219000" />
     </task>
     <task id="LOCAL-00113" summary="update State">
       <created>1494219652623</created>
@@ -1336,11 +1343,18 @@
       <option name="project" value="LOCAL" />
       <updated>1504141547939</updated>
     </task>
-    <option name="localTasksCounter" value="161" />
+    <task id="LOCAL-00161" summary="add Kotlin code for Builder">
+      <created>1504142800028</created>
+      <option name="number" value="00161" />
+      <option name="presentableId" value="LOCAL-00161" />
+      <option name="project" value="LOCAL" />
+      <updated>1504142800028</updated>
+    </task>
+    <option name="localTasksCounter" value="162" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="205318000" />
+    <option name="totallyTimeSpent" value="205541000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1417,9 +1431,9 @@
     <MESSAGE value="update Singleton" />
     <MESSAGE value="update Strategy" />
     <MESSAGE value="add kotlin code for prototype" />
-    <MESSAGE value="update" />
     <MESSAGE value="add Kotlin code for Builder" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Kotlin code for Builder" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1724,19 +1738,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="262">
-            <caret line="10" column="36" lean-forward="true" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
-            <folding />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/io/innofang/prototype/example/kotlin/WordDocument.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="652">
@@ -1817,14 +1818,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/innofang/builder/example/kotlin/Ferrari.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/io/innofang/builder/example/kotlin/Client.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="574">
@@ -1833,11 +1826,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/innofang/builder/example/kotlin/Ferrari.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="5" column="47" lean-forward="false" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/io/innofang/builder/example/kotlin/Audi.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="20" column="59" lean-forward="false" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
+        <state relative-caret-position="96">
+          <caret line="3" column="37" lean-forward="true" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="390">
+            <caret line="14" column="228" lean-forward="false" selection-start-line="14" selection-start-column="228" selection-end-line="14" selection-end-column="228" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
         </state>
       </provider>
     </entry>
