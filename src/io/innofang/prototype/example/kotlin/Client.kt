@@ -12,15 +12,12 @@ fun main(args: Array<String>) {
         showDocument()
     }
 
-    val copyDoc: WordDocument? = originDoc.cloneTo()
-    copyDoc?.let {
-        with(it) {
-            showDocument()
-            text = "This is a copy document"
-            /* Add this line to test the origin document what will happen after the copy document add a image */
-            addImage("A new image")
-            showDocument()
-        }
+    val copyDoc: WordDocument? = originDoc.cloneTo()?.apply {
+        showDocument()
+        text = "This is a copy document"
+        /* Add this line to test the origin document what will happen after the copy document add a image */
+        addImage("A new image")
+        showDocument()
     }
 
     originDoc.showDocument()

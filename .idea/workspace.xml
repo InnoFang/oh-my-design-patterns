@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="230c2636-afb9-4de2-8189-ed15d9f8521c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/io/innofang/factory_method/example/kotlin/Cake.kt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/io/innofang/factory_method/example/kotlin/CakeFactory.kt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/io/innofang/factory_method/example/kotlin/Client.kt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/io/innofang/factory_method/example/kotlin/Factory.kt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/io/innofang/factory_method/example/kotlin/MangoCake.kt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/io/innofang/factory_method/example/kotlin/StrawberrayCake.kt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/factory_method/example/Cake.java" afterPath="$PROJECT_DIR$/src/io/innofang/factory_method/example/java/Cake.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/factory_method/example/CakeFactory.java" afterPath="$PROJECT_DIR$/src/io/innofang/factory_method/example/java/CakeFactory.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/factory_method/example/Client.java" afterPath="$PROJECT_DIR$/src/io/innofang/factory_method/example/java/Client.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/factory_method/example/Factory.java" afterPath="$PROJECT_DIR$/src/io/innofang/factory_method/example/java/Factory.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/factory_method/example/MangoCake.java" afterPath="$PROJECT_DIR$/src/io/innofang/factory_method/example/java/MangoCake.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/factory_method/example/StrawberryCake.java" afterPath="$PROJECT_DIR$/src/io/innofang/factory_method/example/java/StrawberryCake.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/innofang/prototype/example/kotlin/Client.kt" afterPath="$PROJECT_DIR$/src/io/innofang/prototype/example/kotlin/Client.kt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,16 +31,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Cake.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/io/innofang/factory_method/example/kotlin/Cake.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MangoCake.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/io/innofang/factory_method/example/kotlin/MangoCake.kt">
           <provider selected="true" editor-type-id="text-editor">
@@ -62,21 +41,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StrawberrayCake.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/io/innofang/factory_method/example/kotlin/StrawberrayCake.kt">
+      <file leaf-file-name="Client.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/io/innofang/factory_method/example/kotlin/Client.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="12" column="41" lean-forward="false" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+            <state relative-caret-position="414">
+              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WordDocument.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/io/innofang/prototype/example/kotlin/WordDocument.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="652">
+              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Client.kt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/io/innofang/factory_method/example/kotlin/Client.kt">
+        <entry file="file://$PROJECT_DIR$/src/io/innofang/prototype/example/kotlin/Client.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="18" column="65" lean-forward="false" selection-start-line="18" selection-start-column="65" selection-end-line="18" selection-end-column="65" />
+            <state relative-caret-position="460">
+              <caret line="19" column="22" lean-forward="false" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -221,7 +210,6 @@
         <option value="$PROJECT_DIR$/src/io/innofang/prototype/example/java/WordDocument.java" />
         <option value="$PROJECT_DIR$/src/io/innofang/prototype/example/kotlin/WordDocument.kt" />
         <option value="$PROJECT_DIR$/src/io/innofang/prototype/example/java/Client.java" />
-        <option value="$PROJECT_DIR$/src/io/innofang/prototype/example/kotlin/Client.kt" />
         <option value="$PROJECT_DIR$/src/io/innofang/prototype/README.md" />
         <option value="$PROJECT_DIR$/src/io/innofang/builder/example/java/Ferrari.java" />
         <option value="$PROJECT_DIR$/src/io/innofang/builder/example/kotlin/main.kt" />
@@ -238,6 +226,7 @@
         <option value="$PROJECT_DIR$/src/io/innofang/factory_method/example/kotlin/Factory.kt" />
         <option value="$PROJECT_DIR$/src/io/innofang/factory_method/example/kotlin/CakeFactory.kt" />
         <option value="$PROJECT_DIR$/src/io/innofang/factory_method/example/kotlin/Client.kt" />
+        <option value="$PROJECT_DIR$/src/io/innofang/prototype/example/kotlin/Client.kt" />
       </list>
     </option>
   </component>
@@ -335,7 +324,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="factory_method" />
+              <option name="myItemId" value="prototype" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -357,7 +346,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="factory_method" />
+              <option name="myItemId" value="prototype" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -387,15 +376,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="factory_method" />
+              <option name="myItemId" value="prototype" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="example" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1016,14 +1001,7 @@
       <workItem from="1504097686027" duration="2790000" />
       <workItem from="1504139795899" duration="3403000" />
       <workItem from="1504253914862" duration="1929000" />
-      <workItem from="1504255953983" duration="317000" />
-    </task>
-    <task id="LOCAL-00114" summary="update Strategy">
-      <created>1494219878245</created>
-      <option name="number" value="00114" />
-      <option name="presentableId" value="LOCAL-00114" />
-      <option name="project" value="LOCAL" />
-      <updated>1494219878245</updated>
+      <workItem from="1504255953983" duration="493000" />
     </task>
     <task id="LOCAL-00115" summary="update Template Method">
       <created>1494219994407</created>
@@ -1361,11 +1339,18 @@
       <option name="project" value="LOCAL" />
       <updated>1504143016753</updated>
     </task>
-    <option name="localTasksCounter" value="163" />
+    <task id="LOCAL-00163" summary="add kotlin code for Factory Method">
+      <created>1504256272950</created>
+      <option name="number" value="00163" />
+      <option name="presentableId" value="LOCAL-00163" />
+      <option name="project" value="LOCAL" />
+      <updated>1504256272950</updated>
+    </task>
+    <option name="localTasksCounter" value="164" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="207971000" />
+    <option name="totallyTimeSpent" value="208147000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1378,6 +1363,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1098" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32852387" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1389,7 +1375,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26304108" sideWeight="0.50214595" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32963374" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45061043" sideWeight="0.49785408" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45061043" sideWeight="0.49785408" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33518314" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1635,20 +1621,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/innofang/prototype/example/kotlin/Client.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/innofang/prototype/example/kotlin/WordDocument.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="652">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/io/innofang/builder/example/java/Car.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
@@ -1848,8 +1820,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/io/innofang/factory_method/example/kotlin/Client.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="18" column="65" lean-forward="false" selection-start-line="18" selection-start-column="65" selection-end-line="18" selection-end-column="65" />
+        <state relative-caret-position="414">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/innofang/prototype/example/kotlin/WordDocument.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="652">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/innofang/prototype/example/kotlin/Client.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="19" column="22" lean-forward="false" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
           <folding />
         </state>
       </provider>
