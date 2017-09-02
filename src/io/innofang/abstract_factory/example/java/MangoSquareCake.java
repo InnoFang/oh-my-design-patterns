@@ -1,10 +1,10 @@
-package io.innofang.abstract_factory.example;
+package io.innofang.abstract_factory.example.java;
 
 /**
  * Created by InnF on 2017/2/25.
- * 爱心型芒果味蛋糕
+ * 芒果方形蛋糕
  */
-public class MangoHeartCake extends CakeFactory {
+public class MangoSquareCake extends CakeFactory {
     @Override
     public CakeCream cream() {
         return new MangoCream();
@@ -12,6 +12,6 @@ public class MangoHeartCake extends CakeFactory {
 
     @Override
     public CakeStyle style() {
-        return new HeartStyle();
+        return new SquareStyle();
     }
 }
