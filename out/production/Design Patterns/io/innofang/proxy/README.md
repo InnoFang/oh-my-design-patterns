@@ -134,11 +134,10 @@ Signature Acceptance
           // 省略具体实现
  }
  ```
-
-使用这个静态方法来为一组接口动态的生成代理类对象，它含有三个参数：
-- `ClassLoader loader` : 用于加载动态代理
-- `Class<?>[] interfaces` : 接口数组
-- `InvocationHandler h` : 动态代理实现类
+    使用这个静态方法来为一组接口动态的生成代理类对象，它含有三个参数：
+    - `ClassLoader loader` : 用于加载动态代理
+    - `Class<?>[] interfaces` : 接口数组
+    - `InvocationHandler h` : 动态代理实现类
 
 讲了那么多，那么来具体实现这个动态代理
 

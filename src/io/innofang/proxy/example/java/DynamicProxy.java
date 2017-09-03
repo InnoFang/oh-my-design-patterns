@@ -1,4 +1,4 @@
-package io.innofang.proxy.example;
+package io.innofang.proxy.example.java;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
