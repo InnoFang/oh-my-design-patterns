@@ -19,7 +19,7 @@ public class Client {
 
         IPicker iPicker = new RealPicker();
         DynamicProxy proxy = new DynamicProxy(iPicker);
-        ClassLoader loader = iPicker.getClass().getClassLoader();
+        ClassLoader loader = IPicker.class.getClassLoader();
         IPicker dynamicPicker = (IPicker) Proxy.newProxyInstance(
                 loader, new Class[]{IPicker.class}, proxy);
 
