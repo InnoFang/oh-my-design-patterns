@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="230c2636-afb9-4de2-8189-ed15d9f8521c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/io/innofang/proxy/example/kotlin/DynamicProxies.kt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/io/innofang/proxy/example/kotlin/DynamicProxy.kt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Design Patterns/META-INF/Design Patterns.kotlin_module" afterPath="$PROJECT_DIR$/out/production/Design Patterns/META-INF/Design Patterns.kotlin_module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Design Patterns/io/innofang/proxy/README.md" afterPath="$PROJECT_DIR$/out/production/Design Patterns/io/innofang/proxy/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/innofang/proxy/example/java/Client.java" afterPath="$PROJECT_DIR$/src/io/innofang/proxy/example/java/Client.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/innofang/proxy/example/kotlin/client.kt" afterPath="$PROJECT_DIR$/src/io/innofang/proxy/example/kotlin/client.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,12 +24,37 @@
     <option name="SHOW_EMPTY_GROUPS" value="false" />
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
   </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/README.md">
+                <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+                  <state split_layout="FIRST">
+                    <first_editor relative-caret-position="224">
+                      <caret line="28" column="203" lean-forward="true" selection-start-line="28" selection-start-column="203" selection-end-line="28" selection-end-column="203" />
+                      <folding />
+                    </first_editor>
+                    <second_editor>
+                      <js_state />
+                    </second_editor>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="Design Patterns" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="IPicker.kt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="IPicker.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/io/innofang/proxy/example/kotlin/IPicker.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="146">
@@ -122,11 +141,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DynamicProxies.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DynamicProxies.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/io/innofang/proxy/example/kotlin/DynamicProxies.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="8" column="29" lean-forward="false" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+            <state relative-caret-position="42">
+              <caret line="15" column="44" lean-forward="false" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
               <folding>
                 <element signature="e#42#115#0" expanded="true" />
               </folding>
@@ -219,7 +238,6 @@
         <option value="$PROJECT_DIR$/src/io/innofang/abstract_factory/example/kotlin/StrawberryHeartCake.kt" />
         <option value="$PROJECT_DIR$/src/io/innofang/abstract_factory/example/kotlin/MangoSquareCake.kt" />
         <option value="$PROJECT_DIR$/src/io/innofang/abstract_factory/example/kotlin/Client.kt" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/io/innofang/chain_of_responsibility/README.md" />
         <option value="$PROJECT_DIR$/src/io/innofang/proxy/example/java/RealPicker.java" />
         <option value="$PROJECT_DIR$/src/io/innofang/proxy/example/kotlin/IPicker.kt" />
@@ -230,6 +248,7 @@
         <option value="$PROJECT_DIR$/src/io/innofang/proxy/example/kotlin/DynamicProxy.kt" />
         <option value="$PROJECT_DIR$/src/io/innofang/proxy/example/kotlin/DynamicProxies.kt" />
         <option value="$PROJECT_DIR$/src/io/innofang/proxy/example/kotlin/client.kt" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -930,7 +949,7 @@
       <workItem from="1504329839868" duration="1916000" />
       <workItem from="1504340457437" duration="1136000" />
       <workItem from="1504354590142" duration="393000" />
-      <workItem from="1504406381417" duration="4814000" />
+      <workItem from="1504406381417" duration="4896000" />
     </task>
     <task id="LOCAL-00117" summary="update Strategy">
       <created>1494221269394</created>
@@ -1279,7 +1298,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="216838000" />
+    <option name="totallyTimeSpent" value="216920000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1306,7 +1325,7 @@
       <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33704117" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20386267" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20386267" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1643,19 +1662,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="448">
-            <caret line="14" column="222" lean-forward="false" selection-start-line="14" selection-start-column="222" selection-end-line="14" selection-end-column="222" />
-            <folding />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/io/innofang/chain_of_responsibility/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
@@ -1722,14 +1728,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/innofang/proxy/example/kotlin/IPicker.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/io/innofang/proxy/example/kotlin/RealPicker.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="146">
@@ -1774,11 +1772,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/io/innofang/proxy/example/kotlin/DynamicProxies.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="8" column="29" lean-forward="false" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+        <state relative-caret-position="42">
+          <caret line="15" column="44" lean-forward="false" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
           <folding>
             <element signature="e#42#115#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="224">
+            <caret line="28" column="203" lean-forward="true" selection-start-line="28" selection-start-column="203" selection-end-line="28" selection-end-column="203" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/innofang/proxy/example/kotlin/IPicker.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -27,7 +27,7 @@ NO. |         Pattern         | Code
 9   | [Decorator (装饰)](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/decorator) | [Java](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/decorator/example)
 10  | [Facade (外观)](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/facade) | [Java](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/facade/example)
 11  | [Flyweight (享元)](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/flyweight) | [Java](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/flyweight/example)
-12  | [Proxy (代理)](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/proxy) | [Java](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/proxy/example)
+12  | [Proxy (代理)](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/proxy) | [Java](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/proxy/example/java) &nbsp;&nbsp;&nbsp; [Java](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/proxy/example/kotlin)
 
 ### Behavioral (行为型)
 
