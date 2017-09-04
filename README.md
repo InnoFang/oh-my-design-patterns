@@ -24,7 +24,7 @@ NO. |         Pattern         | Code
 6   | [Adapter Class/Object (适配器)](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/adapter) | [Java](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/adapter/example)
 7   | Bridge (桥接)           | &nbsp;
 8   | Composite (组合)         | &nbsp;
-9   | [Decorator (装饰)](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/decorator) | [Java](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/decorator/example)
+9   | [Decorator (装饰)](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/decorator) | [Java](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/decorator/example/java) &nbsp;&nbsp;&nbsp; [Kotlin](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/decorator/example/kotlin)
 10  | [Facade (外观)](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/facade) | [Java](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/facade/example)
 11  | [Flyweight (享元)](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/flyweight) | [Java](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/flyweight/example)
 12  | [Proxy (代理)](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/proxy) | [Java](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/proxy/example/java) &nbsp;&nbsp;&nbsp; [Kotlin](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/proxy/example/kotlin)

@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="230c2636-afb9-4de2-8189-ed15d9f8521c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/io/innofang/decorator/example/kotlin/Cake.kt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/io/innofang/decorator/example/kotlin/CakeEmbryo.kt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/io/innofang/decorator/example/kotlin/Client.kt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/io/innofang/decorator/example/kotlin/DecorateCake.kt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/io/innofang/decorator/example/kotlin/FruitCake.kt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -104,12 +99,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DecorateCake.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DecorateCake.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/io/innofang/decorator/example/kotlin/DecorateCake.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="192">
               <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="206">
+                <caret line="26" column="235" lean-forward="false" selection-start-line="26" selection-start-column="235" selection-end-line="26" selection-end-column="235" />
+                <folding />
+              </first_editor>
+              <second_editor>
+                <js_state />
+              </second_editor>
             </state>
           </provider>
         </entry>
@@ -141,6 +151,7 @@
     <findStrings>
       <find>Pro</find>
       <find>餐馆</find>
+      <find>Decora</find>
     </findStrings>
     <replaceStrings>
       <replace>餐厅</replace>
@@ -212,7 +223,6 @@
         <option value="$PROJECT_DIR$/src/io/innofang/proxy/example/kotlin/DynamicProxy.kt" />
         <option value="$PROJECT_DIR$/src/io/innofang/proxy/example/kotlin/DynamicProxies.kt" />
         <option value="$PROJECT_DIR$/src/io/innofang/proxy/example/kotlin/client.kt" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/io/innofang/decorator/example/java/FruitCake.java" />
         <option value="$PROJECT_DIR$/src/io/innofang/decorator/example/kotlin/Client.kt" />
@@ -220,6 +230,7 @@
         <option value="$PROJECT_DIR$/src/io/innofang/decorator/example/kotlin/CakeEmbryo.kt" />
         <option value="$PROJECT_DIR$/src/io/innofang/decorator/example/kotlin/DecorateCake.kt" />
         <option value="$PROJECT_DIR$/src/io/innofang/decorator/example/kotlin/FruitCake.kt" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -932,7 +943,7 @@
       <workItem from="1504406381417" duration="4930000" />
       <workItem from="1504411362636" duration="259000" />
       <workItem from="1504494976584" duration="521000" />
-      <workItem from="1504531839189" duration="312000" />
+      <workItem from="1504531839189" duration="399000" />
     </task>
     <task id="LOCAL-00117" summary="update Strategy">
       <created>1494221269394</created>
@@ -1281,7 +1292,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="218046000" />
+    <option name="totallyTimeSpent" value="218133000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1648,19 +1659,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="928">
-            <caret line="29" column="223" lean-forward="false" selection-start-line="29" selection-start-column="223" selection-end-line="29" selection-end-column="223" />
-            <folding />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="406">
@@ -1762,6 +1760,19 @@
         <state relative-caret-position="192">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="206">
+            <caret line="26" column="235" lean-forward="false" selection-start-line="26" selection-start-column="235" selection-end-line="26" selection-end-column="235" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
         </state>
       </provider>
     </entry>
