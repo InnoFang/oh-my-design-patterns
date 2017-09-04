@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="230c2636-afb9-4de2-8189-ed15d9f8521c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/innofang/decorator/example/kotlin/Client.kt" afterPath="$PROJECT_DIR$/src/io/innofang/decorator/example/kotlin/Client.kt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,7 +34,7 @@
               <entry file="file://$PROJECT_DIR$/src/io/innofang/decorator/example/java/DecorateCake.java">
                 <provider selected="true" editor-type-id="text-editor">
                   <state relative-caret-position="375">
-                    <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+                    <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
                     <folding />
                   </state>
                 </provider>
@@ -43,17 +44,27 @@
               <entry file="file://$PROJECT_DIR$/src/io/innofang/decorator/example/java/FruitCake.java">
                 <provider selected="true" editor-type-id="text-editor">
                   <state relative-caret-position="476">
-                    <caret line="21" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+                    <caret line="21" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
                     <folding />
                   </state>
                 </provider>
               </entry>
             </file>
-            <file leaf-file-name="ChocolateCake.java" pinned="false" current-in-tab="true">
+            <file leaf-file-name="ChocolateCake.java" pinned="false" current-in-tab="false">
               <entry file="file://$PROJECT_DIR$/src/io/innofang/decorator/example/java/ChocolateCake.java">
                 <provider selected="true" editor-type-id="text-editor">
                   <state relative-caret-position="32">
                     <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+                    <folding />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file leaf-file-name="Client.java" pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/src/io/innofang/decorator/example/java/Client.java">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="352">
+                    <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="62" />
                     <folding />
                   </state>
                 </provider>
@@ -83,17 +94,17 @@
         <entry file="file://$PROJECT_DIR$/src/io/innofang/decorator/example/kotlin/CakeEmbryo.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="16" lean-forward="true" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
+              <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Client.kt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Client.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/io/innofang/decorator/example/kotlin/Client.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state relative-caret-position="384">
+              <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -109,7 +120,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
@@ -225,12 +236,12 @@
         <option value="$PROJECT_DIR$/src/io/innofang/proxy/example/kotlin/client.kt" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/io/innofang/decorator/example/java/FruitCake.java" />
-        <option value="$PROJECT_DIR$/src/io/innofang/decorator/example/kotlin/Client.kt" />
         <option value="$PROJECT_DIR$/src/io/innofang/decorator/example/kotlin/Cake.kt" />
         <option value="$PROJECT_DIR$/src/io/innofang/decorator/example/kotlin/CakeEmbryo.kt" />
         <option value="$PROJECT_DIR$/src/io/innofang/decorator/example/kotlin/DecorateCake.kt" />
         <option value="$PROJECT_DIR$/src/io/innofang/decorator/example/kotlin/FruitCake.kt" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/io/innofang/decorator/example/kotlin/Client.kt" />
       </list>
     </option>
   </component>
@@ -361,7 +372,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.io.innofang.proxy.example.kotlin.ClientKt">
+  <component name="RunManager" selected="Kotlin.io.innofang.decorator.example.kotlin.ClientKt">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -772,9 +783,9 @@
       <module name="Design Patterns" />
       <envs />
     </configuration>
-    <configuration name="io.innofang.builder.example.kotlin.ClientKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="io.innofang.decorator.example.kotlin.ClientKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="io.innofang.builder.example.kotlin.ClientKt" />
+      <option name="MAIN_CLASS_NAME" value="io.innofang.decorator.example.kotlin.ClientKt" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -809,19 +820,19 @@
       <envs />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Kotlin.io.innofang.builder.example.kotlin.ClientKt" />
-      <item index="1" class="java.lang.String" itemvalue="Kotlin.io.innofang.factory_method.example.kotlin.ClientKt" />
-      <item index="2" class="java.lang.String" itemvalue="Kotlin.io.innofang.abstract_factory.example.kotlin.ClientKt" />
-      <item index="3" class="java.lang.String" itemvalue="Kotlin.io.innofang.proxy.example.kotlin.ClientKt" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Client" />
+      <item index="0" class="java.lang.String" itemvalue="Kotlin.io.innofang.factory_method.example.kotlin.ClientKt" />
+      <item index="1" class="java.lang.String" itemvalue="Kotlin.io.innofang.abstract_factory.example.kotlin.ClientKt" />
+      <item index="2" class="java.lang.String" itemvalue="Kotlin.io.innofang.proxy.example.kotlin.ClientKt" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Client" />
+      <item index="4" class="java.lang.String" itemvalue="Kotlin.io.innofang.decorator.example.kotlin.ClientKt" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Kotlin.io.innofang.proxy.example.kotlin.ClientKt" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Client" />
-        <item index="2" class="java.lang.String" itemvalue="Kotlin.io.innofang.abstract_factory.example.kotlin.ClientKt" />
-        <item index="3" class="java.lang.String" itemvalue="Kotlin.io.innofang.factory_method.example.kotlin.ClientKt" />
-        <item index="4" class="java.lang.String" itemvalue="Kotlin.io.innofang.builder.example.kotlin.ClientKt" />
+        <item index="0" class="java.lang.String" itemvalue="Kotlin.io.innofang.decorator.example.kotlin.ClientKt" />
+        <item index="1" class="java.lang.String" itemvalue="Kotlin.io.innofang.proxy.example.kotlin.ClientKt" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Client" />
+        <item index="3" class="java.lang.String" itemvalue="Kotlin.io.innofang.abstract_factory.example.kotlin.ClientKt" />
+        <item index="4" class="java.lang.String" itemvalue="Kotlin.io.innofang.factory_method.example.kotlin.ClientKt" />
       </list>
     </recent_temporary>
   </component>
@@ -943,7 +954,7 @@
       <workItem from="1504406381417" duration="4930000" />
       <workItem from="1504411362636" duration="259000" />
       <workItem from="1504494976584" duration="521000" />
-      <workItem from="1504531839189" duration="399000" />
+      <workItem from="1504531839189" duration="662000" />
     </task>
     <task id="LOCAL-00117" summary="update Strategy">
       <created>1494221269394</created>
@@ -1292,7 +1303,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="218133000" />
+    <option name="totallyTimeSpent" value="218396000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1308,6 +1319,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32852387" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32703003" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1333,7 +1345,6 @@
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Module Dependencies" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32703003" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1674,14 +1685,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/innofang/decorator/example/java/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/io/innofang/decorator/example/kotlin/Class.kt" />
     <entry file="file://$PROJECT_DIR$/src/io/innofang/decorator/example/java/CakeEmbryo.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1694,15 +1697,7 @@
     <entry file="file://$PROJECT_DIR$/src/io/innofang/decorator/example/java/DecorateCake.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/innofang/decorator/example/kotlin/Client.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1710,7 +1705,7 @@
     <entry file="file://$PROJECT_DIR$/src/io/innofang/decorator/example/java/FruitCake.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <caret line="21" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1719,14 +1714,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="316">
           <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/innofang/decorator/example/kotlin/Cake.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="6" column="14" lean-forward="false" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
           <folding />
         </state>
       </provider>
@@ -1750,7 +1737,7 @@
     <entry file="file://$PROJECT_DIR$/src/io/innofang/decorator/example/kotlin/CakeEmbryo.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="16" lean-forward="true" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
+          <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
           <folding />
         </state>
       </provider>
@@ -1773,6 +1760,30 @@
           <second_editor>
             <js_state />
           </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/innofang/decorator/example/kotlin/Cake.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="6" column="14" lean-forward="false" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/innofang/decorator/example/java/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/innofang/decorator/example/kotlin/Client.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
