@@ -1,4 +1,4 @@
-package io.innofang.decorator.example;
+package io.innofang.decorator.example.java;
 
 /**
  * Created by Inno Fang on 2017/5/4.
