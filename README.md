@@ -45,7 +45,8 @@ NO. |         Pattern         | Code
 22  | [Strategy (策略)](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/strategy) | [Java](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/strategy/example)
 23  | Visitor (访问者) | &nbsp;
 
+# [LICENSE](https://github.com/InnoFang/DesignPatterns/blob/master/LICENSE)
 
-# LICENSE
-
-   [Apache License 2.0](https://github.com/InnoFang/DesignPatterns/blob/master/LICENSE)
+> Copyright (C) 2007 Free Software Foundation, Inc. <http://fsf.org/>
+ Everyone is permitted to copy and distribute verbatim copies
+ of this license document, but changing it is not allowed.
