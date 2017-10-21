@@ -45,9 +45,6 @@ NO. |         Pattern         | Code
 22  | [Strategy (策略)](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/strategy) | [Java](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/strategy/example)
 23  | Visitor (访问者) | &nbsp;
 
-# Reference (引用)
-
- + 《Android源码设计模式解析与实战》
 
 # LICENSE
 
