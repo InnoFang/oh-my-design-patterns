@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="230c2636-afb9-4de2-8189-ed15d9f8521c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/io/innofang/strategy/example/kotlin/Client.kt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/io/innofang/strategy/example/kotlin/GoToChangChun.kt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/io/innofang/strategy/example/kotlin/GoToEMei.kt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/io/innofang/strategy/example/kotlin/GoToGuiLin.kt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/io/innofang/strategy/example/kotlin/GoToHaiNan.kt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/io/innofang/strategy/example/kotlin/GoToStrategy.kt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/io/innofang/strategy/example/kotlin/Wang.kt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/innofang/singleton/example/java/Client.java" afterPath="$PROJECT_DIR$/src/io/innofang/singleton/example/java/Client.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/strategy/example/Client.java" afterPath="$PROJECT_DIR$/src/io/innofang/strategy/example/java/Client.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/strategy/example/GoToChangChun.java" afterPath="$PROJECT_DIR$/src/io/innofang/strategy/example/java/GoToChangChun.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/strategy/example/GoToEMei.java" afterPath="$PROJECT_DIR$/src/io/innofang/strategy/example/java/GoToEMei.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/strategy/example/GoToGuiLin.java" afterPath="$PROJECT_DIR$/src/io/innofang/strategy/example/java/GoToGuiLin.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/strategy/example/GoToHaiNan.java" afterPath="$PROJECT_DIR$/src/io/innofang/strategy/example/java/GoToHaiNan.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/strategy/example/GoToStrategy.java" afterPath="$PROJECT_DIR$/src/io/innofang/strategy/example/java/GoToStrategy.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/innofang/strategy/example/Wang.java" afterPath="$PROJECT_DIR$/src/io/innofang/strategy/example/java/Wang.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,16 +29,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="GoToStrategy.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/io/innofang/strategy/example/java/GoToStrategy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Wang.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/io/innofang/strategy/example/kotlin/Wang.kt">
           <provider selected="true" editor-type-id="text-editor">
@@ -74,11 +49,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Client.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Client.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/io/innofang/strategy/example/kotlin/Client.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="512">
               <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="69">
+                <caret line="35" column="33" lean-forward="true" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
+                <folding />
+              </first_editor>
+              <second_editor>
+                <js_state />
+              </second_editor>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LICENSE" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LICENSE">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="343">
+              <caret line="657" column="56" lean-forward="true" selection-start-line="654" selection-start-column="4" selection-end-line="657" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -129,16 +129,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="288">
               <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Wang.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/io/innofang/strategy/example/java/Wang.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -224,7 +214,6 @@
         <option value="$PROJECT_DIR$/src/io/innofang/decorator/example/kotlin/Cake.kt" />
         <option value="$PROJECT_DIR$/src/io/innofang/decorator/example/kotlin/CakeEmbryo.kt" />
         <option value="$PROJECT_DIR$/src/io/innofang/decorator/example/kotlin/FruitCake.kt" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/io/innofang/decorator/example/kotlin/Client.kt" />
         <option value="$PROJECT_DIR$/src/io/innofang/proxy/example/kotlin/ProxyPicker.kt" />
         <option value="$PROJECT_DIR$/src/io/innofang/decorator/example/kotlin/DecorateCake.kt" />
@@ -241,6 +230,7 @@
         <option value="$PROJECT_DIR$/src/io/innofang/strategy/example/kotlin/Client.kt" />
         <option value="$PROJECT_DIR$/src/io/innofang/strategy/example/kotlin/Wang.kt" />
         <option value="$PROJECT_DIR$/src/io/innofang/strategy/example/kotlin/GoToStrategy.kt" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -307,39 +297,6 @@
               <item name="innofang" type="462c0819:PsiDirectoryNode" />
               <item name="builder" type="462c0819:PsiDirectoryNode" />
               <item name="example" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Design Patterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Design Patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="innofang" type="462c0819:PsiDirectoryNode" />
-              <item name="strategy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Design Patterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Design Patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="innofang" type="462c0819:PsiDirectoryNode" />
-              <item name="strategy" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Design Patterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Design Patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="innofang" type="462c0819:PsiDirectoryNode" />
-              <item name="strategy" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Design Patterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Design Patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="innofang" type="462c0819:PsiDirectoryNode" />
-              <item name="strategy" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -981,7 +938,7 @@
       <workItem from="1504624112150" duration="695000" />
       <workItem from="1504703714702" duration="102000" />
       <workItem from="1505902057213" duration="192000" />
-      <workItem from="1508847083192" duration="1950000" />
+      <workItem from="1508847083192" duration="2170000" />
     </task>
     <task id="LOCAL-00117" summary="update Strategy">
       <created>1494221269394</created>
@@ -1330,7 +1287,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="222093000" />
+    <option name="totallyTimeSpent" value="222313000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1429,13 +1386,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/io/innofang/abstract_factory/example/kotlin/MangoCream.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/io/innofang/abstract_factory/example/kotlin/CakeFactory.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
@@ -1651,19 +1601,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="46">
-            <caret line="8" column="20" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="20" />
-            <folding />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/io/innofang/decorator/example/kotlin/Client.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -1805,6 +1742,27 @@
         <state relative-caret-position="512">
           <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="657" column="56" lean-forward="true" selection-start-line="654" selection-start-column="4" selection-end-line="657" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="69">
+            <caret line="35" column="33" lean-forward="true" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
         </state>
       </provider>
     </entry>

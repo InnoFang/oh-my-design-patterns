@@ -42,13 +42,14 @@ NO. |         Pattern         | Code
 19  | [Memento (备忘录)](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/memento) | [Java](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/memento/example)
 20  | [Observer (观察者)](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/observer) | [Java](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/observer/example)
 21  | [State (状态)](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/state) | [Java](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/state/example)
-22  | [Strategy (策略)](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/strategy) | [Java](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/strategy/example)
+22  | [Strategy (策略)](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/strategy) | [Java](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/strategy/example/Java) &nbsp;&nbsp;  [Kotlin](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/strategy/example/kotlin)
 23  | Visitor (访问者) | &nbsp;
 
-# [LICENSE](https://github.com/InnoFang/DesignPatterns/blob/master/LICENSE)
+# [License](https://github.com/InnoFang/DesignPatterns/blob/master/LICENSE)
 
 ```
- Copyright (C) 2007 Free Software Foundation, Inc. <http://fsf.org/>
- Everyone is permitted to copy and distribute verbatim copies
- of this license document, but changing it is not allowed.
+    DesignPatterns  Copyright (C) 2017  InnoFang
+    This program comes with ABSOLUTELY NO WARRANTY; for details type `show w'.
+    This is free software, and you are welcome to redistribute it
+    under certain conditions; type `show c' for details.
 ```
