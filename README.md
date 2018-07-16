@@ -1,12 +1,8 @@
-# Design Patterns (设计模式)
+# Oh, my design patterns 
 
-This project just for recording process of my Design Patterns Leaning
+[![](https://i.creativecommons.org/l/by-nc/4.0/80x15.png)](./LICENSE)
 
-But if you have some advice or supplement , please and welcome to pull request for me, whatever Chinese or English
-
-THX :-)
-
-### Creational (创建型)
+## Creational (创建型)
 
 NO. |         Pattern         | Code
 ----|-------------------------|-----
@@ -17,7 +13,7 @@ NO. |         Pattern         | Code
 5   | [Singleton (单例)](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/singleton)|[Java](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/singleton/example/java) &nbsp;&nbsp;&nbsp; [Kotlin](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/singleton/example/kotlin)
 
 
-### Structural (结构型)
+## Structural (结构型)
 
 NO. |         Pattern         | Code
 ----|-------------------------|-----
@@ -29,7 +25,7 @@ NO. |         Pattern         | Code
 11  | [Flyweight (享元)](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/flyweight) | [Java](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/flyweight/example)
 12  | [Proxy (代理)](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/proxy) | [Java](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/proxy/example/java) &nbsp;&nbsp;&nbsp; [Kotlin](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/proxy/example/kotlin)
 
-### Behavioral (行为型)
+## Behavioral (行为型)
 
 NO. |         Pattern         | Code
 ----|-------------------------|-----
@@ -44,12 +40,9 @@ NO. |         Pattern         | Code
 21  | [State (状态)](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/state) | [Java](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/state/example)
 22  | [Strategy (策略)](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/strategy) | [Java](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/strategy/example/Java) &nbsp;&nbsp;  [Kotlin](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/strategy/example/kotlin)
 23  | [Visitor (访问者)](https://github.com/InnoFang/DesignPatterns/tree/df27326b9ce4483f056cc4b386c582bfe2026b5e/src/io/innofang/visitor) | [java](https://github.com/InnoFang/DesignPatterns/tree/df27326b9ce4483f056cc4b386c582bfe2026b5e/src/io/innofang/visitor/example)
+ 
 
-# [License](https://github.com/InnoFang/DesignPatterns/blob/master/LICENSE)
+## License
 
-```
-    DesignPatterns  Copyright (C) 2017  InnoFang
-    This program comes with ABSOLUTELY NO WARRANTY; for details type `show w'.
-    This is free software, and you are welcome to redistribute it
-    under certain conditions; type `show c' for details.
-```
+<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
+ 本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可。
