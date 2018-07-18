@@ -3,6 +3,10 @@
 
 [![](https://i.creativecommons.org/l/by-nc/4.0/80x15.png)](./LICENSE)
 
+记录了我学习设计模式时写的文章以及代码。若有纰漏，欢迎指正与交流。😀
+
+点击查看电子书，体验更好 &nbsp;&nbsp; 👉&nbsp;[gitbook](https://innofang.gitbook.io/oh-my-design-patterns/v/gitbook/)
+
  
 ## Creational (创建型)
 
