@@ -4,19 +4,19 @@
 
 ## 目录
  
-* [第 1 部分 创建型（Creational）](创建型（Creational）)
+* [创建型（Creational）](创建型（Creational）)
   - [工厂方法模式](创建型（Creational）/1.工厂方法模式.md)
   - [抽象工厂模式](创建型（Creational）/2.抽象工厂模式.md)
   - [建造者模式](创建型（Creational）/3.建造者模式.md)
   - [原型模式](创建型（Creational）/4.原型模式.md)
   - [单例模式](创建型（Creational）/5.单例模式.md)
-* [第 2 部分 结构型（Structural）](结构型（Structural）)
+* [结构型（Structural）](结构型（Structural）)
   - [适配器模式](结构型（Structural）/1.适配器模式.md)
   - [装饰模式](结构型（Structural）/2.装饰模式.md)
   - [外观模式](结构型（Structural）/3.外观模式.md)
   - [享元模式](结构型（Structural）/4.享元模式.md)
   - [代理模式](结构型（Structural）/5.代理模式.md)
-* [第 3 部分 行为型（Behavioral）](行为型（Behavioral）)
+* [行为型（Behavioral）](行为型（Behavioral）)
   - [模板方法模式](行为型（Behavioral）/1.模板方法模式.md)
   - [责任链模式](行为型（Behavioral）/2.责任链模式.md)
   - [迭代器模式](行为型（Behavioral）/3.迭代器模式.md)
