@@ -7,45 +7,43 @@
 
 点击查看电子书，体验更好 &nbsp;&nbsp; 👉&nbsp;[gitbook](https://innofang.gitbook.io/oh-my-design-patterns/v/gitbook/)
 
+<br/>
  
-## Creational (创建型)
++ **创建型 (Creational)**
 
-NO. |         Pattern         | Code
-----|-------------------------|-----
- 1  | [Factory Method (工厂方法)](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/factory_method) | [Java](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/factory_method/example/java) &nbsp;&nbsp;&nbsp; [Kotlin](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/factory_method/example/kotlin)
-2   | [Abstract Factory (抽象工厂)](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/abstract_factory)|[Java](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/abstract_factory/example/java) &nbsp;&nbsp;&nbsp; [Kotlin](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/abstract_factory/example/kotlin)
-3   | [Builder (建造者)](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/builder)|[Java](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/builder/example/java) &nbsp;&nbsp;&nbsp; [Kotlin](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/builder/example/kotlin)
-4   | [Prototype (原型)](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/prototype)|[Java](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/prototype/example/java) &nbsp;&nbsp;&nbsp; [Kotlin](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/prototype/example/kotlin)
-5   | [Singleton (单例)](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/singleton)|[Java](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/singleton/example/java) &nbsp;&nbsp;&nbsp; [Kotlin](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/singleton/example/kotlin)
+  -  [工厂方法模式（Factory Method Pattern）](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/factory_method)   <br/>[`Java`](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/factory_method/example/java)  [`Kotlin`](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/factory_method/example/kotlin)
+  -  [抽象工厂模式（Abstract Factory Pattern）](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/abstract_factory) <br/>[`Java`](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/abstract_factory/example/java)  [`Kotlin`](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/abstract_factory/example/kotlin)
+  -  [建造者模式（Builder Pattern）](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/builder) <br/>[`Java`](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/builder/example/java)  [`Kotlin`](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/builder/example/kotlin)
+  -  [原型模式（Prototype Pattern）](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/prototype) <br/>[`Java`](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/prototype/example/java)  [`Kotlin`](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/prototype/example/kotlin)
+  -  [单例模式（Singleton Pattern）](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/singleton) <br/>[`Java`](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/singleton/example/java)  [`Kotlin`](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/singleton/example/kotlin)
 
+<br/>
 
-## Structural (结构型)
++ **结构型（Structural）**
 
-NO. |         Pattern         | Code
-----|-------------------------|-----
-6   | [Adapter Class/Object (适配器)](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/adapter) | [Java](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/adapter/example)
-7   | Bridge (桥接)           | &nbsp;
-8   | Composite (组合)         | &nbsp;
-9   | [Decorator (装饰)](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/decorator) | [Java](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/decorator/example/java) &nbsp;&nbsp;&nbsp; [Kotlin](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/decorator/example/kotlin)
-10  | [Facade (外观)](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/facade) | [Java](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/facade/example)
-11  | [Flyweight (享元)](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/flyweight) | [Java](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/flyweight/example)
-12  | [Proxy (代理)](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/proxy) | [Java](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/proxy/example/java) &nbsp;&nbsp;&nbsp; [Kotlin](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/proxy/example/kotlin)
+  -  [适配器模式（Adapter Class/Object Pattern）](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/adapter) <br/> [`Java`](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/adapter/example)
+  -  桥接模式（Bridge Pattern）     <br/> &nbsp;
+  -  组合模式（Composite Pattern）  <br/> &nbsp;
+  -  [装饰模式（Decorator Pattern）](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/decorator) <br/> [`Java`](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/decorator/example/java)  [`Kotlin`](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/decorator/example/kotlin)
+  -  [外观模式（Facade Pattern）](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/facade) <br/> [`Java`](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/facade/example)
+  -  [享元模式（Flyweight Pattern）](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/flyweight) <br/> [`Java`](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/flyweight/example)
+  -  [代理模式（Proxy Pattern）](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/proxy) <br/> [`Java`](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/proxy/example/java) [`Kotlin`](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/proxy/example/kotlin)
 
-## Behavioral (行为型)
+<br/>
 
-NO. |         Pattern         | Code
-----|-------------------------|-----
-13  | Interpreter (解释器) |  &nbsp;
-14  | [Template Method (模板方法)](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/template_method) | [Java](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/template_method/example)
-15  | [Chain of Responsibility (责任链)](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/chain_of_responsibility) | [Java](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/chain_of_responsibility/example)
-16  | Command (命令) | &nbsp;
-17  | [Iterator (迭代器)](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/iterator) | [Java](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/iterator/example)
-18  | Mediator（中介者） | &nbsp;
-19  | [Memento (备忘录)](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/memento) | [Java](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/memento/example)
-20  | [Observer (观察者)](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/observer) | [Java](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/observer/example)
-21  | [State (状态)](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/state) | [Java](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/state/example)
-22  | [Strategy (策略)](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/strategy) | [Java](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/strategy/example/Java) &nbsp;&nbsp;  [Kotlin](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/strategy/example/kotlin)
-23  | [Visitor (访问者)](https://github.com/InnoFang/DesignPatterns/tree/df27326b9ce4483f056cc4b386c582bfe2026b5e/src/io/innofang/visitor) | [java](https://github.com/InnoFang/DesignPatterns/tree/df27326b9ce4483f056cc4b386c582bfe2026b5e/src/io/innofang/visitor/example)
++ **行为型（Behavioral）**
+ 
+  -  解释器模式（Interpreter Pattern）  <br/>  &nbsp;
+  -  [模板方法模式（Template Method Pattern）](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/template_method)  <br/> [`Java`](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/template_method/example)
+  -  [责任链模式（Chain of Responsibility Pattern）](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/chain_of_responsibility)  <br/> [`Java`](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/chain_of_responsibility/example)
+  -  命令模式（Command Pattern）  <br/> &nbsp;
+  -  [迭代器模式（Iterator Pattern）](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/iterator)  <br/> [`Java`](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/iterator/example)
+  -  中介者模式（Mediator Pattern）  <br/> &nbsp;
+  -  [备忘录模式（Memento Pattern）](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/memento)  <br/> [`Java`](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/memento/example)
+  -  [观察者模式（Observer Pattern）](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/observer)  <br/> [`Java`](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/observer/example)
+  -  [状态模式（State Pattern）](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/state)  <br/> [`Java`](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/state/example)
+  -  [策略模式（Strategy Pattern）](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/strategy)  <br/> [`Java`](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/strategy/example/Java)  [`Kotlin`](https://github.com/InnoFang/DesignPatterns/tree/master/src/io/innofang/strategy/example/kotlin)
+  -  [访问者模式（Visitor Pattern）](https://github.com/InnoFang/DesignPatterns/tree/df27326b9ce4483f056cc4b386c582bfe2026b5e/src/io/innofang/visitor)  <br/> [`java`](https://github.com/InnoFang/DesignPatterns/tree/df27326b9ce4483f056cc4b386c582bfe2026b5e/src/io/innofang/visitor/example)
  
 ## License
 
