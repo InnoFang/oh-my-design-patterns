@@ -1,27 +1,16 @@
-# Compiled class file
-*.class
+# Node rules:
+## Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
+.grunt
 
-# Log file
-*.log
+## Dependency directory
+## Commenting this out is preferred by some people, see
+## https://docs.npmjs.com/misc/faq#should-i-check-my-node_modules-folder-into-git
+node_modules
 
-# BlueJ files
-*.ctxt
+# Book build output
+_book
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
-*.jar
-*.war
-*.ear
-*.zip
-*.tar.gz
-*.rar
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-
-/out/*
-
-.idea
-*.iml
+# eBook build output
+*.epub
+*.mobi
+*.pdf
