@@ -1,6 +1,6 @@
 ---
-name: suggestion
-about: 有任何问题或建议都可以提出
+name: 问题报告
+about: 有任何问题都可以提出
 
 ---
 
