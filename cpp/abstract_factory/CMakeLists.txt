@@ -1,0 +1,1 @@
+add_executable(abstract_factory main.cpp)
