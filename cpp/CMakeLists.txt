@@ -5,3 +5,4 @@ set(CMAKE_CXX_STANDARD 14)
 
 add_subdirectory(abstract_factory)
 add_subdirectory(factory_method)
+add_subdirectory(builder)
