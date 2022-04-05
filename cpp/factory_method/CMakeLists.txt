@@ -1,0 +1,1 @@
+add_executable(factory_method main.cpp)
