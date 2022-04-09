@@ -14,7 +14,7 @@
   -  [工厂方法模式（Factory Method Pattern）](./src/io/innofang/factory_method)   <br/>[`Java`](./src/io/innofang/factory_method/example/java)  [`Kotlin`](./src/io/innofang/factory_method/example/kotlin) [`C++`](./cpp/factory_method/main.cpp)
   -  [抽象工厂模式（Abstract Factory Pattern）](./src/io/innofang/abstract_factory) <br/>[`Java`](./src/io/innofang/abstract_factory/example/java)  [`Kotlin`](./src/io/innofang/abstract_factory/example/kotlin) [`C++`](./cpp/abstract_factory/main.cpp)
   -  [建造者模式（Builder Pattern）](./src/io/innofang/builder) <br/>[`Java`](./src/io/innofang/builder/example/java)  [`Kotlin`](./src/io/innofang/builder/example/kotlin) [`C++`](./cpp/builder/main.cpp)
-  -  [原型模式（Prototype Pattern）](./src/io/innofang/prototype) <br/>[`Java`](./src/io/innofang/prototype/example/java)  [`Kotlin`](./src/io/innofang/prototype/example/kotlin)
+  -  [原型模式（Prototype Pattern）](./src/io/innofang/prototype) <br/>[`Java`](./src/io/innofang/prototype/example/java)  [`Kotlin`](./src/io/innofang/prototype/example/kotlin) [`C++`](./cpp/prototype/main.cpp)
   -  [单例模式（Singleton Pattern）](./src/io/innofang/singleton) <br/>[`Java`](./src/io/innofang/singleton/example/java)  [`Kotlin`](./src/io/innofang/singleton/example/kotlin) [`C++`](./cpp/singleton/main.cpp)
 
 <br/>
