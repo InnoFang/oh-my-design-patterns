@@ -9,3 +9,6 @@ add_subdirectory(factory_method)
 add_subdirectory(builder)
 add_subdirectory(prototype)
 add_subdirectory(singleton)
+
+# Structural
+add_subdirectory(adapter)
