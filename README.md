@@ -21,7 +21,7 @@
 
 + **结构型（Structural）**
 
-  -  [适配器模式（Adapter Class/Object Pattern）](./src/io/innofang/adapter) <br/> [`Java`](./src/io/innofang/adapter/example)
+  -  [适配器模式（Adapter Class/Object Pattern）](./src/io/innofang/adapter) <br/> [`Java`](./src/io/innofang/adapter/example) [`C++`](./cpp/adapter/main.cpp)
   -  桥接模式（Bridge Pattern）     <br/> &nbsp;
   -  组合模式（Composite Pattern）  <br/> &nbsp;
   -  [装饰模式（Decorator Pattern）](./src/io/innofang/decorator) <br/> [`Java`](./src/io/innofang/decorator/example/java)  [`Kotlin`](./src/io/innofang/decorator/example/kotlin)
