@@ -12,3 +12,4 @@ add_subdirectory(singleton)
 
 # Structural
 add_subdirectory(adapter)
+add_subdirectory(decorator)
