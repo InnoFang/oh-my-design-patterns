@@ -24,7 +24,7 @@
   -  [适配器模式（Adapter Class/Object Pattern）](./src/io/innofang/adapter) <br/> [`Java`](./src/io/innofang/adapter/example) [`C++`](./cpp/adapter/main.cpp)
   -  桥接模式（Bridge Pattern）     <br/> &nbsp;
   -  组合模式（Composite Pattern）  <br/> &nbsp;
-  -  [装饰模式（Decorator Pattern）](./src/io/innofang/decorator) <br/> [`Java`](./src/io/innofang/decorator/example/java)  [`Kotlin`](./src/io/innofang/decorator/example/kotlin)
+  -  [装饰模式（Decorator Pattern）](./src/io/innofang/decorator) <br/> [`Java`](./src/io/innofang/decorator/example/java)  [`Kotlin`](./src/io/innofang/decorator/example/kotlin) [`C++`](./cpp/decorator/main.cpp)
   -  [外观模式（Facade Pattern）](./src/io/innofang/facade) <br/> [`Java`](./src/io/innofang/facade/example)
   -  [享元模式（Flyweight Pattern）](./src/io/innofang/flyweight) <br/> [`Java`](./src/io/innofang/flyweight/example)
   -  [代理模式（Proxy Pattern）](./src/io/innofang/proxy) <br/> [`Java`](./src/io/innofang/proxy/example/java) [`Kotlin`](./src/io/innofang/proxy/example/kotlin)
