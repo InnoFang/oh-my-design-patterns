@@ -13,4 +13,5 @@ add_subdirectory(singleton)
 # Structural
 add_subdirectory(adapter)
 add_subdirectory(decorator)
+add_subdirectory(facade)
 add_subdirectory(proxy)
