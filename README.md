@@ -26,7 +26,7 @@
   -  组合模式（Composite Pattern）  <br/> &nbsp;
   -  [装饰模式（Decorator Pattern）](./src/io/innofang/decorator) <br/> [`Java`](./src/io/innofang/decorator/example/java)  [`Kotlin`](./src/io/innofang/decorator/example/kotlin) [`C++`](./cpp/decorator/main.cpp)
   -  [外观模式（Facade Pattern）](./src/io/innofang/facade) <br/> [`Java`](./src/io/innofang/facade/example) [`C++`](./cpp/facade/main.cpp)
-  -  [享元模式（Flyweight Pattern）](./src/io/innofang/flyweight) <br/> [`Java`](./src/io/innofang/flyweight/example)
+  -  [享元模式（Flyweight Pattern）](./src/io/innofang/flyweight) <br/> [`Java`](./src/io/innofang/flyweight/example) [`C++`](./cpp/flyweight/main.cpp)
   -  [代理模式（Proxy Pattern）](./src/io/innofang/proxy) <br/> [`Java`](./src/io/innofang/proxy/example/java) [`Kotlin`](./src/io/innofang/proxy/example/kotlin) [`C++`](./cpp/proxy/main.cpp)
 
 <br/>
