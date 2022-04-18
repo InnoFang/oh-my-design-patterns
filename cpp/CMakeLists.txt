@@ -16,3 +16,6 @@ add_subdirectory(decorator)
 add_subdirectory(facade)
 add_subdirectory(flyweight)
 add_subdirectory(proxy)
+
+# Behavioral
+add_subdirectory(strategy)
