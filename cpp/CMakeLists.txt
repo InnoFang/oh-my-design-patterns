@@ -18,4 +18,5 @@ add_subdirectory(flyweight)
 add_subdirectory(proxy)
 
 # Behavioral
+add_subdirectory(state)
 add_subdirectory(strategy)
