@@ -37,7 +37,7 @@
   -  [模板方法模式（Template Method Pattern）](./src/io/innofang/template_method)  <br/> [`Java`](./src/io/innofang/template_method/example) [`C++`](./cpp/template/main.cpp)
   -  [责任链模式（Chain of Responsibility Pattern）](./src/io/innofang/chain_of_responsibility)  <br/> [`Java`](./src/io/innofang/chain_of_responsibility/example)
   -  命令模式（Command Pattern）  <br/> &nbsp;
-  -  [迭代器模式（Iterator Pattern）](./src/io/innofang/iterator)  <br/> [`Java`](./src/io/innofang/iterator/example)
+  -  [迭代器模式（Iterator Pattern）](./src/io/innofang/iterator)  <br/> [`Java`](./src/io/innofang/iterator/example) [`C++`](./cpp/iterator/main.cpp)
   -  中介者模式（Mediator Pattern）  <br/> &nbsp;
   -  [备忘录模式（Memento Pattern）](./src/io/innofang/memento)  <br/> [`Java`](./src/io/innofang/memento/example)
   -  [观察者模式（Observer Pattern）](./src/io/innofang/observer)  <br/> [`Java`](./src/io/innofang/observer/example)
