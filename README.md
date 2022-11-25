@@ -39,8 +39,8 @@
   -  命令模式（Command Pattern）  <br/> &nbsp;
   -  [迭代器模式（Iterator Pattern）](./src/io/innofang/iterator)  <br/> [`Java`](./src/io/innofang/iterator/example) [`C++`](./cpp/iterator/main.cpp)
   -  中介者模式（Mediator Pattern）  <br/> &nbsp;
-  -  [备忘录模式（Memento Pattern）](./src/io/innofang/memento)  <br/> [`Java`](./src/io/innofang/memento/example) ['C++`](./cpp/memento/main.cpp)
-  -  [观察者模式（Observer Pattern）](./src/io/innofang/observer)  <br/> [`Java`](./src/io/innofang/observer/example)
+  -  [备忘录模式（Memento Pattern）](./src/io/innofang/memento)  <br/> [`Java`](./src/io/innofang/memento/example) [`C++`](./cpp/memento/main.cpp)
+  -  [观察者模式（Observer Pattern）](./src/io/innofang/observer)  <br/> [`Java`](./src/io/innofang/observer/example) [`C++`](./cpp/observer/main.cpp)
   -  [状态模式（State Pattern）](./src/io/innofang/state)  <br/> [`Java`](./src/io/innofang/state/example) [`C++`](./cpp/state/main.cpp)
   -  [策略模式（Strategy Pattern）](./src/io/innofang/strategy)  <br/> [`Java`](./src/io/innofang/strategy/example/Java)  [`Kotlin`](./src/io/innofang/strategy/example/kotlin) [`C++`](./cpp/strategy/main.cpp)
   -  [访问者模式（Visitor Pattern）](./src/io/innofang/visitor)  <br/> [`java`](./src/io/innofang/visitor/example)
