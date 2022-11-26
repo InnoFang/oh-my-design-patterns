@@ -43,7 +43,7 @@
   -  [观察者模式（Observer Pattern）](./src/io/innofang/observer)  <br/> [`Java`](./src/io/innofang/observer/example) [`C++`](./cpp/observer/main.cpp)
   -  [状态模式（State Pattern）](./src/io/innofang/state)  <br/> [`Java`](./src/io/innofang/state/example) [`C++`](./cpp/state/main.cpp)
   -  [策略模式（Strategy Pattern）](./src/io/innofang/strategy)  <br/> [`Java`](./src/io/innofang/strategy/example/Java)  [`Kotlin`](./src/io/innofang/strategy/example/kotlin) [`C++`](./cpp/strategy/main.cpp)
-  -  [访问者模式（Visitor Pattern）](./src/io/innofang/visitor)  <br/> [`java`](./src/io/innofang/visitor/example)
+  -  [访问者模式（Visitor Pattern）](./src/io/innofang/visitor)  <br/> [`java`](./src/io/innofang/visitor/example) [`C++`](./cpp/visitor/main.cpp)
  
 ## License
 
