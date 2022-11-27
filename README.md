@@ -35,7 +35,7 @@
  
   -  解释器模式（Interpreter Pattern）  <br/>  &nbsp;
   -  [模板方法模式（Template Method Pattern）](./src/io/innofang/template_method)  <br/> [`Java`](./src/io/innofang/template_method/example) [`C++`](./cpp/template/main.cpp)
-  -  [责任链模式（Chain of Responsibility Pattern）](./src/io/innofang/chain_of_responsibility)  <br/> [`Java`](./src/io/innofang/chain_of_responsibility/example)
+  -  [责任链模式（Chain of Responsibility Pattern）](./src/io/innofang/chain_of_responsibility)  <br/> [`Java`](./src/io/innofang/chain_of_responsibility/example) [`C++`](./cpp/chain_of_responsibility/main.cpp)
   -  命令模式（Command Pattern）  <br/> &nbsp;
   -  [迭代器模式（Iterator Pattern）](./src/io/innofang/iterator)  <br/> [`Java`](./src/io/innofang/iterator/example) [`C++`](./cpp/iterator/main.cpp)
   -  中介者模式（Mediator Pattern）  <br/> &nbsp;
